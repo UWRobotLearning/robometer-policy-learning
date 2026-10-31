@@ -1,0 +1,59 @@
+{
+  "source": "yifengzhu-hf/LIBERO-datasets",
+  "revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "source_file": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet_demo.hdf5",
+  "sha256": "504b27586d2de6b663d1ad1cfd9519bee8761b7fdb568e1444e28158ea4667fe",
+  "prompt": "close the top drawer of the cabinet",
+  "fps": 10,
+  "video_every_physical_steps": 4,
+  "demonstrations": [
+    {
+      "demo_id": 0,
+      "length": 65,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 64,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "close the top drawer of the cabinet"
+    },
+    {
+      "demo_id": 1,
+      "length": 88,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 87,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "close the top drawer of the cabinet"
+    },
+    {
+      "demo_id": 2,
+      "length": 74,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 73,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "close the top drawer of the cabinet"
+    },
+    {
+      "demo_id": 3,
+      "length": 81,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 80,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "close the top drawer of the cabinet"
+    }
+  ]
+}

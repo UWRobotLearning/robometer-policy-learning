@@ -1,0 +1,42 @@
+{
+  "task_id": 28,
+  "task": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet",
+  "suite": "libero_90",
+  "seed": 100,
+  "horizon": 600,
+  "policy_checkpoint": "/data/rohan/Reward-Modeling/pi0_checkpoints/pi05_libero",
+  "policy_config_name": "pi05_libero",
+  "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "episodes": 25,
+  "successes": 16,
+  "success_rate": 0.64,
+  "wilson_ci95": [
+    0.44518497748164865,
+    0.7975211922554178
+  ],
+  "selection": {
+    "selection_seed": 20261048,
+    "episodes_evaluated": 25,
+    "available_successes": 16,
+    "available_failures": 9,
+    "selected_successes": [
+      29,
+      32
+    ],
+    "selected_failures": [
+      33,
+      48
+    ],
+    "selected_state_ids": [
+      29,
+      32,
+      33,
+      48
+    ]
+  },
+  "demonstration_source": "yifengzhu-hf/LIBERO-datasets",
+  "demonstration_revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "demonstration_sha256": "504b27586d2de6b663d1ad1cfd9519bee8761b7fdb568e1444e28158ea4667fe",
+  "video_every_physical_steps": 4,
+  "robometer_every_physical_steps": 20
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "init_state_id": 27,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_27.mp4",
+    "video_frames": 101,
+    "prompt": "put both moka pots on the stove",
+    "final_progress": 0.8691002726554871,
+    "final_success_probability": 0.84375
+  },
+  {
+    "init_state_id": 34,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_34.mp4",
+    "video_frames": 101,
+    "prompt": "put both moka pots on the stove",
+    "final_progress": 0.9408136606216431,
+    "final_success_probability": 0.92578125
+  },
+  {
+    "init_state_id": 28,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_28.mp4",
+    "video_frames": 101,
+    "prompt": "put both moka pots on the stove",
+    "final_progress": 0.8837401270866394,
+    "final_success_probability": 0.80859375
+  },
+  {
+    "init_state_id": 25,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_25.mp4",
+    "video_frames": 101,
+    "prompt": "put both moka pots on the stove",
+    "final_progress": 0.9192796945571899,
+    "final_success_probability": 0.93359375
+  }
+]

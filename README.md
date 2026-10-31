@@ -251,3 +251,8 @@ See the [real robot guide](docs/REAL_ROBOT_README.md) for WidowX instructions, e
 ├── tests/                        # Test suite
 ```
 
+
+
+## Experiment results
+
+[Numerical LIBERO results and plotting instructions](results/README.md). Includes evaluation curves, episode outcomes, configurations, and diagnostics; excludes checkpoints and media.

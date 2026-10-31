@@ -1,0 +1,776 @@
+{"phase": "eval", "env_steps": 0, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.22989825904369354, "final_success_probability": 0.01361083984375}
+{"phase": "eval", "env_steps": 0, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.37459367513656616, "final_success_probability": 0.031982421875}
+{"phase": "eval", "env_steps": 0, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.3675191402435303, "final_success_probability": 0.04736328125}
+{"phase": "eval", "env_steps": 0, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.3159591853618622, "final_success_probability": 0.010986328125}
+{"phase": "eval", "env_steps": 0, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.2905415892601013, "final_success_probability": 0.012451171875}
+{"phase": "eval", "env_steps": 0, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.2329978048801422, "final_success_probability": 0.023681640625}
+{"phase": "eval", "env_steps": 0, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.2975914776325226, "final_success_probability": 0.0267333984375}
+{"phase": "eval", "env_steps": 0, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.2558600604534149, "final_success_probability": 0.0233154296875}
+{"phase": "eval", "env_steps": 0, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.30487969517707825, "final_success_probability": 0.01324462890625}
+{"phase": "eval", "env_steps": 0, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.20661303400993347, "final_success_probability": 0.00628662109375}
+{"phase": "eval", "env_steps": 0, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.33317720890045166, "final_success_probability": 0.019775390625}
+{"phase": "eval", "env_steps": 0, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.3138425350189209, "final_success_probability": 0.032470703125}
+{"phase": "eval", "env_steps": 0, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.20958690345287323, "final_success_probability": 0.006103515625}
+{"phase": "eval", "env_steps": 0, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.35772544145584106, "final_success_probability": 0.0206298828125}
+{"phase": "eval", "env_steps": 0, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.245376318693161, "final_success_probability": 0.01202392578125}
+{"phase": "eval", "env_steps": 0, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.25916215777397156, "final_success_probability": 0.0240478515625}
+{"phase": "eval", "env_steps": 0, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.26085278391838074, "final_success_probability": 0.0093994140625}
+{"phase": "eval", "env_steps": 0, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.2841874063014984, "final_success_probability": 0.0140380859375}
+{"phase": "eval", "env_steps": 0, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.28489571809768677, "final_success_probability": 0.0194091796875}
+{"phase": "eval", "env_steps": 0, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.22115454077720642, "final_success_probability": 0.00628662109375}
+{"phase": "eval", "env_steps": 0, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.2727471888065338, "final_success_probability": 0.012451171875}
+{"phase": "eval", "env_steps": 0, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.32853811979293823, "final_success_probability": 0.015869140625}
+{"phase": "eval", "env_steps": 0, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.25444257259368896, "final_success_probability": 0.0361328125}
+{"phase": "eval", "env_steps": 0, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.22405648231506348, "final_success_probability": 0.04150390625}
+{"phase": "eval", "env_steps": 0, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.3011968731880188, "final_success_probability": 0.0145263671875}
+{"phase": "train", "env_steps": 3200, "worker": 0, "episode": 0, "success": false, "length": 400, "training_return": 223.01989240944386, "final_progress": 0.8186654448509216, "final_success_probability": 0.66015625}
+{"phase": "train", "env_steps": 3200, "worker": 1, "episode": 0, "success": false, "length": 400, "training_return": 127.13433453440666, "final_progress": 0.3088327646255493, "final_success_probability": 0.0140380859375}
+{"phase": "train", "env_steps": 3200, "worker": 2, "episode": 0, "success": false, "length": 400, "training_return": 170.60504510998726, "final_progress": 0.8128503561019897, "final_success_probability": 0.73046875}
+{"phase": "train", "env_steps": 3200, "worker": 3, "episode": 0, "success": false, "length": 400, "training_return": 115.29813146591187, "final_progress": 0.15859057009220123, "final_success_probability": 0.00445556640625}
+{"phase": "train", "env_steps": 3200, "worker": 4, "episode": 0, "success": false, "length": 400, "training_return": 133.0214546173811, "final_progress": 0.2597135007381439, "final_success_probability": 0.0279541015625}
+{"phase": "train", "env_steps": 3200, "worker": 5, "episode": 0, "success": false, "length": 400, "training_return": 91.1608599871397, "final_progress": 0.22057174146175385, "final_success_probability": 0.0091552734375}
+{"phase": "train", "env_steps": 3200, "worker": 6, "episode": 0, "success": false, "length": 400, "training_return": 141.55946758389473, "final_progress": 0.4199422597885132, "final_success_probability": 0.0169677734375}
+{"phase": "train", "env_steps": 3200, "worker": 7, "episode": 0, "success": false, "length": 400, "training_return": 191.7082508355379, "final_progress": 0.22022050619125366, "final_success_probability": 0.049560546875}
+{"phase": "eval", "env_steps": 5000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.26311543583869934, "final_success_probability": 0.01068115234375}
+{"phase": "eval", "env_steps": 5000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.17772352695465088, "final_success_probability": 0.006500244140625}
+{"phase": "eval", "env_steps": 5000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.35588380694389343, "final_success_probability": 0.02197265625}
+{"phase": "eval", "env_steps": 5000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.2861138880252838, "final_success_probability": 0.0113525390625}
+{"phase": "eval", "env_steps": 5000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.26768893003463745, "final_success_probability": 0.01202392578125}
+{"phase": "eval", "env_steps": 5000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.3346807062625885, "final_success_probability": 0.010986328125}
+{"phase": "eval", "env_steps": 5000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.2666654586791992, "final_success_probability": 0.00830078125}
+{"phase": "eval", "env_steps": 5000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.2766047716140747, "final_success_probability": 0.0203857421875}
+{"phase": "eval", "env_steps": 5000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.28128039836883545, "final_success_probability": 0.01202392578125}
+{"phase": "eval", "env_steps": 5000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.2427883744239807, "final_success_probability": 0.005218505859375}
+{"phase": "eval", "env_steps": 5000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.23420780897140503, "final_success_probability": 0.0191650390625}
+{"phase": "eval", "env_steps": 5000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.1755121946334839, "final_success_probability": 0.0057373046875}
+{"phase": "eval", "env_steps": 5000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.2563555836677551, "final_success_probability": 0.01495361328125}
+{"phase": "eval", "env_steps": 5000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.17658665776252747, "final_success_probability": 0.00689697265625}
+{"phase": "eval", "env_steps": 5000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.2249232530593872, "final_success_probability": 0.01495361328125}
+{"phase": "eval", "env_steps": 5000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.14307048916816711, "final_success_probability": 0.01068115234375}
+{"phase": "eval", "env_steps": 5000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.22026927769184113, "final_success_probability": 0.010009765625}
+{"phase": "eval", "env_steps": 5000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.3387867212295532, "final_success_probability": 0.040771484375}
+{"phase": "eval", "env_steps": 5000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.28464967012405396, "final_success_probability": 0.007568359375}
+{"phase": "eval", "env_steps": 5000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.17331275343894958, "final_success_probability": 0.007568359375}
+{"phase": "eval", "env_steps": 5000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.27297502756118774, "final_success_probability": 0.0194091796875}
+{"phase": "eval", "env_steps": 5000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.21969442069530487, "final_success_probability": 0.01324462890625}
+{"phase": "eval", "env_steps": 5000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.25264814496040344, "final_success_probability": 0.0093994140625}
+{"phase": "eval", "env_steps": 5000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.21145473420619965, "final_success_probability": 0.0078125}
+{"phase": "eval", "env_steps": 5000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.274742066860199, "final_success_probability": 0.00830078125}
+{"phase": "train", "env_steps": 6400, "worker": 0, "episode": 1, "success": false, "length": 400, "training_return": 138.5073470622301, "final_progress": 0.49526435136795044, "final_success_probability": 0.064453125}
+{"phase": "train", "env_steps": 6400, "worker": 1, "episode": 1, "success": false, "length": 400, "training_return": 116.67230781912804, "final_progress": 0.15125715732574463, "final_success_probability": 0.01165771484375}
+{"phase": "train", "env_steps": 6400, "worker": 2, "episode": 1, "success": false, "length": 400, "training_return": 91.64179798960686, "final_progress": 0.19485732913017273, "final_success_probability": 0.00628662109375}
+{"phase": "train", "env_steps": 6400, "worker": 3, "episode": 1, "success": false, "length": 400, "training_return": 154.30508417636156, "final_progress": 0.24833522737026215, "final_success_probability": 0.019775390625}
+{"phase": "train", "env_steps": 6400, "worker": 4, "episode": 1, "success": false, "length": 400, "training_return": 160.9158093482256, "final_progress": 0.7017383575439453, "final_success_probability": 0.248046875}
+{"phase": "train", "env_steps": 6400, "worker": 5, "episode": 1, "success": false, "length": 400, "training_return": 178.81168727576733, "final_progress": 0.2962796092033386, "final_success_probability": 0.01495361328125}
+{"phase": "train", "env_steps": 6400, "worker": 6, "episode": 1, "success": false, "length": 400, "training_return": 130.94407032430172, "final_progress": 0.28097569942474365, "final_success_probability": 0.0194091796875}
+{"phase": "train", "env_steps": 6400, "worker": 7, "episode": 1, "success": false, "length": 400, "training_return": 124.46886041760445, "final_progress": 0.38138049840927124, "final_success_probability": 0.01202392578125}
+{"phase": "train", "env_steps": 9600, "worker": 0, "episode": 2, "success": false, "length": 400, "training_return": 182.9746377170086, "final_progress": 0.22434119880199432, "final_success_probability": 0.010009765625}
+{"phase": "train", "env_steps": 9600, "worker": 1, "episode": 2, "success": false, "length": 400, "training_return": 224.38034465909004, "final_progress": 0.5383341908454895, "final_success_probability": 0.08740234375}
+{"phase": "train", "env_steps": 9600, "worker": 2, "episode": 2, "success": false, "length": 400, "training_return": 147.00910438597202, "final_progress": 0.36544346809387207, "final_success_probability": 0.044677734375}
+{"phase": "train", "env_steps": 9600, "worker": 3, "episode": 2, "success": false, "length": 400, "training_return": 139.08722902834415, "final_progress": 0.583395779132843, "final_success_probability": 0.10693359375}
+{"phase": "train", "env_steps": 9600, "worker": 4, "episode": 2, "success": false, "length": 400, "training_return": 256.9455227702856, "final_progress": 0.8545462489128113, "final_success_probability": 0.69921875}
+{"phase": "train", "env_steps": 9600, "worker": 5, "episode": 2, "success": false, "length": 400, "training_return": 87.40250431001186, "final_progress": 0.2041691541671753, "final_success_probability": 0.0145263671875}
+{"phase": "train", "env_steps": 9600, "worker": 6, "episode": 2, "success": false, "length": 400, "training_return": 162.4784079492092, "final_progress": 0.8154177069664001, "final_success_probability": 0.7421875}
+{"phase": "train", "env_steps": 9600, "worker": 7, "episode": 2, "success": false, "length": 400, "training_return": 160.64628810435534, "final_progress": 0.6134417057037354, "final_success_probability": 0.228515625}
+{"phase": "eval", "env_steps": 10000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.6929739713668823, "final_success_probability": 0.37109375}
+{"phase": "eval", "env_steps": 10000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.4267796576023102, "final_success_probability": 0.057373046875}
+{"phase": "eval", "env_steps": 10000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.7237287163734436, "final_success_probability": 0.24609375}
+{"phase": "eval", "env_steps": 10000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.5820032358169556, "final_success_probability": 0.10107421875}
+{"phase": "eval", "env_steps": 10000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.6216468811035156, "final_success_probability": 0.1630859375}
+{"phase": "eval", "env_steps": 10000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.6444407105445862, "final_success_probability": 0.2177734375}
+{"phase": "eval", "env_steps": 10000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.727980375289917, "final_success_probability": 0.23828125}
+{"phase": "eval", "env_steps": 10000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.43186649680137634, "final_success_probability": 0.042724609375}
+{"phase": "eval", "env_steps": 10000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.29907575249671936, "final_success_probability": 0.0247802734375}
+{"phase": "eval", "env_steps": 10000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.7297768592834473, "final_success_probability": 0.36328125}
+{"phase": "eval", "env_steps": 10000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.4896632432937622, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 10000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.7459231615066528, "final_success_probability": 0.353515625}
+{"phase": "eval", "env_steps": 10000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.546330451965332, "final_success_probability": 0.09423828125}
+{"phase": "eval", "env_steps": 10000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.7176979780197144, "final_success_probability": 0.337890625}
+{"phase": "eval", "env_steps": 10000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.5101963877677917, "final_success_probability": 0.059326171875}
+{"phase": "eval", "env_steps": 10000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.7019397616386414, "final_success_probability": 0.2353515625}
+{"phase": "eval", "env_steps": 10000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.37804773449897766, "final_success_probability": 0.0194091796875}
+{"phase": "eval", "env_steps": 10000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.5242253541946411, "final_success_probability": 0.10107421875}
+{"phase": "eval", "env_steps": 10000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.7185614109039307, "final_success_probability": 0.255859375}
+{"phase": "eval", "env_steps": 10000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.5759407877922058, "final_success_probability": 0.09521484375}
+{"phase": "eval", "env_steps": 10000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.44574257731437683, "final_success_probability": 0.06298828125}
+{"phase": "eval", "env_steps": 10000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.5237757563591003, "final_success_probability": 0.0654296875}
+{"phase": "eval", "env_steps": 10000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.3700975179672241, "final_success_probability": 0.03515625}
+{"phase": "eval", "env_steps": 10000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.7158846259117126, "final_success_probability": 0.349609375}
+{"phase": "eval", "env_steps": 10000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.5910397171974182, "final_success_probability": 0.1318359375}
+{"phase": "train", "env_steps": 12800, "worker": 0, "episode": 3, "success": false, "length": 400, "training_return": 144.32924748957157, "final_progress": 0.5628127455711365, "final_success_probability": 0.185546875}
+{"phase": "train", "env_steps": 12800, "worker": 1, "episode": 3, "success": false, "length": 400, "training_return": 151.98471188545227, "final_progress": 0.28780460357666016, "final_success_probability": 0.0191650390625}
+{"phase": "train", "env_steps": 12800, "worker": 2, "episode": 3, "success": false, "length": 400, "training_return": 203.13438887894154, "final_progress": 0.5434640645980835, "final_success_probability": 0.17578125}
+{"phase": "train", "env_steps": 12800, "worker": 3, "episode": 3, "success": false, "length": 400, "training_return": 167.53741371631622, "final_progress": 0.7698826193809509, "final_success_probability": 0.5625}
+{"phase": "train", "env_steps": 12800, "worker": 4, "episode": 3, "success": false, "length": 400, "training_return": 175.54280073940754, "final_progress": 0.7592251896858215, "final_success_probability": 0.466796875}
+{"phase": "train", "env_steps": 12800, "worker": 5, "episode": 3, "success": false, "length": 400, "training_return": 173.38045386970043, "final_progress": 0.1699511706829071, "final_success_probability": 0.0032806396484375}
+{"phase": "train", "env_steps": 12800, "worker": 6, "episode": 3, "success": false, "length": 400, "training_return": 116.75682634115219, "final_progress": 0.24340422451496124, "final_success_probability": 0.00860595703125}
+{"phase": "train", "env_steps": 12800, "worker": 7, "episode": 3, "success": false, "length": 400, "training_return": 172.8218974918127, "final_progress": 0.21589170396327972, "final_success_probability": 0.00885009765625}
+{"phase": "eval", "env_steps": 15000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.1356128454208374, "final_success_probability": 0.0021820068359375}
+{"phase": "eval", "env_steps": 15000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.15175971388816833, "final_success_probability": 0.002044677734375}
+{"phase": "eval", "env_steps": 15000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.35926365852355957, "final_success_probability": 0.0179443359375}
+{"phase": "eval", "env_steps": 15000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.1290285587310791, "final_success_probability": 0.0028076171875}
+{"phase": "eval", "env_steps": 15000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.15046469867229462, "final_success_probability": 0.003082275390625}
+{"phase": "eval", "env_steps": 15000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.17370179295539856, "final_success_probability": 0.004913330078125}
+{"phase": "eval", "env_steps": 15000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.38539502024650574, "final_success_probability": 0.037841796875}
+{"phase": "eval", "env_steps": 15000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.8407994508743286, "final_success_probability": 0.640625}
+{"phase": "eval", "env_steps": 15000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.2272181361913681, "final_success_probability": 0.0091552734375}
+{"phase": "eval", "env_steps": 15000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.16322194039821625, "final_success_probability": 0.0038299560546875}
+{"phase": "eval", "env_steps": 15000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.20920012891292572, "final_success_probability": 0.0057373046875}
+{"phase": "eval", "env_steps": 15000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.3464961647987366, "final_success_probability": 0.0390625}
+{"phase": "eval", "env_steps": 15000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.167951762676239, "final_success_probability": 0.00689697265625}
+{"phase": "eval", "env_steps": 15000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.13225989043712616, "final_success_probability": 0.0029754638671875}
+{"phase": "eval", "env_steps": 15000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.12475624680519104, "final_success_probability": 0.002471923828125}
+{"phase": "eval", "env_steps": 15000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.4477342963218689, "final_success_probability": 0.1298828125}
+{"phase": "eval", "env_steps": 15000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.6619077324867249, "final_success_probability": 0.255859375}
+{"phase": "eval", "env_steps": 15000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.12886875867843628, "final_success_probability": 0.002716064453125}
+{"phase": "eval", "env_steps": 15000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.12912581861019135, "final_success_probability": 0.00225830078125}
+{"phase": "eval", "env_steps": 15000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.7828075885772705, "final_success_probability": 0.5078125}
+{"phase": "eval", "env_steps": 15000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.5781228542327881, "final_success_probability": 0.16796875}
+{"phase": "eval", "env_steps": 15000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.14403384923934937, "final_success_probability": 0.0032806396484375}
+{"phase": "eval", "env_steps": 15000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.515681266784668, "final_success_probability": 0.10693359375}
+{"phase": "eval", "env_steps": 15000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.8335425853729248, "final_success_probability": 0.609375}
+{"phase": "eval", "env_steps": 15000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.14338454604148865, "final_success_probability": 0.00225830078125}
+{"phase": "train", "env_steps": 16000, "worker": 0, "episode": 4, "success": false, "length": 400, "training_return": 292.6599242836237, "final_progress": 0.31935417652130127, "final_success_probability": 0.0174560546875}
+{"phase": "train", "env_steps": 16000, "worker": 1, "episode": 4, "success": false, "length": 400, "training_return": 137.31513898074627, "final_progress": 0.16156287491321564, "final_success_probability": 0.00445556640625}
+{"phase": "train", "env_steps": 16000, "worker": 2, "episode": 4, "success": false, "length": 400, "training_return": 225.97583031654358, "final_progress": 0.2211119532585144, "final_success_probability": 0.01031494140625}
+{"phase": "train", "env_steps": 16000, "worker": 3, "episode": 4, "success": false, "length": 400, "training_return": 205.181572124362, "final_progress": 0.503795325756073, "final_success_probability": 0.099609375}
+{"phase": "train", "env_steps": 16000, "worker": 4, "episode": 4, "success": false, "length": 400, "training_return": 165.26818211376667, "final_progress": 0.3462640047073364, "final_success_probability": 0.053466796875}
+{"phase": "train", "env_steps": 16000, "worker": 5, "episode": 4, "success": false, "length": 400, "training_return": 206.59166145324707, "final_progress": 0.5785679221153259, "final_success_probability": 0.12353515625}
+{"phase": "train", "env_steps": 16000, "worker": 6, "episode": 4, "success": false, "length": 400, "training_return": 171.443056255579, "final_progress": 0.29391783475875854, "final_success_probability": 0.00970458984375}
+{"phase": "train", "env_steps": 16000, "worker": 7, "episode": 4, "success": false, "length": 400, "training_return": 242.80141021311283, "final_progress": 0.8362506031990051, "final_success_probability": 0.56640625}
+{"phase": "train", "env_steps": 19200, "worker": 0, "episode": 5, "success": false, "length": 400, "training_return": 144.2937201783061, "final_progress": 0.5046638250350952, "final_success_probability": 0.07373046875}
+{"phase": "train", "env_steps": 19200, "worker": 1, "episode": 5, "success": false, "length": 400, "training_return": 163.56864032149315, "final_progress": 0.3366284966468811, "final_success_probability": 0.027587890625}
+{"phase": "train", "env_steps": 19200, "worker": 2, "episode": 5, "success": false, "length": 400, "training_return": 180.22866478562355, "final_progress": 0.3804459273815155, "final_success_probability": 0.0247802734375}
+{"phase": "train", "env_steps": 19200, "worker": 3, "episode": 5, "success": false, "length": 400, "training_return": 213.7399472296238, "final_progress": 0.6220096945762634, "final_success_probability": 0.2109375}
+{"phase": "train", "env_steps": 19200, "worker": 4, "episode": 5, "success": false, "length": 400, "training_return": 189.264439240098, "final_progress": 0.7426308989524841, "final_success_probability": 0.3359375}
+{"phase": "train", "env_steps": 19200, "worker": 5, "episode": 5, "success": false, "length": 400, "training_return": 166.52729858458042, "final_progress": 0.21748332679271698, "final_success_probability": 0.007354736328125}
+{"phase": "train", "env_steps": 19200, "worker": 6, "episode": 5, "success": false, "length": 400, "training_return": 185.1362885683775, "final_progress": 0.17309753596782684, "final_success_probability": 0.0028076171875}
+{"phase": "train", "env_steps": 19200, "worker": 7, "episode": 5, "success": false, "length": 400, "training_return": 149.38290086388588, "final_progress": 0.23057019710540771, "final_success_probability": 0.01068115234375}
+{"phase": "eval", "env_steps": 20000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.314985454082489, "final_success_probability": 0.01544189453125}
+{"phase": "eval", "env_steps": 20000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.13788776099681854, "final_success_probability": 0.003082275390625}
+{"phase": "eval", "env_steps": 20000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.28255149722099304, "final_success_probability": 0.01544189453125}
+{"phase": "eval", "env_steps": 20000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.5257394909858704, "final_success_probability": 0.15625}
+{"phase": "eval", "env_steps": 20000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.22269214689731598, "final_success_probability": 0.01165771484375}
+{"phase": "eval", "env_steps": 20000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.8534795045852661, "final_success_probability": 0.6015625}
+{"phase": "eval", "env_steps": 20000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.5660615563392639, "final_success_probability": 0.103515625}
+{"phase": "eval", "env_steps": 20000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.8187587857246399, "final_success_probability": 0.5}
+{"phase": "eval", "env_steps": 20000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.4828972816467285, "final_success_probability": 0.0791015625}
+{"phase": "eval", "env_steps": 20000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.13409028947353363, "final_success_probability": 0.003173828125}
+{"phase": "eval", "env_steps": 20000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.25098803639411926, "final_success_probability": 0.01324462890625}
+{"phase": "eval", "env_steps": 20000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.5440336465835571, "final_success_probability": 0.1025390625}
+{"phase": "eval", "env_steps": 20000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.24010446667671204, "final_success_probability": 0.0174560546875}
+{"phase": "eval", "env_steps": 20000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.5642021894454956, "final_success_probability": 0.0888671875}
+{"phase": "eval", "env_steps": 20000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.8340826630592346, "final_success_probability": 0.59375}
+{"phase": "eval", "env_steps": 20000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.6130279302597046, "final_success_probability": 0.1298828125}
+{"phase": "eval", "env_steps": 20000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.1999315470457077, "final_success_probability": 0.01544189453125}
+{"phase": "eval", "env_steps": 20000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.13679294288158417, "final_success_probability": 0.002716064453125}
+{"phase": "eval", "env_steps": 20000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.6625894904136658, "final_success_probability": 0.2490234375}
+{"phase": "eval", "env_steps": 20000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.3258444666862488, "final_success_probability": 0.0233154296875}
+{"phase": "eval", "env_steps": 20000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.618154764175415, "final_success_probability": 0.1640625}
+{"phase": "eval", "env_steps": 20000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.31594815850257874, "final_success_probability": 0.0267333984375}
+{"phase": "eval", "env_steps": 20000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.3466179370880127, "final_success_probability": 0.06005859375}
+{"phase": "eval", "env_steps": 20000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.45573556423187256, "final_success_probability": 0.055908203125}
+{"phase": "eval", "env_steps": 20000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.1362907737493515, "final_success_probability": 0.0023956298828125}
+{"phase": "train", "env_steps": 22400, "worker": 0, "episode": 6, "success": false, "length": 400, "training_return": 147.135165669024, "final_progress": 0.5711714029312134, "final_success_probability": 0.09130859375}
+{"phase": "train", "env_steps": 22400, "worker": 1, "episode": 6, "success": false, "length": 400, "training_return": 115.40722320973873, "final_progress": 0.24031312763690948, "final_success_probability": 0.0128173828125}
+{"phase": "train", "env_steps": 22400, "worker": 2, "episode": 6, "success": false, "length": 400, "training_return": 170.5537309795618, "final_progress": 0.21658411622047424, "final_success_probability": 0.0191650390625}
+{"phase": "train", "env_steps": 22400, "worker": 3, "episode": 6, "success": false, "length": 400, "training_return": 169.56362864375114, "final_progress": 0.1609538495540619, "final_success_probability": 0.00830078125}
+{"phase": "train", "env_steps": 22400, "worker": 4, "episode": 6, "success": false, "length": 400, "training_return": 211.9877630919218, "final_progress": 0.19142268598079681, "final_success_probability": 0.00830078125}
+{"phase": "train", "env_steps": 22400, "worker": 5, "episode": 6, "success": false, "length": 400, "training_return": 202.28678192198277, "final_progress": 0.15096040070056915, "final_success_probability": 0.0032806396484375}
+{"phase": "train", "env_steps": 22400, "worker": 6, "episode": 6, "success": false, "length": 400, "training_return": 150.3885214626789, "final_progress": 0.15013420581817627, "final_success_probability": 0.0028076171875}
+{"phase": "train", "env_steps": 22400, "worker": 7, "episode": 6, "success": false, "length": 400, "training_return": 198.27711327373981, "final_progress": 0.43941888213157654, "final_success_probability": 0.0771484375}
+{"phase": "train", "env_steps": 23560, "worker": 4, "episode": 7, "success": true, "length": 145, "training_return": 110.76025949418545, "final_progress": 0.913875162601471, "final_success_probability": 0.8828125}
+{"phase": "train", "env_steps": 23616, "worker": 3, "episode": 7, "success": true, "length": 152, "training_return": 87.20739637315273, "final_progress": 0.14337816834449768, "final_success_probability": 0.0023956298828125}
+{"phase": "train", "env_steps": 24000, "worker": 7, "episode": 7, "success": true, "length": 200, "training_return": 89.88502998650074, "final_progress": 0.15836992859840393, "final_success_probability": 0.0028839111328125}
+{"phase": "eval", "env_steps": 25000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.4846929907798767, "final_success_probability": 0.07373046875}
+{"phase": "eval", "env_steps": 25000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.5883795619010925, "final_success_probability": 0.06298828125}
+{"phase": "eval", "env_steps": 25000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.21710151433944702, "final_success_probability": 0.004608154296875}
+{"phase": "eval", "env_steps": 25000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.5286441445350647, "final_success_probability": 0.046630859375}
+{"phase": "eval", "env_steps": 25000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.22063949704170227, "final_success_probability": 0.00433349609375}
+{"phase": "eval", "env_steps": 25000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.4806034564971924, "final_success_probability": 0.0311279296875}
+{"phase": "eval", "env_steps": 25000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.7279948592185974, "final_success_probability": 0.3671875}
+{"phase": "eval", "env_steps": 25000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.15425975620746613, "final_success_probability": 0.003082275390625}
+{"phase": "eval", "env_steps": 25000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.6394956111907959, "final_success_probability": 0.1240234375}
+{"phase": "eval", "env_steps": 25000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.45116880536079407, "final_success_probability": 0.058349609375}
+{"phase": "eval", "env_steps": 25000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.7512344121932983, "final_success_probability": 0.27734375}
+{"phase": "eval", "env_steps": 25000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.5544585585594177, "final_success_probability": 0.11279296875}
+{"phase": "eval", "env_steps": 25000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.3277912735939026, "final_success_probability": 0.01361083984375}
+{"phase": "eval", "env_steps": 25000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.34605881571769714, "final_success_probability": 0.0206298828125}
+{"phase": "eval", "env_steps": 25000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.39659643173217773, "final_success_probability": 0.023681640625}
+{"phase": "eval", "env_steps": 25000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.7116998434066772, "final_success_probability": 0.2421875}
+{"phase": "eval", "env_steps": 25000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.40312808752059937, "final_success_probability": 0.0233154296875}
+{"phase": "eval", "env_steps": 25000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.5670529007911682, "final_success_probability": 0.11572265625}
+{"phase": "eval", "env_steps": 25000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.47173836827278137, "final_success_probability": 0.048095703125}
+{"phase": "eval", "env_steps": 25000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.20611388981342316, "final_success_probability": 0.0037078857421875}
+{"phase": "eval", "env_steps": 25000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.39598119258880615, "final_success_probability": 0.0311279296875}
+{"phase": "eval", "env_steps": 25000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.5425863862037659, "final_success_probability": 0.05419921875}
+{"phase": "eval", "env_steps": 25000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.5156578421592712, "final_success_probability": 0.027587890625}
+{"phase": "eval", "env_steps": 25000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.3999445140361786, "final_success_probability": 0.01324462890625}
+{"phase": "eval", "env_steps": 25000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.634131669998169, "final_success_probability": 0.1552734375}
+{"phase": "train", "env_steps": 25600, "worker": 0, "episode": 7, "success": false, "length": 400, "training_return": 213.2756834179163, "final_progress": 0.6118273735046387, "final_success_probability": 0.1591796875}
+{"phase": "train", "env_steps": 25600, "worker": 1, "episode": 7, "success": false, "length": 400, "training_return": 128.20020228624344, "final_progress": 0.18970997631549835, "final_success_probability": 0.00830078125}
+{"phase": "train", "env_steps": 25600, "worker": 2, "episode": 7, "success": false, "length": 400, "training_return": 213.9220198392868, "final_progress": 0.2752193212509155, "final_success_probability": 0.0194091796875}
+{"phase": "train", "env_steps": 25600, "worker": 5, "episode": 7, "success": false, "length": 400, "training_return": 144.45310959219933, "final_progress": 0.16166804730892181, "final_success_probability": 0.0028076171875}
+{"phase": "train", "env_steps": 25600, "worker": 6, "episode": 7, "success": false, "length": 400, "training_return": 123.71545396745205, "final_progress": 0.15010978281497955, "final_success_probability": 0.002716064453125}
+{"phase": "train", "env_steps": 26760, "worker": 4, "episode": 8, "success": false, "length": 400, "training_return": 169.2133822888136, "final_progress": 0.3932196795940399, "final_success_probability": 0.0260009765625}
+{"phase": "train", "env_steps": 26816, "worker": 3, "episode": 8, "success": false, "length": 400, "training_return": 169.53716629743576, "final_progress": 0.29250895977020264, "final_success_probability": 0.012451171875}
+{"phase": "train", "env_steps": 27200, "worker": 7, "episode": 8, "success": false, "length": 400, "training_return": 143.75445104390383, "final_progress": 0.3997232913970947, "final_success_probability": 0.042724609375}
+{"phase": "train", "env_steps": 28800, "worker": 0, "episode": 8, "success": false, "length": 400, "training_return": 189.51883172988892, "final_progress": 0.5010572075843811, "final_success_probability": 0.1259765625}
+{"phase": "train", "env_steps": 28800, "worker": 1, "episode": 8, "success": false, "length": 400, "training_return": 175.76599061489105, "final_progress": 0.4559749960899353, "final_success_probability": 0.029296875}
+{"phase": "train", "env_steps": 28800, "worker": 2, "episode": 8, "success": false, "length": 400, "training_return": 182.51173390448093, "final_progress": 0.43107855319976807, "final_success_probability": 0.0439453125}
+{"phase": "train", "env_steps": 28800, "worker": 5, "episode": 8, "success": false, "length": 400, "training_return": 185.5743633657694, "final_progress": 0.422850102186203, "final_success_probability": 0.0966796875}
+{"phase": "train", "env_steps": 28800, "worker": 6, "episode": 8, "success": false, "length": 400, "training_return": 132.01630856096745, "final_progress": 0.2847532629966736, "final_success_probability": 0.00433349609375}
+{"phase": "train", "env_steps": 29960, "worker": 4, "episode": 9, "success": false, "length": 400, "training_return": 155.96452608704567, "final_progress": 0.6017775535583496, "final_success_probability": 0.13671875}
+{"phase": "eval", "env_steps": 30000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.2717195153236389, "final_success_probability": 0.01544189453125}
+{"phase": "eval", "env_steps": 30000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.18930892646312714, "final_success_probability": 0.0032806396484375}
+{"phase": "eval", "env_steps": 30000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.8523881435394287, "final_success_probability": 0.6171875}
+{"phase": "eval", "env_steps": 30000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.4019320607185364, "final_success_probability": 0.01495361328125}
+{"phase": "eval", "env_steps": 30000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.18371224403381348, "final_success_probability": 0.0037078857421875}
+{"phase": "eval", "env_steps": 30000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.8377929329872131, "final_success_probability": 0.55078125}
+{"phase": "eval", "env_steps": 30000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.1999662071466446, "final_success_probability": 0.006683349609375}
+{"phase": "eval", "env_steps": 30000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.7231680154800415, "final_success_probability": 0.3203125}
+{"phase": "eval", "env_steps": 30000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.17878824472427368, "final_success_probability": 0.0033721923828125}
+{"phase": "eval", "env_steps": 30000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.8877773284912109, "final_success_probability": 0.8671875}
+{"phase": "eval", "env_steps": 30000, "episode": 10, "init_state_id": 35, "success": true, "length": 147, "final_progress": 0.13182370364665985, "final_success_probability": 0.002716064453125}
+{"phase": "eval", "env_steps": 30000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.149884894490242, "final_success_probability": 0.002471923828125}
+{"phase": "eval", "env_steps": 30000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.6206027865409851, "final_success_probability": 0.11767578125}
+{"phase": "eval", "env_steps": 30000, "episode": 13, "init_state_id": 38, "success": true, "length": 175, "final_progress": 0.18490441143512726, "final_success_probability": 0.00347900390625}
+{"phase": "eval", "env_steps": 30000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.20476610958576202, "final_success_probability": 0.00689697265625}
+{"phase": "eval", "env_steps": 30000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.1672554761171341, "final_success_probability": 0.0023193359375}
+{"phase": "eval", "env_steps": 30000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.39743122458457947, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 30000, "episode": 17, "init_state_id": 42, "success": true, "length": 324, "final_progress": 0.1758323311805725, "final_success_probability": 0.0029754638671875}
+{"phase": "eval", "env_steps": 30000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.5263695120811462, "final_success_probability": 0.064453125}
+{"phase": "eval", "env_steps": 30000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.5372118949890137, "final_success_probability": 0.06640625}
+{"phase": "eval", "env_steps": 30000, "episode": 20, "init_state_id": 45, "success": true, "length": 116, "final_progress": 0.5786734223365784, "final_success_probability": 0.1875}
+{"phase": "eval", "env_steps": 30000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.653161883354187, "final_success_probability": 0.11279296875}
+{"phase": "eval", "env_steps": 30000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.6410136222839355, "final_success_probability": 0.12158203125}
+{"phase": "eval", "env_steps": 30000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.19473110139369965, "final_success_probability": 0.004608154296875}
+{"phase": "eval", "env_steps": 30000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.16367751359939575, "final_success_probability": 0.0032806396484375}
+{"phase": "train", "env_steps": 30016, "worker": 3, "episode": 9, "success": false, "length": 400, "training_return": 139.76979193091393, "final_progress": 0.3493296802043915, "final_success_probability": 0.03564453125}
+{"phase": "train", "env_steps": 30400, "worker": 7, "episode": 9, "success": false, "length": 400, "training_return": 174.1466202735901, "final_progress": 0.17074579000473022, "final_success_probability": 0.0033721923828125}
+{"phase": "train", "env_steps": 32000, "worker": 0, "episode": 9, "success": false, "length": 400, "training_return": 209.03024238348007, "final_progress": 0.8106388449668884, "final_success_probability": 0.5}
+{"phase": "train", "env_steps": 32000, "worker": 1, "episode": 9, "success": false, "length": 400, "training_return": 145.1104376167059, "final_progress": 0.23480769991874695, "final_success_probability": 0.00506591796875}
+{"phase": "train", "env_steps": 32000, "worker": 2, "episode": 9, "success": false, "length": 400, "training_return": 170.41248691082, "final_progress": 0.5880564451217651, "final_success_probability": 0.2578125}
+{"phase": "train", "env_steps": 32000, "worker": 5, "episode": 9, "success": false, "length": 400, "training_return": 119.08942110836506, "final_progress": 0.14910712838172913, "final_success_probability": 0.0032806396484375}
+{"phase": "train", "env_steps": 32000, "worker": 6, "episode": 9, "success": false, "length": 400, "training_return": 135.83175891637802, "final_progress": 0.21512125432491302, "final_success_probability": 0.00592041015625}
+{"phase": "train", "env_steps": 33160, "worker": 4, "episode": 10, "success": false, "length": 400, "training_return": 121.92763079702854, "final_progress": 0.17908085882663727, "final_success_probability": 0.00421142578125}
+{"phase": "train", "env_steps": 33216, "worker": 3, "episode": 10, "success": false, "length": 400, "training_return": 135.6528855264187, "final_progress": 0.19411484897136688, "final_success_probability": 0.00970458984375}
+{"phase": "train", "env_steps": 33600, "worker": 7, "episode": 10, "success": false, "length": 400, "training_return": 190.21620526909828, "final_progress": 0.5800694823265076, "final_success_probability": 0.166015625}
+{"phase": "eval", "env_steps": 35000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.8611376881599426, "final_success_probability": 0.73046875}
+{"phase": "eval", "env_steps": 35000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.5312554240226746, "final_success_probability": 0.027587890625}
+{"phase": "eval", "env_steps": 35000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.6316077709197998, "final_success_probability": 0.09521484375}
+{"phase": "eval", "env_steps": 35000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.18518005311489105, "final_success_probability": 0.0047607421875}
+{"phase": "eval", "env_steps": 35000, "episode": 4, "init_state_id": 29, "success": true, "length": 376, "final_progress": 0.8382251858711243, "final_success_probability": 0.609375}
+{"phase": "eval", "env_steps": 35000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.4615596830844879, "final_success_probability": 0.032470703125}
+{"phase": "eval", "env_steps": 35000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.4873066544532776, "final_success_probability": 0.04150390625}
+{"phase": "eval", "env_steps": 35000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.49342119693756104, "final_success_probability": 0.042724609375}
+{"phase": "eval", "env_steps": 35000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.2898692488670349, "final_success_probability": 0.044677734375}
+{"phase": "eval", "env_steps": 35000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.5447302460670471, "final_success_probability": 0.0654296875}
+{"phase": "eval", "env_steps": 35000, "episode": 10, "init_state_id": 35, "success": true, "length": 133, "final_progress": 0.3015526831150055, "final_success_probability": 0.037353515625}
+{"phase": "eval", "env_steps": 35000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.3415866196155548, "final_success_probability": 0.0306396484375}
+{"phase": "eval", "env_steps": 35000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.5708832740783691, "final_success_probability": 0.0927734375}
+{"phase": "eval", "env_steps": 35000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.7148200869560242, "final_success_probability": 0.373046875}
+{"phase": "eval", "env_steps": 35000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.5483327507972717, "final_success_probability": 0.059326171875}
+{"phase": "eval", "env_steps": 35000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.5265322923660278, "final_success_probability": 0.09033203125}
+{"phase": "eval", "env_steps": 35000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.2227545976638794, "final_success_probability": 0.007110595703125}
+{"phase": "eval", "env_steps": 35000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.44101059436798096, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 35000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.5630886554718018, "final_success_probability": 0.1279296875}
+{"phase": "eval", "env_steps": 35000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.24423754215240479, "final_success_probability": 0.00689697265625}
+{"phase": "eval", "env_steps": 35000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.5977894067764282, "final_success_probability": 0.099609375}
+{"phase": "eval", "env_steps": 35000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.5867769718170166, "final_success_probability": 0.162109375}
+{"phase": "eval", "env_steps": 35000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.3607645034790039, "final_success_probability": 0.0260009765625}
+{"phase": "eval", "env_steps": 35000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.6021316647529602, "final_success_probability": 0.171875}
+{"phase": "eval", "env_steps": 35000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.7397153973579407, "final_success_probability": 0.337890625}
+{"phase": "train", "env_steps": 35200, "worker": 0, "episode": 10, "success": false, "length": 400, "training_return": 217.38063022494316, "final_progress": 0.36922967433929443, "final_success_probability": 0.036865234375}
+{"phase": "train", "env_steps": 35200, "worker": 1, "episode": 10, "success": false, "length": 400, "training_return": 171.77946136891842, "final_progress": 0.5497919917106628, "final_success_probability": 0.1708984375}
+{"phase": "train", "env_steps": 35200, "worker": 2, "episode": 10, "success": false, "length": 400, "training_return": 135.35215028375387, "final_progress": 0.43675005435943604, "final_success_probability": 0.134765625}
+{"phase": "train", "env_steps": 35200, "worker": 5, "episode": 10, "success": false, "length": 400, "training_return": 147.3299769088626, "final_progress": 0.5017094612121582, "final_success_probability": 0.078125}
+{"phase": "train", "env_steps": 35200, "worker": 6, "episode": 10, "success": false, "length": 400, "training_return": 117.67618904262781, "final_progress": 0.1310671865940094, "final_success_probability": 0.003082275390625}
+{"phase": "train", "env_steps": 36360, "worker": 4, "episode": 11, "success": false, "length": 400, "training_return": 215.6445736438036, "final_progress": 0.6477513909339905, "final_success_probability": 0.2041015625}
+{"phase": "train", "env_steps": 36416, "worker": 3, "episode": 11, "success": false, "length": 400, "training_return": 161.37358029186726, "final_progress": 0.3400907814502716, "final_success_probability": 0.08740234375}
+{"phase": "train", "env_steps": 36800, "worker": 7, "episode": 11, "success": false, "length": 400, "training_return": 170.36710813641548, "final_progress": 0.25550711154937744, "final_success_probability": 0.016357421875}
+{"phase": "train", "env_steps": 38400, "worker": 0, "episode": 11, "success": false, "length": 400, "training_return": 143.5770734101534, "final_progress": 0.2072928100824356, "final_success_probability": 0.007110595703125}
+{"phase": "train", "env_steps": 38400, "worker": 1, "episode": 11, "success": false, "length": 400, "training_return": 176.4440966397524, "final_progress": 0.333138108253479, "final_success_probability": 0.023681640625}
+{"phase": "train", "env_steps": 38400, "worker": 2, "episode": 11, "success": false, "length": 400, "training_return": 188.80823662877083, "final_progress": 0.23160062730312347, "final_success_probability": 0.0185546875}
+{"phase": "train", "env_steps": 38400, "worker": 5, "episode": 11, "success": false, "length": 400, "training_return": 169.7681438922882, "final_progress": 0.3308717608451843, "final_success_probability": 0.032470703125}
+{"phase": "train", "env_steps": 38400, "worker": 6, "episode": 11, "success": false, "length": 400, "training_return": 225.0418269187212, "final_progress": 0.18197301030158997, "final_success_probability": 0.00421142578125}
+{"phase": "train", "env_steps": 39560, "worker": 4, "episode": 12, "success": false, "length": 400, "training_return": 220.6468464434147, "final_progress": 0.7658948302268982, "final_success_probability": 0.515625}
+{"phase": "train", "env_steps": 39616, "worker": 3, "episode": 12, "success": false, "length": 400, "training_return": 141.16618072986603, "final_progress": 0.35924237966537476, "final_success_probability": 0.037841796875}
+{"phase": "train", "env_steps": 40000, "worker": 7, "episode": 12, "success": false, "length": 400, "training_return": 189.6375570744276, "final_progress": 0.5634008646011353, "final_success_probability": 0.1357421875}
+{"phase": "eval", "env_steps": 40000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.6977385878562927, "final_success_probability": 0.248046875}
+{"phase": "eval", "env_steps": 40000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.7260798811912537, "final_success_probability": 0.40234375}
+{"phase": "eval", "env_steps": 40000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.810232400894165, "final_success_probability": 0.56640625}
+{"phase": "eval", "env_steps": 40000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.5329498648643494, "final_success_probability": 0.1396484375}
+{"phase": "eval", "env_steps": 40000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.8991086483001709, "final_success_probability": 0.87890625}
+{"phase": "eval", "env_steps": 40000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.601232647895813, "final_success_probability": 0.1875}
+{"phase": "eval", "env_steps": 40000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.6316081881523132, "final_success_probability": 0.1904296875}
+{"phase": "eval", "env_steps": 40000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.7408851385116577, "final_success_probability": 0.353515625}
+{"phase": "eval", "env_steps": 40000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.23999541997909546, "final_success_probability": 0.0145263671875}
+{"phase": "eval", "env_steps": 40000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.7267138957977295, "final_success_probability": 0.330078125}
+{"phase": "eval", "env_steps": 40000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.1518809199333191, "final_success_probability": 0.0037078857421875}
+{"phase": "eval", "env_steps": 40000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.34776055812835693, "final_success_probability": 0.07373046875}
+{"phase": "eval", "env_steps": 40000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.2394023835659027, "final_success_probability": 0.0216064453125}
+{"phase": "eval", "env_steps": 40000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.41390421986579895, "final_success_probability": 0.078125}
+{"phase": "eval", "env_steps": 40000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.776337742805481, "final_success_probability": 0.4609375}
+{"phase": "eval", "env_steps": 40000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.6449224948883057, "final_success_probability": 0.265625}
+{"phase": "eval", "env_steps": 40000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.4391031861305237, "final_success_probability": 0.06103515625}
+{"phase": "eval", "env_steps": 40000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.4609537720680237, "final_success_probability": 0.11572265625}
+{"phase": "eval", "env_steps": 40000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.6741394400596619, "final_success_probability": 0.2734375}
+{"phase": "eval", "env_steps": 40000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.3623013496398926, "final_success_probability": 0.0244140625}
+{"phase": "eval", "env_steps": 40000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.32602953910827637, "final_success_probability": 0.02978515625}
+{"phase": "eval", "env_steps": 40000, "episode": 21, "init_state_id": 46, "success": true, "length": 165, "final_progress": 0.17344078421592712, "final_success_probability": 0.004608154296875}
+{"phase": "eval", "env_steps": 40000, "episode": 22, "init_state_id": 47, "success": true, "length": 239, "final_progress": 0.3053804337978363, "final_success_probability": 0.0145263671875}
+{"phase": "eval", "env_steps": 40000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.8091248273849487, "final_success_probability": 0.5703125}
+{"phase": "eval", "env_steps": 40000, "episode": 24, "init_state_id": 49, "success": true, "length": 210, "final_progress": 0.3781546354293823, "final_success_probability": 0.03369140625}
+{"phase": "train", "env_steps": 41600, "worker": 0, "episode": 12, "success": false, "length": 400, "training_return": 184.07231937348843, "final_progress": 0.47913244366645813, "final_success_probability": 0.1025390625}
+{"phase": "train", "env_steps": 41600, "worker": 1, "episode": 12, "success": false, "length": 400, "training_return": 229.02971014380455, "final_progress": 0.5241219401359558, "final_success_probability": 0.08740234375}
+{"phase": "train", "env_steps": 41600, "worker": 2, "episode": 12, "success": false, "length": 400, "training_return": 226.20537070930004, "final_progress": 0.5156552195549011, "final_success_probability": 0.057373046875}
+{"phase": "train", "env_steps": 41600, "worker": 5, "episode": 12, "success": false, "length": 400, "training_return": 160.58624958246946, "final_progress": 0.41064974665641785, "final_success_probability": 0.068359375}
+{"phase": "train", "env_steps": 41600, "worker": 6, "episode": 12, "success": false, "length": 400, "training_return": 206.03231282532215, "final_progress": 0.38369157910346985, "final_success_probability": 0.07177734375}
+{"phase": "train", "env_steps": 42760, "worker": 4, "episode": 13, "success": false, "length": 400, "training_return": 222.92853248119354, "final_progress": 0.5778336524963379, "final_success_probability": 0.1611328125}
+{"phase": "train", "env_steps": 42816, "worker": 3, "episode": 13, "success": false, "length": 400, "training_return": 208.3618235141039, "final_progress": 0.2818293571472168, "final_success_probability": 0.01495361328125}
+{"phase": "train", "env_steps": 43200, "worker": 7, "episode": 13, "success": false, "length": 400, "training_return": 114.16211958229542, "final_progress": 0.2439359873533249, "final_success_probability": 0.03564453125}
+{"phase": "train", "env_steps": 43600, "worker": 6, "episode": 13, "success": true, "length": 250, "training_return": 116.4848853200674, "final_progress": 0.23106762766838074, "final_success_probability": 0.01544189453125}
+{"phase": "train", "env_steps": 44264, "worker": 7, "episode": 14, "success": true, "length": 133, "training_return": 85.90861178934574, "final_progress": 0.22923660278320312, "final_success_probability": 0.00592041015625}
+{"phase": "train", "env_steps": 44800, "worker": 0, "episode": 13, "success": false, "length": 400, "training_return": 189.26093937456608, "final_progress": 0.4787280857563019, "final_success_probability": 0.099609375}
+{"phase": "train", "env_steps": 44800, "worker": 1, "episode": 13, "success": false, "length": 400, "training_return": 250.20378825068474, "final_progress": 0.864867091178894, "final_success_probability": 0.69921875}
+{"phase": "train", "env_steps": 44800, "worker": 2, "episode": 13, "success": false, "length": 400, "training_return": 113.30283917486668, "final_progress": 0.6221386194229126, "final_success_probability": 0.130859375}
+{"phase": "train", "env_steps": 44800, "worker": 5, "episode": 13, "success": false, "length": 400, "training_return": 207.77948570251465, "final_progress": 0.5876951813697815, "final_success_probability": 0.1142578125}
+{"phase": "eval", "env_steps": 45000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.905555784702301, "final_success_probability": 0.859375}
+{"phase": "eval", "env_steps": 45000, "episode": 1, "init_state_id": 26, "success": true, "length": 116, "final_progress": 0.431464284658432, "final_success_probability": 0.064453125}
+{"phase": "eval", "env_steps": 45000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.860602080821991, "final_success_probability": 0.66015625}
+{"phase": "eval", "env_steps": 45000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.7573584914207458, "final_success_probability": 0.4140625}
+{"phase": "eval", "env_steps": 45000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.5653431415557861, "final_success_probability": 0.07080078125}
+{"phase": "eval", "env_steps": 45000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.4123550057411194, "final_success_probability": 0.031982421875}
+{"phase": "eval", "env_steps": 45000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.40265583992004395, "final_success_probability": 0.03515625}
+{"phase": "eval", "env_steps": 45000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.4084765911102295, "final_success_probability": 0.09130859375}
+{"phase": "eval", "env_steps": 45000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.5215805172920227, "final_success_probability": 0.1455078125}
+{"phase": "eval", "env_steps": 45000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.4779894948005676, "final_success_probability": 0.11572265625}
+{"phase": "eval", "env_steps": 45000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.8255313634872437, "final_success_probability": 0.59765625}
+{"phase": "eval", "env_steps": 45000, "episode": 11, "init_state_id": 36, "success": true, "length": 396, "final_progress": 0.150809183716774, "final_success_probability": 0.003082275390625}
+{"phase": "eval", "env_steps": 45000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.5667147636413574, "final_success_probability": 0.130859375}
+{"phase": "eval", "env_steps": 45000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.33471113443374634, "final_success_probability": 0.0191650390625}
+{"phase": "eval", "env_steps": 45000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.46358323097229004, "final_success_probability": 0.049560546875}
+{"phase": "eval", "env_steps": 45000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.19490864872932434, "final_success_probability": 0.0028076171875}
+{"phase": "eval", "env_steps": 45000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.7793260216712952, "final_success_probability": 0.416015625}
+{"phase": "eval", "env_steps": 45000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.240009605884552, "final_success_probability": 0.00592041015625}
+{"phase": "eval", "env_steps": 45000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.5854724645614624, "final_success_probability": 0.2080078125}
+{"phase": "eval", "env_steps": 45000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.4745640754699707, "final_success_probability": 0.07275390625}
+{"phase": "eval", "env_steps": 45000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.6323928833007812, "final_success_probability": 0.203125}
+{"phase": "eval", "env_steps": 45000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.37707820534706116, "final_success_probability": 0.046142578125}
+{"phase": "eval", "env_steps": 45000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.8177492022514343, "final_success_probability": 0.53125}
+{"phase": "eval", "env_steps": 45000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.2331615835428238, "final_success_probability": 0.025146484375}
+{"phase": "eval", "env_steps": 45000, "episode": 24, "init_state_id": 49, "success": true, "length": 229, "final_progress": 0.1967456042766571, "final_success_probability": 0.003173828125}
+{"phase": "train", "env_steps": 45960, "worker": 4, "episode": 14, "success": false, "length": 400, "training_return": 220.92720361053944, "final_progress": 0.1663939505815506, "final_success_probability": 0.0028076171875}
+{"phase": "train", "env_steps": 46016, "worker": 3, "episode": 14, "success": false, "length": 400, "training_return": 200.23825059831142, "final_progress": 0.2871111035346985, "final_success_probability": 0.02099609375}
+{"phase": "train", "env_steps": 46744, "worker": 1, "episode": 14, "success": true, "length": 243, "training_return": 165.5187827795744, "final_progress": 0.7371347546577454, "final_success_probability": 0.33984375}
+{"phase": "train", "env_steps": 46800, "worker": 6, "episode": 14, "success": false, "length": 400, "training_return": 210.11980307102203, "final_progress": 0.576586902141571, "final_success_probability": 0.14453125}
+{"phase": "train", "env_steps": 47464, "worker": 7, "episode": 15, "success": false, "length": 400, "training_return": 211.86366119980812, "final_progress": 0.7326016426086426, "final_success_probability": 0.369140625}
+{"phase": "train", "env_steps": 48000, "worker": 0, "episode": 14, "success": false, "length": 400, "training_return": 263.77899673581123, "final_progress": 0.624075174331665, "final_success_probability": 0.1640625}
+{"phase": "train", "env_steps": 48000, "worker": 2, "episode": 14, "success": false, "length": 400, "training_return": 219.24917051196098, "final_progress": 0.686653196811676, "final_success_probability": 0.1982421875}
+{"phase": "train", "env_steps": 48000, "worker": 5, "episode": 14, "success": false, "length": 400, "training_return": 196.6282333135605, "final_progress": 0.5248478055000305, "final_success_probability": 0.142578125}
+{"phase": "train", "env_steps": 49160, "worker": 4, "episode": 15, "success": false, "length": 400, "training_return": 170.18405632674694, "final_progress": 0.19742770493030548, "final_success_probability": 0.0128173828125}
+{"phase": "train", "env_steps": 49216, "worker": 3, "episode": 15, "success": false, "length": 400, "training_return": 152.76983228325844, "final_progress": 0.5652244091033936, "final_success_probability": 0.150390625}
+{"phase": "train", "env_steps": 49944, "worker": 1, "episode": 15, "success": false, "length": 400, "training_return": 206.22758331894875, "final_progress": 0.37552958726882935, "final_success_probability": 0.032470703125}
+{"phase": "train", "env_steps": 50000, "worker": 6, "episode": 15, "success": false, "length": 400, "training_return": 131.42071475088596, "final_progress": 0.19981563091278076, "final_success_probability": 0.00506591796875}
+{"phase": "eval", "env_steps": 50000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.4328698217868805, "final_success_probability": 0.040771484375}
+{"phase": "eval", "env_steps": 50000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.5796769857406616, "final_success_probability": 0.057373046875}
+{"phase": "eval", "env_steps": 50000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.7156631946563721, "final_success_probability": 0.2392578125}
+{"phase": "eval", "env_steps": 50000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.48624131083488464, "final_success_probability": 0.134765625}
+{"phase": "eval", "env_steps": 50000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.34883612394332886, "final_success_probability": 0.0247802734375}
+{"phase": "eval", "env_steps": 50000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.3023850917816162, "final_success_probability": 0.0279541015625}
+{"phase": "eval", "env_steps": 50000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.433393657207489, "final_success_probability": 0.0673828125}
+{"phase": "eval", "env_steps": 50000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.7212212681770325, "final_success_probability": 0.306640625}
+{"phase": "eval", "env_steps": 50000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.8027899861335754, "final_success_probability": 0.55078125}
+{"phase": "eval", "env_steps": 50000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.2589734196662903, "final_success_probability": 0.056640625}
+{"phase": "eval", "env_steps": 50000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.5613363981246948, "final_success_probability": 0.054931640625}
+{"phase": "eval", "env_steps": 50000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.5934920907020569, "final_success_probability": 0.1318359375}
+{"phase": "eval", "env_steps": 50000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.6208078265190125, "final_success_probability": 0.2431640625}
+{"phase": "eval", "env_steps": 50000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.581153154373169, "final_success_probability": 0.0966796875}
+{"phase": "eval", "env_steps": 50000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.32085415720939636, "final_success_probability": 0.0289306640625}
+{"phase": "eval", "env_steps": 50000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.3993276059627533, "final_success_probability": 0.054931640625}
+{"phase": "eval", "env_steps": 50000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.8164351582527161, "final_success_probability": 0.640625}
+{"phase": "eval", "env_steps": 50000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.23474445939064026, "final_success_probability": 0.010009765625}
+{"phase": "eval", "env_steps": 50000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.5978285670280457, "final_success_probability": 0.11279296875}
+{"phase": "eval", "env_steps": 50000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.48222482204437256, "final_success_probability": 0.053466796875}
+{"phase": "eval", "env_steps": 50000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.16603541374206543, "final_success_probability": 0.00537109375}
+{"phase": "eval", "env_steps": 50000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.44885820150375366, "final_success_probability": 0.1083984375}
+{"phase": "eval", "env_steps": 50000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.42348426580429077, "final_success_probability": 0.0361328125}
+{"phase": "eval", "env_steps": 50000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.5929728746414185, "final_success_probability": 0.1337890625}
+{"phase": "eval", "env_steps": 50000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.5328546166419983, "final_success_probability": 0.158203125}
+{"phase": "train", "env_steps": 50664, "worker": 7, "episode": 16, "success": false, "length": 400, "training_return": 223.55484475195408, "final_progress": 0.8258233070373535, "final_success_probability": 0.60546875}
+{"phase": "train", "env_steps": 51200, "worker": 0, "episode": 15, "success": false, "length": 400, "training_return": 229.81768806278706, "final_progress": 0.6127458810806274, "final_success_probability": 0.1787109375}
+{"phase": "train", "env_steps": 51200, "worker": 2, "episode": 15, "success": false, "length": 400, "training_return": 209.36745972931385, "final_progress": 0.4768005311489105, "final_success_probability": 0.058349609375}
+{"phase": "train", "env_steps": 51200, "worker": 5, "episode": 15, "success": false, "length": 400, "training_return": 224.83025719225407, "final_progress": 0.4416413903236389, "final_success_probability": 0.06103515625}
+{"phase": "train", "env_steps": 52360, "worker": 4, "episode": 16, "success": false, "length": 400, "training_return": 218.76740799844265, "final_progress": 0.3760194182395935, "final_success_probability": 0.036865234375}
+{"phase": "train", "env_steps": 52416, "worker": 3, "episode": 16, "success": false, "length": 400, "training_return": 214.11737783253193, "final_progress": 0.29277002811431885, "final_success_probability": 0.036865234375}
+{"phase": "train", "env_steps": 53144, "worker": 1, "episode": 16, "success": false, "length": 400, "training_return": 226.31633904576302, "final_progress": 0.6762872338294983, "final_success_probability": 0.2451171875}
+{"phase": "train", "env_steps": 53200, "worker": 6, "episode": 16, "success": false, "length": 400, "training_return": 265.097404807806, "final_progress": 0.8213942646980286, "final_success_probability": 0.62890625}
+{"phase": "train", "env_steps": 53864, "worker": 7, "episode": 17, "success": false, "length": 400, "training_return": 264.04455399513245, "final_progress": 0.6328789591789246, "final_success_probability": 0.208984375}
+{"phase": "train", "env_steps": 54400, "worker": 0, "episode": 16, "success": false, "length": 400, "training_return": 260.9010167121887, "final_progress": 0.7503432035446167, "final_success_probability": 0.408203125}
+{"phase": "train", "env_steps": 54400, "worker": 2, "episode": 16, "success": false, "length": 400, "training_return": 229.44797040522099, "final_progress": 0.3889172673225403, "final_success_probability": 0.03173828125}
+{"phase": "train", "env_steps": 54400, "worker": 5, "episode": 16, "success": false, "length": 400, "training_return": 220.1575382053852, "final_progress": 0.4660707414150238, "final_success_probability": 0.078125}
+{"phase": "eval", "env_steps": 55000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.24948284029960632, "final_success_probability": 0.07080078125}
+{"phase": "eval", "env_steps": 55000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.5115572214126587, "final_success_probability": 0.015869140625}
+{"phase": "eval", "env_steps": 55000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.6081758141517639, "final_success_probability": 0.166015625}
+{"phase": "eval", "env_steps": 55000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.5914413928985596, "final_success_probability": 0.032470703125}
+{"phase": "eval", "env_steps": 55000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.47095346450805664, "final_success_probability": 0.06005859375}
+{"phase": "eval", "env_steps": 55000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.5585947036743164, "final_success_probability": 0.0927734375}
+{"phase": "eval", "env_steps": 55000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.5247111320495605, "final_success_probability": 0.083984375}
+{"phase": "eval", "env_steps": 55000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.5673719644546509, "final_success_probability": 0.0439453125}
+{"phase": "eval", "env_steps": 55000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.487124502658844, "final_success_probability": 0.0078125}
+{"phase": "eval", "env_steps": 55000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.48821738362312317, "final_success_probability": 0.0966796875}
+{"phase": "eval", "env_steps": 55000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.49816542863845825, "final_success_probability": 0.07080078125}
+{"phase": "eval", "env_steps": 55000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.44615575671195984, "final_success_probability": 0.0206298828125}
+{"phase": "eval", "env_steps": 55000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.4343758821487427, "final_success_probability": 0.029296875}
+{"phase": "eval", "env_steps": 55000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.6162909865379333, "final_success_probability": 0.11572265625}
+{"phase": "eval", "env_steps": 55000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.35692185163497925, "final_success_probability": 0.048095703125}
+{"phase": "eval", "env_steps": 55000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.48338544368743896, "final_success_probability": 0.049560546875}
+{"phase": "eval", "env_steps": 55000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.5014383792877197, "final_success_probability": 0.09521484375}
+{"phase": "eval", "env_steps": 55000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.47954291105270386, "final_success_probability": 0.12890625}
+{"phase": "eval", "env_steps": 55000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.4526137113571167, "final_success_probability": 0.019775390625}
+{"phase": "eval", "env_steps": 55000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.5845175385475159, "final_success_probability": 0.10498046875}
+{"phase": "eval", "env_steps": 55000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.44469118118286133, "final_success_probability": 0.0390625}
+{"phase": "eval", "env_steps": 55000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.34901338815689087, "final_success_probability": 0.03369140625}
+{"phase": "eval", "env_steps": 55000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.5964061617851257, "final_success_probability": 0.06298828125}
+{"phase": "eval", "env_steps": 55000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.42097148299217224, "final_success_probability": 0.044677734375}
+{"phase": "eval", "env_steps": 55000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.5821417570114136, "final_success_probability": 0.14453125}
+{"phase": "train", "env_steps": 55560, "worker": 4, "episode": 17, "success": false, "length": 400, "training_return": 252.31760655343533, "final_progress": 0.8746458292007446, "final_success_probability": 0.67578125}
+{"phase": "train", "env_steps": 55616, "worker": 3, "episode": 17, "success": false, "length": 400, "training_return": 204.79422423243523, "final_progress": 0.5481682419776917, "final_success_probability": 0.1533203125}
+{"phase": "train", "env_steps": 56344, "worker": 1, "episode": 17, "success": false, "length": 400, "training_return": 236.8887475579977, "final_progress": 0.6093272566795349, "final_success_probability": 0.146484375}
+{"phase": "train", "env_steps": 56400, "worker": 6, "episode": 17, "success": false, "length": 400, "training_return": 184.45132057368755, "final_progress": 0.35789942741394043, "final_success_probability": 0.033203125}
+{"phase": "train", "env_steps": 57064, "worker": 7, "episode": 18, "success": false, "length": 400, "training_return": 152.52985486388206, "final_progress": 0.11196914315223694, "final_success_probability": 0.0233154296875}
+{"phase": "train", "env_steps": 57600, "worker": 0, "episode": 17, "success": false, "length": 400, "training_return": 195.99891710281372, "final_progress": 0.7931815981864929, "final_success_probability": 0.5703125}
+{"phase": "train", "env_steps": 57600, "worker": 2, "episode": 17, "success": false, "length": 400, "training_return": 225.32221779227257, "final_progress": 0.48095929622650146, "final_success_probability": 0.0673828125}
+{"phase": "train", "env_steps": 57600, "worker": 5, "episode": 17, "success": false, "length": 400, "training_return": 157.5642754137516, "final_progress": 0.2190990000963211, "final_success_probability": 0.0267333984375}
+{"phase": "train", "env_steps": 58760, "worker": 4, "episode": 18, "success": false, "length": 400, "training_return": 172.45654444396496, "final_progress": 0.4470791816711426, "final_success_probability": 0.1025390625}
+{"phase": "train", "env_steps": 58816, "worker": 3, "episode": 18, "success": false, "length": 400, "training_return": 238.22105929255486, "final_progress": 0.7505354881286621, "final_success_probability": 0.408203125}
+{"phase": "train", "env_steps": 59544, "worker": 1, "episode": 18, "success": false, "length": 400, "training_return": 251.8982131332159, "final_progress": 0.5616883039474487, "final_success_probability": 0.1298828125}
+{"phase": "train", "env_steps": 59600, "worker": 6, "episode": 18, "success": false, "length": 400, "training_return": 254.03440342843533, "final_progress": 0.6648188829421997, "final_success_probability": 0.2060546875}
+{"phase": "eval", "env_steps": 60000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.7617406249046326, "final_success_probability": 0.48828125}
+{"phase": "eval", "env_steps": 60000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.6809601187705994, "final_success_probability": 0.28515625}
+{"phase": "eval", "env_steps": 60000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.33250805735588074, "final_success_probability": 0.040771484375}
+{"phase": "eval", "env_steps": 60000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.7453209161758423, "final_success_probability": 0.32421875}
+{"phase": "eval", "env_steps": 60000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.6263893246650696, "final_success_probability": 0.259765625}
+{"phase": "eval", "env_steps": 60000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.44580307602882385, "final_success_probability": 0.061767578125}
+{"phase": "eval", "env_steps": 60000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.7483377456665039, "final_success_probability": 0.3984375}
+{"phase": "eval", "env_steps": 60000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.1902880072593689, "final_success_probability": 0.00360107421875}
+{"phase": "eval", "env_steps": 60000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.7568758130073547, "final_success_probability": 0.375}
+{"phase": "eval", "env_steps": 60000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.5439350008964539, "final_success_probability": 0.046630859375}
+{"phase": "eval", "env_steps": 60000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.7817402482032776, "final_success_probability": 0.416015625}
+{"phase": "eval", "env_steps": 60000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.652633786201477, "final_success_probability": 0.30078125}
+{"phase": "eval", "env_steps": 60000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.5290047526359558, "final_success_probability": 0.09814453125}
+{"phase": "eval", "env_steps": 60000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.8377020955085754, "final_success_probability": 0.65625}
+{"phase": "eval", "env_steps": 60000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.5863785147666931, "final_success_probability": 0.185546875}
+{"phase": "eval", "env_steps": 60000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.42417672276496887, "final_success_probability": 0.03466796875}
+{"phase": "eval", "env_steps": 60000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.6298155784606934, "final_success_probability": 0.1552734375}
+{"phase": "eval", "env_steps": 60000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.44022178649902344, "final_success_probability": 0.0634765625}
+{"phase": "eval", "env_steps": 60000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.4061623811721802, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 60000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.49981260299682617, "final_success_probability": 0.08251953125}
+{"phase": "eval", "env_steps": 60000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.19035451114177704, "final_success_probability": 0.00970458984375}
+{"phase": "eval", "env_steps": 60000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.5122055411338806, "final_success_probability": 0.06640625}
+{"phase": "eval", "env_steps": 60000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.8485273718833923, "final_success_probability": 0.609375}
+{"phase": "eval", "env_steps": 60000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.8147528171539307, "final_success_probability": 0.484375}
+{"phase": "eval", "env_steps": 60000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.4402688145637512, "final_success_probability": 0.03955078125}
+{"phase": "train", "env_steps": 60264, "worker": 7, "episode": 19, "success": false, "length": 400, "training_return": 253.1953865736723, "final_progress": 0.7193669676780701, "final_success_probability": 0.3515625}
+{"phase": "train", "env_steps": 60800, "worker": 0, "episode": 18, "success": false, "length": 400, "training_return": 148.35178165137768, "final_progress": 0.3241310119628906, "final_success_probability": 0.057373046875}
+{"phase": "train", "env_steps": 60800, "worker": 2, "episode": 18, "success": false, "length": 400, "training_return": 221.4515276402235, "final_progress": 0.667958676815033, "final_success_probability": 0.287109375}
+{"phase": "train", "env_steps": 60800, "worker": 5, "episode": 18, "success": false, "length": 400, "training_return": 246.39988893270493, "final_progress": 0.5578017830848694, "final_success_probability": 0.1396484375}
+{"phase": "train", "env_steps": 61960, "worker": 4, "episode": 19, "success": false, "length": 400, "training_return": 216.22225615382195, "final_progress": 0.3011167347431183, "final_success_probability": 0.0206298828125}
+{"phase": "train", "env_steps": 62016, "worker": 3, "episode": 19, "success": false, "length": 400, "training_return": 224.14329834282398, "final_progress": 0.8246040344238281, "final_success_probability": 0.58984375}
+{"phase": "train", "env_steps": 62744, "worker": 1, "episode": 19, "success": false, "length": 400, "training_return": 242.25959888100624, "final_progress": 0.7098773717880249, "final_success_probability": 0.259765625}
+{"phase": "train", "env_steps": 62800, "worker": 6, "episode": 19, "success": false, "length": 400, "training_return": 213.4446186721325, "final_progress": 0.6789084672927856, "final_success_probability": 0.2177734375}
+{"phase": "train", "env_steps": 63464, "worker": 7, "episode": 20, "success": false, "length": 400, "training_return": 176.7026612907648, "final_progress": 0.8025310039520264, "final_success_probability": 0.64453125}
+{"phase": "train", "env_steps": 64000, "worker": 0, "episode": 19, "success": false, "length": 400, "training_return": 227.40703819692135, "final_progress": 0.6526001691818237, "final_success_probability": 0.255859375}
+{"phase": "train", "env_steps": 64000, "worker": 2, "episode": 19, "success": false, "length": 400, "training_return": 205.03518863022327, "final_progress": 0.7025995850563049, "final_success_probability": 0.2294921875}
+{"phase": "train", "env_steps": 64000, "worker": 5, "episode": 19, "success": false, "length": 400, "training_return": 211.50008188188076, "final_progress": 0.2554481327533722, "final_success_probability": 0.0169677734375}
+{"phase": "eval", "env_steps": 65000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.5460176467895508, "final_success_probability": 0.1279296875}
+{"phase": "eval", "env_steps": 65000, "episode": 1, "init_state_id": 26, "success": true, "length": 149, "final_progress": 0.4292472302913666, "final_success_probability": 0.061767578125}
+{"phase": "eval", "env_steps": 65000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.4121580123901367, "final_success_probability": 0.046630859375}
+{"phase": "eval", "env_steps": 65000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.45385661721229553, "final_success_probability": 0.083984375}
+{"phase": "eval", "env_steps": 65000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.8565451502799988, "final_success_probability": 0.5859375}
+{"phase": "eval", "env_steps": 65000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.2908672094345093, "final_success_probability": 0.06005859375}
+{"phase": "eval", "env_steps": 65000, "episode": 6, "init_state_id": 31, "success": true, "length": 371, "final_progress": 0.7495220899581909, "final_success_probability": 0.412109375}
+{"phase": "eval", "env_steps": 65000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.8372730016708374, "final_success_probability": 0.57421875}
+{"phase": "eval", "env_steps": 65000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.800074577331543, "final_success_probability": 0.490234375}
+{"phase": "eval", "env_steps": 65000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.5956933498382568, "final_success_probability": 0.1279296875}
+{"phase": "eval", "env_steps": 65000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.8122116923332214, "final_success_probability": 0.515625}
+{"phase": "eval", "env_steps": 65000, "episode": 11, "init_state_id": 36, "success": true, "length": 274, "final_progress": 0.727102518081665, "final_success_probability": 0.34375}
+{"phase": "eval", "env_steps": 65000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.8686351180076599, "final_success_probability": 0.83984375}
+{"phase": "eval", "env_steps": 65000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.4709392488002777, "final_success_probability": 0.08251953125}
+{"phase": "eval", "env_steps": 65000, "episode": 14, "init_state_id": 39, "success": true, "length": 224, "final_progress": 0.2896985411643982, "final_success_probability": 0.007568359375}
+{"phase": "eval", "env_steps": 65000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.31342655420303345, "final_success_probability": 0.0634765625}
+{"phase": "eval", "env_steps": 65000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.33252987265586853, "final_success_probability": 0.03564453125}
+{"phase": "eval", "env_steps": 65000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.505273699760437, "final_success_probability": 0.10107421875}
+{"phase": "eval", "env_steps": 65000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.6039273142814636, "final_success_probability": 0.150390625}
+{"phase": "eval", "env_steps": 65000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.6010816097259521, "final_success_probability": 0.1572265625}
+{"phase": "eval", "env_steps": 65000, "episode": 20, "init_state_id": 45, "success": true, "length": 253, "final_progress": 0.30683210492134094, "final_success_probability": 0.006500244140625}
+{"phase": "eval", "env_steps": 65000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.6483355164527893, "final_success_probability": 0.26953125}
+{"phase": "eval", "env_steps": 65000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.4737952947616577, "final_success_probability": 0.0233154296875}
+{"phase": "eval", "env_steps": 65000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.3626517057418823, "final_success_probability": 0.08154296875}
+{"phase": "eval", "env_steps": 65000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.588407576084137, "final_success_probability": 0.166015625}
+{"phase": "train", "env_steps": 65160, "worker": 4, "episode": 20, "success": false, "length": 400, "training_return": 183.47490207850933, "final_progress": 0.905329704284668, "final_success_probability": 0.84375}
+{"phase": "train", "env_steps": 65216, "worker": 3, "episode": 20, "success": false, "length": 400, "training_return": 190.5025100260973, "final_progress": 0.16834703087806702, "final_success_probability": 0.003936767578125}
+{"phase": "train", "env_steps": 65944, "worker": 1, "episode": 20, "success": false, "length": 400, "training_return": 208.70730651915073, "final_progress": 0.4386584460735321, "final_success_probability": 0.058349609375}
+{"phase": "train", "env_steps": 66000, "worker": 6, "episode": 20, "success": false, "length": 400, "training_return": 235.29650504887104, "final_progress": 0.5781843662261963, "final_success_probability": 0.11572265625}
+{"phase": "train", "env_steps": 66264, "worker": 0, "episode": 20, "success": true, "length": 283, "training_return": 153.23866149783134, "final_progress": 0.6115705966949463, "final_success_probability": 0.2216796875}
+{"phase": "train", "env_steps": 66664, "worker": 7, "episode": 21, "success": false, "length": 400, "training_return": 146.9227558746934, "final_progress": 0.4289368689060211, "final_success_probability": 0.1142578125}
+{"phase": "train", "env_steps": 67200, "worker": 2, "episode": 20, "success": false, "length": 400, "training_return": 277.3752948194742, "final_progress": 0.5874801874160767, "final_success_probability": 0.212890625}
+{"phase": "train", "env_steps": 67200, "worker": 5, "episode": 20, "success": false, "length": 400, "training_return": 278.06746070086956, "final_progress": 0.8636341094970703, "final_success_probability": 0.73046875}
+{"phase": "train", "env_steps": 67688, "worker": 1, "episode": 21, "success": true, "length": 218, "training_return": 131.97725942730904, "final_progress": 0.8801276683807373, "final_success_probability": 0.78125}
+{"phase": "train", "env_steps": 68360, "worker": 4, "episode": 21, "success": false, "length": 400, "training_return": 217.05494548380375, "final_progress": 0.3945281207561493, "final_success_probability": 0.052734375}
+{"phase": "train", "env_steps": 68416, "worker": 3, "episode": 21, "success": false, "length": 400, "training_return": 199.43059077858925, "final_progress": 0.8131327033042908, "final_success_probability": 0.53125}
+{"phase": "train", "env_steps": 69104, "worker": 7, "episode": 22, "success": true, "length": 305, "training_return": 123.9406040161848, "final_progress": 0.3243512511253357, "final_success_probability": 0.023681640625}
+{"phase": "train", "env_steps": 69200, "worker": 6, "episode": 21, "success": false, "length": 400, "training_return": 254.4703045487404, "final_progress": 0.8614925146102905, "final_success_probability": 0.65234375}
+{"phase": "train", "env_steps": 69464, "worker": 0, "episode": 21, "success": false, "length": 400, "training_return": 292.05302408337593, "final_progress": 0.8516387939453125, "final_success_probability": 0.63671875}
+{"phase": "train", "env_steps": 69520, "worker": 1, "episode": 22, "success": true, "length": 229, "training_return": 99.24306710064411, "final_progress": 0.5371865034103394, "final_success_probability": 0.08251953125}
+{"phase": "eval", "env_steps": 70000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.394314169883728, "final_success_probability": 0.09033203125}
+{"phase": "eval", "env_steps": 70000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.3028326630592346, "final_success_probability": 0.02001953125}
+{"phase": "eval", "env_steps": 70000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.3922310471534729, "final_success_probability": 0.00537109375}
+{"phase": "eval", "env_steps": 70000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.4220696687698364, "final_success_probability": 0.033203125}
+{"phase": "eval", "env_steps": 70000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.5178846120834351, "final_success_probability": 0.09814453125}
+{"phase": "eval", "env_steps": 70000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.39178338646888733, "final_success_probability": 0.0260009765625}
+{"phase": "eval", "env_steps": 70000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.2162313461303711, "final_success_probability": 0.006683349609375}
+{"phase": "eval", "env_steps": 70000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.38888290524482727, "final_success_probability": 0.04345703125}
+{"phase": "eval", "env_steps": 70000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.4582187235355377, "final_success_probability": 0.10107421875}
+{"phase": "eval", "env_steps": 70000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.5582072138786316, "final_success_probability": 0.068359375}
+{"phase": "eval", "env_steps": 70000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.3457205891609192, "final_success_probability": 0.018798828125}
+{"phase": "eval", "env_steps": 70000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.35515499114990234, "final_success_probability": 0.0517578125}
+{"phase": "eval", "env_steps": 70000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.5507830381393433, "final_success_probability": 0.11279296875}
+{"phase": "eval", "env_steps": 70000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.43550267815589905, "final_success_probability": 0.040771484375}
+{"phase": "eval", "env_steps": 70000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.6592553853988647, "final_success_probability": 0.1630859375}
+{"phase": "eval", "env_steps": 70000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.18493309617042542, "final_success_probability": 0.0047607421875}
+{"phase": "eval", "env_steps": 70000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.5234451293945312, "final_success_probability": 0.07275390625}
+{"phase": "eval", "env_steps": 70000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.42831286787986755, "final_success_probability": 0.033203125}
+{"phase": "eval", "env_steps": 70000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.5296245813369751, "final_success_probability": 0.142578125}
+{"phase": "eval", "env_steps": 70000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.5814736485481262, "final_success_probability": 0.125}
+{"phase": "eval", "env_steps": 70000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.13959486782550812, "final_success_probability": 0.0091552734375}
+{"phase": "eval", "env_steps": 70000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.6272917985916138, "final_success_probability": 0.1689453125}
+{"phase": "eval", "env_steps": 70000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.5691801309585571, "final_success_probability": 0.1435546875}
+{"phase": "eval", "env_steps": 70000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.46793580055236816, "final_success_probability": 0.055908203125}
+{"phase": "eval", "env_steps": 70000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.44594240188598633, "final_success_probability": 0.053466796875}
+{"phase": "train", "env_steps": 70400, "worker": 2, "episode": 21, "success": false, "length": 400, "training_return": 185.64652486145496, "final_progress": 0.45601803064346313, "final_success_probability": 0.058349609375}
+{"phase": "train", "env_steps": 70400, "worker": 5, "episode": 21, "success": false, "length": 400, "training_return": 171.77101655304432, "final_progress": 0.39978745579719543, "final_success_probability": 0.0634765625}
+{"phase": "train", "env_steps": 71560, "worker": 4, "episode": 22, "success": false, "length": 400, "training_return": 201.52712666988373, "final_progress": 0.6006645560264587, "final_success_probability": 0.208984375}
+{"phase": "train", "env_steps": 71616, "worker": 3, "episode": 22, "success": false, "length": 400, "training_return": 169.14629162847996, "final_progress": 0.3600338101387024, "final_success_probability": 0.138671875}
+{"phase": "train", "env_steps": 72304, "worker": 7, "episode": 23, "success": false, "length": 400, "training_return": 206.5302183330059, "final_progress": 0.6543861627578735, "final_success_probability": 0.23046875}
+{"phase": "train", "env_steps": 72400, "worker": 6, "episode": 22, "success": false, "length": 400, "training_return": 232.4012262672186, "final_progress": 0.6172741055488586, "final_success_probability": 0.12890625}
+{"phase": "train", "env_steps": 72664, "worker": 0, "episode": 22, "success": false, "length": 400, "training_return": 225.928306594491, "final_progress": 0.31335902214050293, "final_success_probability": 0.0390625}
+{"phase": "train", "env_steps": 72720, "worker": 1, "episode": 23, "success": false, "length": 400, "training_return": 178.53764747083187, "final_progress": 0.3935135006904602, "final_success_probability": 0.054931640625}
+{"phase": "train", "env_steps": 73600, "worker": 2, "episode": 22, "success": false, "length": 400, "training_return": 214.92309649288654, "final_progress": 0.5627344250679016, "final_success_probability": 0.1259765625}
+{"phase": "train", "env_steps": 73600, "worker": 5, "episode": 22, "success": false, "length": 400, "training_return": 234.60675689578056, "final_progress": 0.6572336554527283, "final_success_probability": 0.2353515625}
+{"phase": "train", "env_steps": 74760, "worker": 4, "episode": 23, "success": false, "length": 400, "training_return": 167.58596976101398, "final_progress": 0.22585316002368927, "final_success_probability": 0.02978515625}
+{"phase": "train", "env_steps": 74816, "worker": 3, "episode": 23, "success": false, "length": 400, "training_return": 165.98936039209366, "final_progress": 0.3216918706893921, "final_success_probability": 0.02099609375}
+{"phase": "eval", "env_steps": 75000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.7059683799743652, "final_success_probability": 0.265625}
+{"phase": "eval", "env_steps": 75000, "episode": 1, "init_state_id": 26, "success": true, "length": 342, "final_progress": 0.1535528153181076, "final_success_probability": 0.001983642578125}
+{"phase": "eval", "env_steps": 75000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.5047813653945923, "final_success_probability": 0.0128173828125}
+{"phase": "eval", "env_steps": 75000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.8460783958435059, "final_success_probability": 0.69921875}
+{"phase": "eval", "env_steps": 75000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.489464670419693, "final_success_probability": 0.103515625}
+{"phase": "eval", "env_steps": 75000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.20972740650177002, "final_success_probability": 0.01031494140625}
+{"phase": "eval", "env_steps": 75000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.33653882145881653, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 75000, "episode": 7, "init_state_id": 32, "success": true, "length": 398, "final_progress": 0.8885478973388672, "final_success_probability": 0.83203125}
+{"phase": "eval", "env_steps": 75000, "episode": 8, "init_state_id": 33, "success": true, "length": 332, "final_progress": 0.3274451494216919, "final_success_probability": 0.0267333984375}
+{"phase": "eval", "env_steps": 75000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.4994029402732849, "final_success_probability": 0.08154296875}
+{"phase": "eval", "env_steps": 75000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.6581314206123352, "final_success_probability": 0.1943359375}
+{"phase": "eval", "env_steps": 75000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.7669747471809387, "final_success_probability": 0.376953125}
+{"phase": "eval", "env_steps": 75000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.6599283218383789, "final_success_probability": 0.271484375}
+{"phase": "eval", "env_steps": 75000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.5931167006492615, "final_success_probability": 0.1484375}
+{"phase": "eval", "env_steps": 75000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.5520177483558655, "final_success_probability": 0.0927734375}
+{"phase": "eval", "env_steps": 75000, "episode": 15, "init_state_id": 40, "success": true, "length": 220, "final_progress": 0.5387400984764099, "final_success_probability": 0.0927734375}
+{"phase": "eval", "env_steps": 75000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.29014021158218384, "final_success_probability": 0.010009765625}
+{"phase": "eval", "env_steps": 75000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.6906285285949707, "final_success_probability": 0.26171875}
+{"phase": "eval", "env_steps": 75000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.48335281014442444, "final_success_probability": 0.0255126953125}
+{"phase": "eval", "env_steps": 75000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.3459942042827606, "final_success_probability": 0.046142578125}
+{"phase": "eval", "env_steps": 75000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.3895709812641144, "final_success_probability": 0.03564453125}
+{"phase": "eval", "env_steps": 75000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.2550165355205536, "final_success_probability": 0.01202392578125}
+{"phase": "eval", "env_steps": 75000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.7009638547897339, "final_success_probability": 0.26953125}
+{"phase": "eval", "env_steps": 75000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.6205453872680664, "final_success_probability": 0.1748046875}
+{"phase": "eval", "env_steps": 75000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.7331413626670837, "final_success_probability": 0.37109375}
+{"phase": "train", "env_steps": 75504, "worker": 7, "episode": 24, "success": false, "length": 400, "training_return": 247.61353540420532, "final_progress": 0.777198076248169, "final_success_probability": 0.380859375}
+{"phase": "train", "env_steps": 75600, "worker": 6, "episode": 23, "success": false, "length": 400, "training_return": 173.53544062376022, "final_progress": 0.19157999753952026, "final_success_probability": 0.0057373046875}
+{"phase": "train", "env_steps": 75864, "worker": 0, "episode": 23, "success": false, "length": 400, "training_return": 126.01894530653954, "final_progress": 0.34345248341560364, "final_success_probability": 0.0140380859375}
+{"phase": "train", "env_steps": 75920, "worker": 1, "episode": 24, "success": false, "length": 400, "training_return": 216.38003166019917, "final_progress": 0.22626250982284546, "final_success_probability": 0.00360107421875}
+{"phase": "train", "env_steps": 76800, "worker": 2, "episode": 23, "success": false, "length": 400, "training_return": 146.7656468153, "final_progress": 0.40258949995040894, "final_success_probability": 0.06298828125}
+{"phase": "train", "env_steps": 76800, "worker": 5, "episode": 23, "success": false, "length": 400, "training_return": 208.90693125128746, "final_progress": 0.18020212650299072, "final_success_probability": 0.00433349609375}
+{"phase": "train", "env_steps": 77960, "worker": 4, "episode": 24, "success": false, "length": 400, "training_return": 195.3859488517046, "final_progress": 0.17582140862941742, "final_success_probability": 0.004913330078125}
+{"phase": "train", "env_steps": 78016, "worker": 3, "episode": 24, "success": false, "length": 400, "training_return": 139.7674826681614, "final_progress": 0.3047404885292053, "final_success_probability": 0.0206298828125}
+{"phase": "train", "env_steps": 78704, "worker": 7, "episode": 25, "success": false, "length": 400, "training_return": 170.95495007932186, "final_progress": 0.28529125452041626, "final_success_probability": 0.01068115234375}
+{"phase": "train", "env_steps": 78800, "worker": 6, "episode": 24, "success": false, "length": 400, "training_return": 174.98932075500488, "final_progress": 0.3041408658027649, "final_success_probability": 0.015869140625}
+{"phase": "train", "env_steps": 79064, "worker": 0, "episode": 24, "success": false, "length": 400, "training_return": 150.51581190526485, "final_progress": 0.3103393614292145, "final_success_probability": 0.025146484375}
+{"phase": "train", "env_steps": 79120, "worker": 1, "episode": 25, "success": false, "length": 400, "training_return": 224.02397425472736, "final_progress": 0.4221891462802887, "final_success_probability": 0.06103515625}
+{"phase": "train", "env_steps": 80000, "worker": 2, "episode": 24, "success": false, "length": 400, "training_return": 129.44301214814186, "final_progress": 0.1658419519662857, "final_success_probability": 0.00506591796875}
+{"phase": "train", "env_steps": 80000, "worker": 5, "episode": 24, "success": false, "length": 400, "training_return": 185.020342156291, "final_progress": 0.7194748520851135, "final_success_probability": 0.34765625}
+{"phase": "eval", "env_steps": 80000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.17032520473003387, "final_success_probability": 0.004913330078125}
+{"phase": "eval", "env_steps": 80000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.5396803617477417, "final_success_probability": 0.083984375}
+{"phase": "eval", "env_steps": 80000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.5029923915863037, "final_success_probability": 0.07177734375}
+{"phase": "eval", "env_steps": 80000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.7603546977043152, "final_success_probability": 0.431640625}
+{"phase": "eval", "env_steps": 80000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.5012129545211792, "final_success_probability": 0.0284423828125}
+{"phase": "eval", "env_steps": 80000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.5630975961685181, "final_success_probability": 0.09521484375}
+{"phase": "eval", "env_steps": 80000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.408647358417511, "final_success_probability": 0.1142578125}
+{"phase": "eval", "env_steps": 80000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.28157469630241394, "final_success_probability": 0.0654296875}
+{"phase": "eval", "env_steps": 80000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.6195957660675049, "final_success_probability": 0.140625}
+{"phase": "eval", "env_steps": 80000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.320686936378479, "final_success_probability": 0.03515625}
+{"phase": "eval", "env_steps": 80000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.4656241834163666, "final_success_probability": 0.06005859375}
+{"phase": "eval", "env_steps": 80000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.6678432822227478, "final_success_probability": 0.212890625}
+{"phase": "eval", "env_steps": 80000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.45697903633117676, "final_success_probability": 0.05419921875}
+{"phase": "eval", "env_steps": 80000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.6655918955802917, "final_success_probability": 0.2119140625}
+{"phase": "eval", "env_steps": 80000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.4318959414958954, "final_success_probability": 0.08251953125}
+{"phase": "eval", "env_steps": 80000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.16893185675144196, "final_success_probability": 0.00180816650390625}
+{"phase": "eval", "env_steps": 80000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.772504448890686, "final_success_probability": 0.41796875}
+{"phase": "eval", "env_steps": 80000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.3380049765110016, "final_success_probability": 0.01324462890625}
+{"phase": "eval", "env_steps": 80000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.1948448121547699, "final_success_probability": 0.007568359375}
+{"phase": "eval", "env_steps": 80000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.28372737765312195, "final_success_probability": 0.0223388671875}
+{"phase": "eval", "env_steps": 80000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.4459910988807678, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 80000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.8732321262359619, "final_success_probability": 0.66796875}
+{"phase": "eval", "env_steps": 80000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.6411385536193848, "final_success_probability": 0.2392578125}
+{"phase": "eval", "env_steps": 80000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.40104904770851135, "final_success_probability": 0.046142578125}
+{"phase": "eval", "env_steps": 80000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.29751843214035034, "final_success_probability": 0.016357421875}
+{"phase": "train", "env_steps": 81160, "worker": 4, "episode": 25, "success": false, "length": 400, "training_return": 189.49404199421406, "final_progress": 0.3332522213459015, "final_success_probability": 0.0419921875}
+{"phase": "train", "env_steps": 81216, "worker": 3, "episode": 25, "success": false, "length": 400, "training_return": 199.24954828619957, "final_progress": 0.24333606660366058, "final_success_probability": 0.0174560546875}
+{"phase": "train", "env_steps": 81904, "worker": 7, "episode": 26, "success": false, "length": 400, "training_return": 182.99045929312706, "final_progress": 0.7388479113578796, "final_success_probability": 0.306640625}
+{"phase": "train", "env_steps": 82000, "worker": 6, "episode": 25, "success": false, "length": 400, "training_return": 191.64192160964012, "final_progress": 0.4320931136608124, "final_success_probability": 0.0419921875}
+{"phase": "train", "env_steps": 82264, "worker": 0, "episode": 25, "success": false, "length": 400, "training_return": 196.92809458076954, "final_progress": 0.7080816030502319, "final_success_probability": 0.3203125}
+{"phase": "train", "env_steps": 82320, "worker": 1, "episode": 26, "success": false, "length": 400, "training_return": 197.43091750144958, "final_progress": 0.16592048108577728, "final_success_probability": 0.004058837890625}
+{"phase": "train", "env_steps": 83200, "worker": 2, "episode": 25, "success": false, "length": 400, "training_return": 208.88426980376244, "final_progress": 0.24543289840221405, "final_success_probability": 0.0174560546875}
+{"phase": "train", "env_steps": 83200, "worker": 5, "episode": 25, "success": false, "length": 400, "training_return": 227.31747324764729, "final_progress": 0.47204044461250305, "final_success_probability": 0.11767578125}
+{"phase": "train", "env_steps": 84360, "worker": 4, "episode": 26, "success": false, "length": 400, "training_return": 233.95211228728294, "final_progress": 0.3076508641242981, "final_success_probability": 0.03857421875}
+{"phase": "train", "env_steps": 84416, "worker": 3, "episode": 26, "success": false, "length": 400, "training_return": 140.54733209311962, "final_progress": 0.1672736257314682, "final_success_probability": 0.0033721923828125}
+{"phase": "eval", "env_steps": 85000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.4427761733531952, "final_success_probability": 0.058349609375}
+{"phase": "eval", "env_steps": 85000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.14478272199630737, "final_success_probability": 0.0017547607421875}
+{"phase": "eval", "env_steps": 85000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.16040199995040894, "final_success_probability": 0.002044677734375}
+{"phase": "eval", "env_steps": 85000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.6342476010322571, "final_success_probability": 0.1953125}
+{"phase": "eval", "env_steps": 85000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.20532812178134918, "final_success_probability": 0.00537109375}
+{"phase": "eval", "env_steps": 85000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.415971964597702, "final_success_probability": 0.05029296875}
+{"phase": "eval", "env_steps": 85000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.6176956295967102, "final_success_probability": 0.09033203125}
+{"phase": "eval", "env_steps": 85000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.17419347167015076, "final_success_probability": 0.00506591796875}
+{"phase": "eval", "env_steps": 85000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.4107237160205841, "final_success_probability": 0.0517578125}
+{"phase": "eval", "env_steps": 85000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.754746675491333, "final_success_probability": 0.37890625}
+{"phase": "eval", "env_steps": 85000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.1550828069448471, "final_success_probability": 0.002044677734375}
+{"phase": "eval", "env_steps": 85000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.16170671582221985, "final_success_probability": 0.00193023681640625}
+{"phase": "eval", "env_steps": 85000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.45995333790779114, "final_success_probability": 0.046630859375}
+{"phase": "eval", "env_steps": 85000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.7257032990455627, "final_success_probability": 0.306640625}
+{"phase": "eval", "env_steps": 85000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.34946319460868835, "final_success_probability": 0.027587890625}
+{"phase": "eval", "env_steps": 85000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.14590990543365479, "final_success_probability": 0.0032806396484375}
+{"phase": "eval", "env_steps": 85000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.20405401289463043, "final_success_probability": 0.00262451171875}
+{"phase": "eval", "env_steps": 85000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.18027634918689728, "final_success_probability": 0.0028839111328125}
+{"phase": "eval", "env_steps": 85000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.3079056441783905, "final_success_probability": 0.012451171875}
+{"phase": "eval", "env_steps": 85000, "episode": 19, "init_state_id": 44, "success": true, "length": 297, "final_progress": 0.8768652081489563, "final_success_probability": 0.7421875}
+{"phase": "eval", "env_steps": 85000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.3969435393810272, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 85000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.41560956835746765, "final_success_probability": 0.031982421875}
+{"phase": "eval", "env_steps": 85000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.16863006353378296, "final_success_probability": 0.002044677734375}
+{"phase": "eval", "env_steps": 85000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.18713150918483734, "final_success_probability": 0.00445556640625}
+{"phase": "eval", "env_steps": 85000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.1930636763572693, "final_success_probability": 0.00537109375}
+{"phase": "train", "env_steps": 85104, "worker": 7, "episode": 27, "success": false, "length": 400, "training_return": 130.38685996830463, "final_progress": 0.3423658609390259, "final_success_probability": 0.033203125}
+{"phase": "train", "env_steps": 85200, "worker": 6, "episode": 26, "success": false, "length": 400, "training_return": 160.25750537216663, "final_progress": 0.4182388186454773, "final_success_probability": 0.09814453125}
+{"phase": "train", "env_steps": 85464, "worker": 0, "episode": 26, "success": false, "length": 400, "training_return": 208.8807305842638, "final_progress": 0.544457733631134, "final_success_probability": 0.08740234375}
+{"phase": "train", "env_steps": 85520, "worker": 1, "episode": 27, "success": false, "length": 400, "training_return": 260.07530127465725, "final_progress": 0.5345835089683533, "final_success_probability": 0.11572265625}
+{"phase": "train", "env_steps": 86400, "worker": 2, "episode": 26, "success": false, "length": 400, "training_return": 169.83901558816433, "final_progress": 0.40975210070610046, "final_success_probability": 0.029296875}
+{"phase": "train", "env_steps": 86400, "worker": 5, "episode": 26, "success": false, "length": 400, "training_return": 164.60152859985828, "final_progress": 0.4065241813659668, "final_success_probability": 0.0260009765625}
+{"phase": "train", "env_steps": 87560, "worker": 4, "episode": 27, "success": false, "length": 400, "training_return": 253.79369570314884, "final_progress": 0.3800502419471741, "final_success_probability": 0.03173828125}
+{"phase": "train", "env_steps": 87616, "worker": 3, "episode": 27, "success": false, "length": 400, "training_return": 203.50340943038464, "final_progress": 0.32711806893348694, "final_success_probability": 0.0194091796875}
+{"phase": "train", "env_steps": 88304, "worker": 7, "episode": 28, "success": false, "length": 400, "training_return": 254.88338740170002, "final_progress": 0.447730153799057, "final_success_probability": 0.06005859375}
+{"phase": "train", "env_steps": 88400, "worker": 6, "episode": 27, "success": false, "length": 400, "training_return": 234.80181010067463, "final_progress": 0.6694990396499634, "final_success_probability": 0.255859375}
+{"phase": "train", "env_steps": 88664, "worker": 0, "episode": 27, "success": false, "length": 400, "training_return": 210.36170499026775, "final_progress": 0.6108593940734863, "final_success_probability": 0.166015625}
+{"phase": "train", "env_steps": 88720, "worker": 1, "episode": 28, "success": false, "length": 400, "training_return": 183.72370395064354, "final_progress": 0.3172382116317749, "final_success_probability": 0.03564453125}
+{"phase": "train", "env_steps": 89600, "worker": 2, "episode": 27, "success": false, "length": 400, "training_return": 210.45839081704617, "final_progress": 0.37783899903297424, "final_success_probability": 0.049560546875}
+{"phase": "train", "env_steps": 89600, "worker": 5, "episode": 27, "success": false, "length": 400, "training_return": 225.27978998422623, "final_progress": 0.5962358713150024, "final_success_probability": 0.19921875}
+{"phase": "eval", "env_steps": 90000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.31046098470687866, "final_success_probability": 0.0140380859375}
+{"phase": "eval", "env_steps": 90000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.5408406853675842, "final_success_probability": 0.12109375}
+{"phase": "eval", "env_steps": 90000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.6335570216178894, "final_success_probability": 0.212890625}
+{"phase": "eval", "env_steps": 90000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.7118321657180786, "final_success_probability": 0.3203125}
+{"phase": "eval", "env_steps": 90000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.3053515553474426, "final_success_probability": 0.0194091796875}
+{"phase": "eval", "env_steps": 90000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.4528370797634125, "final_success_probability": 0.02978515625}
+{"phase": "eval", "env_steps": 90000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.660542905330658, "final_success_probability": 0.2890625}
+{"phase": "eval", "env_steps": 90000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.4900345206260681, "final_success_probability": 0.08154296875}
+{"phase": "eval", "env_steps": 90000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.6088220477104187, "final_success_probability": 0.15625}
+{"phase": "eval", "env_steps": 90000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.19115124642848969, "final_success_probability": 0.00885009765625}
+{"phase": "eval", "env_steps": 90000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.5660205483436584, "final_success_probability": 0.140625}
+{"phase": "eval", "env_steps": 90000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.4644128680229187, "final_success_probability": 0.048095703125}
+{"phase": "eval", "env_steps": 90000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.6949910521507263, "final_success_probability": 0.275390625}
+{"phase": "eval", "env_steps": 90000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.5492507815361023, "final_success_probability": 0.1298828125}
+{"phase": "eval", "env_steps": 90000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.41158345341682434, "final_success_probability": 0.054931640625}
+{"phase": "eval", "env_steps": 90000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.5140120983123779, "final_success_probability": 0.154296875}
+{"phase": "eval", "env_steps": 90000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.6317678093910217, "final_success_probability": 0.2158203125}
+{"phase": "eval", "env_steps": 90000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.6589100360870361, "final_success_probability": 0.25}
+{"phase": "eval", "env_steps": 90000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.35159870982170105, "final_success_probability": 0.02978515625}
+{"phase": "eval", "env_steps": 90000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.47601842880249023, "final_success_probability": 0.08740234375}
+{"phase": "eval", "env_steps": 90000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.4706146717071533, "final_success_probability": 0.058349609375}
+{"phase": "eval", "env_steps": 90000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.5867141485214233, "final_success_probability": 0.103515625}
+{"phase": "eval", "env_steps": 90000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.5517387390136719, "final_success_probability": 0.1259765625}
+{"phase": "eval", "env_steps": 90000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.48495495319366455, "final_success_probability": 0.0634765625}
+{"phase": "eval", "env_steps": 90000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.30077600479125977, "final_success_probability": 0.01202392578125}
+{"phase": "train", "env_steps": 90760, "worker": 4, "episode": 28, "success": false, "length": 400, "training_return": 215.13664059340954, "final_progress": 0.46393293142318726, "final_success_probability": 0.1513671875}
+{"phase": "train", "env_steps": 90816, "worker": 3, "episode": 28, "success": false, "length": 400, "training_return": 204.24095217883587, "final_progress": 0.4137455224990845, "final_success_probability": 0.07373046875}
+{"phase": "train", "env_steps": 91504, "worker": 7, "episode": 29, "success": false, "length": 400, "training_return": 195.258804038167, "final_progress": 0.4080493152141571, "final_success_probability": 0.061767578125}
+{"phase": "train", "env_steps": 91600, "worker": 6, "episode": 28, "success": false, "length": 400, "training_return": 197.5260718613863, "final_progress": 0.5962243676185608, "final_success_probability": 0.1728515625}
+{"phase": "train", "env_steps": 91864, "worker": 0, "episode": 28, "success": false, "length": 400, "training_return": 204.73107707500458, "final_progress": 0.8269309401512146, "final_success_probability": 0.57421875}
+{"phase": "train", "env_steps": 91920, "worker": 1, "episode": 29, "success": false, "length": 400, "training_return": 213.86589382588863, "final_progress": 0.4751362204551697, "final_success_probability": 0.08642578125}
+{"phase": "train", "env_steps": 92800, "worker": 2, "episode": 28, "success": false, "length": 400, "training_return": 206.7045345157385, "final_progress": 0.5171209573745728, "final_success_probability": 0.0927734375}
+{"phase": "train", "env_steps": 92800, "worker": 5, "episode": 28, "success": false, "length": 400, "training_return": 251.06096825003624, "final_progress": 0.5770388245582581, "final_success_probability": 0.0966796875}
+{"phase": "train", "env_steps": 93960, "worker": 4, "episode": 29, "success": false, "length": 400, "training_return": 264.303139552474, "final_progress": 0.35643213987350464, "final_success_probability": 0.027587890625}
+{"phase": "train", "env_steps": 94016, "worker": 3, "episode": 29, "success": false, "length": 400, "training_return": 251.016311571002, "final_progress": 0.6715905070304871, "final_success_probability": 0.251953125}
+{"phase": "train", "env_steps": 94704, "worker": 7, "episode": 30, "success": false, "length": 400, "training_return": 177.75432024151087, "final_progress": 0.453304648399353, "final_success_probability": 0.08154296875}
+{"phase": "train", "env_steps": 94800, "worker": 6, "episode": 29, "success": false, "length": 400, "training_return": 169.29393927752972, "final_progress": 0.41734349727630615, "final_success_probability": 0.0927734375}
+{"phase": "eval", "env_steps": 95000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.7759594321250916, "final_success_probability": 0.35546875}
+{"phase": "eval", "env_steps": 95000, "episode": 1, "init_state_id": 26, "success": true, "length": 296, "final_progress": 0.9320709705352783, "final_success_probability": 0.921875}
+{"phase": "eval", "env_steps": 95000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.5709795951843262, "final_success_probability": 0.1259765625}
+{"phase": "eval", "env_steps": 95000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.17223843932151794, "final_success_probability": 0.0140380859375}
+{"phase": "eval", "env_steps": 95000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.45958226919174194, "final_success_probability": 0.044677734375}
+{"phase": "eval", "env_steps": 95000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.2961694598197937, "final_success_probability": 0.06103515625}
+{"phase": "eval", "env_steps": 95000, "episode": 6, "init_state_id": 31, "success": true, "length": 381, "final_progress": 0.32757994532585144, "final_success_probability": 0.02978515625}
+{"phase": "eval", "env_steps": 95000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.3554393947124481, "final_success_probability": 0.03857421875}
+{"phase": "eval", "env_steps": 95000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.44687360525131226, "final_success_probability": 0.03857421875}
+{"phase": "eval", "env_steps": 95000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.35206612944602966, "final_success_probability": 0.021240234375}
+{"phase": "eval", "env_steps": 95000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.2437126636505127, "final_success_probability": 0.06640625}
+{"phase": "eval", "env_steps": 95000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.7317781448364258, "final_success_probability": 0.330078125}
+{"phase": "eval", "env_steps": 95000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.6231358051300049, "final_success_probability": 0.294921875}
+{"phase": "eval", "env_steps": 95000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.39059561491012573, "final_success_probability": 0.02001953125}
+{"phase": "eval", "env_steps": 95000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.3257152736186981, "final_success_probability": 0.0206298828125}
+{"phase": "eval", "env_steps": 95000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.6463893055915833, "final_success_probability": 0.169921875}
+{"phase": "eval", "env_steps": 95000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.4496985971927643, "final_success_probability": 0.09033203125}
+{"phase": "eval", "env_steps": 95000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.40989741683006287, "final_success_probability": 0.064453125}
+{"phase": "eval", "env_steps": 95000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.7719388008117676, "final_success_probability": 0.431640625}
+{"phase": "eval", "env_steps": 95000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.4046405851840973, "final_success_probability": 0.07373046875}
+{"phase": "eval", "env_steps": 95000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.7721473574638367, "final_success_probability": 0.416015625}
+{"phase": "eval", "env_steps": 95000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.14795517921447754, "final_success_probability": 0.00347900390625}
+{"phase": "eval", "env_steps": 95000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.5774629712104797, "final_success_probability": 0.078125}
+{"phase": "eval", "env_steps": 95000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.732579231262207, "final_success_probability": 0.279296875}
+{"phase": "eval", "env_steps": 95000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.6900668740272522, "final_success_probability": 0.2734375}
+{"phase": "train", "env_steps": 95064, "worker": 0, "episode": 29, "success": false, "length": 400, "training_return": 216.79103416204453, "final_progress": 0.5586969256401062, "final_success_probability": 0.1259765625}
+{"phase": "train", "env_steps": 95120, "worker": 1, "episode": 30, "success": false, "length": 400, "training_return": 243.20164594054222, "final_progress": 0.7238351106643677, "final_success_probability": 0.3359375}
+{"phase": "train", "env_steps": 96000, "worker": 2, "episode": 29, "success": false, "length": 400, "training_return": 216.7973634749651, "final_progress": 0.6766979098320007, "final_success_probability": 0.21484375}
+{"phase": "train", "env_steps": 96000, "worker": 5, "episode": 29, "success": false, "length": 400, "training_return": 267.739892616868, "final_progress": 0.8607462048530579, "final_success_probability": 0.78125}
+{"phase": "train", "env_steps": 97160, "worker": 4, "episode": 30, "success": false, "length": 400, "training_return": 221.49450393021107, "final_progress": 0.7350364923477173, "final_success_probability": 0.3984375}
+{"phase": "train", "env_steps": 97216, "worker": 3, "episode": 30, "success": false, "length": 400, "training_return": 190.16834165155888, "final_progress": 0.20061150193214417, "final_success_probability": 0.0078125}
+{"phase": "train", "env_steps": 97904, "worker": 7, "episode": 31, "success": false, "length": 400, "training_return": 193.08368028700352, "final_progress": 0.7633852362632751, "final_success_probability": 0.34375}
+{"phase": "train", "env_steps": 98000, "worker": 6, "episode": 30, "success": false, "length": 400, "training_return": 152.03559485077858, "final_progress": 0.5107108354568481, "final_success_probability": 0.119140625}
+{"phase": "train", "env_steps": 98264, "worker": 0, "episode": 30, "success": false, "length": 400, "training_return": 170.41086307168007, "final_progress": 0.2567249834537506, "final_success_probability": 0.01202392578125}
+{"phase": "train", "env_steps": 98320, "worker": 1, "episode": 31, "success": false, "length": 400, "training_return": 239.23379138112068, "final_progress": 0.7058087587356567, "final_success_probability": 0.30078125}
+{"phase": "train", "env_steps": 99136, "worker": 4, "episode": 31, "success": true, "length": 247, "training_return": 118.22237485647202, "final_progress": 0.8989697694778442, "final_success_probability": 0.796875}
+{"phase": "train", "env_steps": 99200, "worker": 2, "episode": 30, "success": false, "length": 400, "training_return": 178.8496270030737, "final_progress": 0.4079161584377289, "final_success_probability": 0.033203125}
+{"phase": "train", "env_steps": 99200, "worker": 5, "episode": 30, "success": false, "length": 400, "training_return": 236.90270636975765, "final_progress": 0.41654840111732483, "final_success_probability": 0.048095703125}
+{"phase": "eval", "env_steps": 100000, "episode": 0, "init_state_id": 25, "success": false, "length": 400, "final_progress": 0.6996561884880066, "final_success_probability": 0.359375}
+{"phase": "eval", "env_steps": 100000, "episode": 1, "init_state_id": 26, "success": false, "length": 400, "final_progress": 0.7643777132034302, "final_success_probability": 0.408203125}
+{"phase": "eval", "env_steps": 100000, "episode": 2, "init_state_id": 27, "success": false, "length": 400, "final_progress": 0.3537222146987915, "final_success_probability": 0.033203125}
+{"phase": "eval", "env_steps": 100000, "episode": 3, "init_state_id": 28, "success": false, "length": 400, "final_progress": 0.4972395896911621, "final_success_probability": 0.0517578125}
+{"phase": "eval", "env_steps": 100000, "episode": 4, "init_state_id": 29, "success": false, "length": 400, "final_progress": 0.756884753704071, "final_success_probability": 0.365234375}
+{"phase": "eval", "env_steps": 100000, "episode": 5, "init_state_id": 30, "success": false, "length": 400, "final_progress": 0.5294832587242126, "final_success_probability": 0.0927734375}
+{"phase": "eval", "env_steps": 100000, "episode": 6, "init_state_id": 31, "success": false, "length": 400, "final_progress": 0.32768553495407104, "final_success_probability": 0.033203125}
+{"phase": "eval", "env_steps": 100000, "episode": 7, "init_state_id": 32, "success": false, "length": 400, "final_progress": 0.6054357290267944, "final_success_probability": 0.146484375}
+{"phase": "eval", "env_steps": 100000, "episode": 8, "init_state_id": 33, "success": false, "length": 400, "final_progress": 0.1620616763830185, "final_success_probability": 0.004608154296875}
+{"phase": "eval", "env_steps": 100000, "episode": 9, "init_state_id": 34, "success": false, "length": 400, "final_progress": 0.596257209777832, "final_success_probability": 0.07177734375}
+{"phase": "eval", "env_steps": 100000, "episode": 10, "init_state_id": 35, "success": false, "length": 400, "final_progress": 0.5287243127822876, "final_success_probability": 0.08642578125}
+{"phase": "eval", "env_steps": 100000, "episode": 11, "init_state_id": 36, "success": false, "length": 400, "final_progress": 0.5283101201057434, "final_success_probability": 0.1708984375}
+{"phase": "eval", "env_steps": 100000, "episode": 12, "init_state_id": 37, "success": false, "length": 400, "final_progress": 0.2174220085144043, "final_success_probability": 0.01165771484375}
+{"phase": "eval", "env_steps": 100000, "episode": 13, "init_state_id": 38, "success": false, "length": 400, "final_progress": 0.36712294816970825, "final_success_probability": 0.0216064453125}
+{"phase": "eval", "env_steps": 100000, "episode": 14, "init_state_id": 39, "success": false, "length": 400, "final_progress": 0.45449209213256836, "final_success_probability": 0.07177734375}
+{"phase": "eval", "env_steps": 100000, "episode": 15, "init_state_id": 40, "success": false, "length": 400, "final_progress": 0.5673857927322388, "final_success_probability": 0.01361083984375}
+{"phase": "eval", "env_steps": 100000, "episode": 16, "init_state_id": 41, "success": false, "length": 400, "final_progress": 0.2617641091346741, "final_success_probability": 0.0174560546875}
+{"phase": "eval", "env_steps": 100000, "episode": 17, "init_state_id": 42, "success": false, "length": 400, "final_progress": 0.8572534918785095, "final_success_probability": 0.8046875}
+{"phase": "eval", "env_steps": 100000, "episode": 18, "init_state_id": 43, "success": false, "length": 400, "final_progress": 0.5237381458282471, "final_success_probability": 0.0693359375}
+{"phase": "eval", "env_steps": 100000, "episode": 19, "init_state_id": 44, "success": false, "length": 400, "final_progress": 0.8645972013473511, "final_success_probability": 0.6796875}
+{"phase": "eval", "env_steps": 100000, "episode": 20, "init_state_id": 45, "success": false, "length": 400, "final_progress": 0.6226301789283752, "final_success_probability": 0.2353515625}
+{"phase": "eval", "env_steps": 100000, "episode": 21, "init_state_id": 46, "success": false, "length": 400, "final_progress": 0.6190252304077148, "final_success_probability": 0.166015625}
+{"phase": "eval", "env_steps": 100000, "episode": 22, "init_state_id": 47, "success": false, "length": 400, "final_progress": 0.6025596261024475, "final_success_probability": 0.1455078125}
+{"phase": "eval", "env_steps": 100000, "episode": 23, "init_state_id": 48, "success": false, "length": 400, "final_progress": 0.5290535688400269, "final_success_probability": 0.0849609375}
+{"phase": "eval", "env_steps": 100000, "episode": 24, "init_state_id": 49, "success": false, "length": 400, "final_progress": 0.5706623196601868, "final_success_probability": 0.068359375}

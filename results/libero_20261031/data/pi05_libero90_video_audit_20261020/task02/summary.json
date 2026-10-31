@@ -1,0 +1,42 @@
+{
+  "task_id": 2,
+  "task": "KITCHEN_SCENE10_put_the_black_bowl_in_the_top_drawer_of_the_cabinet",
+  "suite": "libero_90",
+  "seed": 100,
+  "horizon": 600,
+  "policy_checkpoint": "/data/rohan/Reward-Modeling/pi0_checkpoints/pi05_libero",
+  "policy_config_name": "pi05_libero",
+  "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "episodes": 25,
+  "successes": 22,
+  "success_rate": 0.88,
+  "wilson_ci95": [
+    0.7004420607907267,
+    0.9583318284955964
+  ],
+  "selection": {
+    "selection_seed": 20261022,
+    "episodes_evaluated": 25,
+    "available_successes": 22,
+    "available_failures": 3,
+    "selected_successes": [
+      49,
+      38
+    ],
+    "selected_failures": [
+      44,
+      36
+    ],
+    "selected_state_ids": [
+      49,
+      38,
+      44,
+      36
+    ]
+  },
+  "demonstration_source": "yifengzhu-hf/LIBERO-datasets",
+  "demonstration_revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "demonstration_sha256": "26a2cd4310cb6121b3718e1b41f49b615bf09a8c1a92c97f85a5020c40d06eae",
+  "video_every_physical_steps": 4,
+  "robometer_every_physical_steps": 20
+}

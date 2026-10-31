@@ -1,0 +1,18 @@
+{
+  "pid": 1798695,
+  "command": [
+    ".venv-policy/bin/python",
+    "-u",
+    "-m",
+    "experiments.libero",
+    "run",
+    "/data/rohan/Reward-Modeling/experiment_specs/task29_pi05_dsrl_4env_200k_20261027.json",
+    "--wait-for-gpus",
+    "--after-run",
+    "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_1m_20261026/pi05_libero90_task29_task29_pi05_dsrl_1m_20261026/seed100/sparse_seed100",
+    "--after-run",
+    "/data/rohan/Reward-Modeling/smoke_runs/parallel_dsrl_smoke_20261027/pi05_libero90_task29_parallel_dsrl_smoke_20261027/seed100/robometer_seed100",
+    "--resume"
+  ],
+  "budget_note": "200000 average physical steps per environment, 800000 total; eval every 10000 per environment (40000 total)"
+}

@@ -1,0 +1,9 @@
+{
+  "checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "cuda_visible_devices": "0",
+  "training_datasets": [
+    "rbm-1m-id"
+  ],
+  "model_type": "default",
+  "progress_loss_type": "discrete"
+}

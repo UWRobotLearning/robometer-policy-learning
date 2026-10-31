@@ -1,0 +1,123 @@
+{
+  "task_id": 55,
+  "seed": 100,
+  "successes": 7,
+  "episodes": 10,
+  "records": [
+    {
+      "init_state_id": 25,
+      "success": true,
+      "length": 170,
+      "chunks": 9,
+      "video": "episode_25.mp4",
+      "video_frames": 44,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.9164291620254517,
+      "final_success_probability": 0.8984375
+    },
+    {
+      "init_state_id": 26,
+      "success": true,
+      "length": 272,
+      "chunks": 14,
+      "video": "episode_26.mp4",
+      "video_frames": 69,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.9396562576293945,
+      "final_success_probability": 0.94140625
+    },
+    {
+      "init_state_id": 27,
+      "success": true,
+      "length": 126,
+      "chunks": 7,
+      "video": "episode_27.mp4",
+      "video_frames": 33,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.9298163056373596,
+      "final_success_probability": 0.9375
+    },
+    {
+      "init_state_id": 28,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_28.mp4",
+      "video_frames": 101,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.4105248749256134,
+      "final_success_probability": 0.08056640625
+    },
+    {
+      "init_state_id": 29,
+      "success": true,
+      "length": 128,
+      "chunks": 7,
+      "video": "episode_29.mp4",
+      "video_frames": 33,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.87801194190979,
+      "final_success_probability": 0.7890625
+    },
+    {
+      "init_state_id": 30,
+      "success": true,
+      "length": 242,
+      "chunks": 13,
+      "video": "episode_30.mp4",
+      "video_frames": 62,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.8823418021202087,
+      "final_success_probability": 0.8203125
+    },
+    {
+      "init_state_id": 31,
+      "success": true,
+      "length": 185,
+      "chunks": 10,
+      "video": "episode_31.mp4",
+      "video_frames": 48,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.9212892651557922,
+      "final_success_probability": 0.91015625
+    },
+    {
+      "init_state_id": 32,
+      "success": true,
+      "length": 204,
+      "chunks": 11,
+      "video": "episode_32.mp4",
+      "video_frames": 52,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.8876537084579468,
+      "final_success_probability": 0.84375
+    },
+    {
+      "init_state_id": 33,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_33.mp4",
+      "video_frames": 101,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.6058887243270874,
+      "final_success_probability": 0.2333984375
+    },
+    {
+      "init_state_id": 34,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_34.mp4",
+      "video_frames": 101,
+      "prompt": "pick up the alphabet soup and put it in the tray",
+      "final_progress": 0.7188628911972046,
+      "final_success_probability": 0.46875
+    }
+  ],
+  "policy_checkpoint": "/data/rohan/Reward-Modeling/pi0_checkpoints/pi0_libero",
+  "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "video_every_physical_steps": 4,
+  "robometer_every_physical_steps": 20,
+  "fps": 10
+}

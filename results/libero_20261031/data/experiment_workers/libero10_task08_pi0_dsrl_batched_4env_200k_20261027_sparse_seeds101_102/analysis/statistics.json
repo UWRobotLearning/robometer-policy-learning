@@ -1,0 +1,1392 @@
+{
+  "experiments": [
+    {
+      "suite": "libero_10",
+      "task": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+      "base_model": "pi0",
+      "curves": {
+        "sparse": [
+          {
+            "env_steps": 0,
+            "mean_actual_steps": 0.0,
+            "n": 2,
+            "mean": 0.6200000000000001,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -0.14237228418592562,
+              1.3823722841859258
+            ],
+            "values": [
+              0.56,
+              0.68
+            ]
+          },
+          {
+            "env_steps": 40000,
+            "mean_actual_steps": 40004.0,
+            "n": 2,
+            "mean": 0.44,
+            "sd": 0.0,
+            "t_ci95": [
+              0.44,
+              0.44
+            ],
+            "values": [
+              0.44,
+              0.44
+            ]
+          },
+          {
+            "env_steps": 80000,
+            "mean_actual_steps": 80010.5,
+            "n": 2,
+            "mean": 0.42,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -0.34237228418592575,
+              1.1823722841859257
+            ],
+            "values": [
+              0.36,
+              0.48
+            ]
+          },
+          {
+            "env_steps": 120000,
+            "mean_actual_steps": 120072.0,
+            "n": 2,
+            "mean": 0.4,
+            "sd": 0.05656854249492382,
+            "t_ci95": [
+              -0.10824818945728387,
+              0.9082481894572839
+            ],
+            "values": [
+              0.36,
+              0.44
+            ]
+          },
+          {
+            "env_steps": 160000,
+            "mean_actual_steps": 160102.0,
+            "n": 2,
+            "mean": 0.6,
+            "sd": 0.16970562748477142,
+            "t_ci95": [
+              -0.9247445683718515,
+              2.1247445683718515
+            ],
+            "values": [
+              0.48,
+              0.72
+            ]
+          },
+          {
+            "env_steps": 200000,
+            "mean_actual_steps": 200131.5,
+            "n": 2,
+            "mean": 0.8,
+            "sd": 0.056568542494923775,
+            "t_ci95": [
+              0.2917518105427165,
+              1.3082481894572835
+            ],
+            "values": [
+              0.84,
+              0.76
+            ]
+          },
+          {
+            "env_steps": 240000,
+            "mean_actual_steps": 240162.5,
+            "n": 2,
+            "mean": 0.8200000000000001,
+            "sd": 0.02828427124746185,
+            "t_ci95": [
+              0.5658759052713587,
+              1.0741240947286415
+            ],
+            "values": [
+              0.8,
+              0.84
+            ]
+          },
+          {
+            "env_steps": 280000,
+            "mean_actual_steps": 280234.0,
+            "n": 2,
+            "mean": 0.88,
+            "sd": 0.05656854249492385,
+            "t_ci95": [
+              0.3717518105427158,
+              1.3882481894572842
+            ],
+            "values": [
+              0.92,
+              0.84
+            ]
+          },
+          {
+            "env_steps": 320000,
+            "mean_actual_steps": 320262.5,
+            "n": 2,
+            "mean": 0.78,
+            "sd": 0.028284271247461926,
+            "t_ci95": [
+              0.525875905271358,
+              1.034124094728642
+            ],
+            "values": [
+              0.8,
+              0.76
+            ]
+          },
+          {
+            "env_steps": 360000,
+            "mean_actual_steps": 360313.5,
+            "n": 2,
+            "mean": 0.8,
+            "sd": 0.11313708498984763,
+            "t_ci95": [
+              -0.21649637891456774,
+              1.8164963789145678
+            ],
+            "values": [
+              0.72,
+              0.88
+            ]
+          },
+          {
+            "env_steps": 400000,
+            "mean_actual_steps": 400370.5,
+            "n": 2,
+            "mean": 0.44,
+            "sd": 0.056568542494923775,
+            "t_ci95": [
+              -0.06824818945728356,
+              0.9482481894572836
+            ],
+            "values": [
+              0.48,
+              0.4
+            ]
+          },
+          {
+            "env_steps": 440000,
+            "mean_actual_steps": 440404.5,
+            "n": 2,
+            "mean": 0.04,
+            "sd": 0.0565685424949238,
+            "t_ci95": [
+              -0.4682481894572838,
+              0.5482481894572838
+            ],
+            "values": [
+              0.0,
+              0.08
+            ]
+          },
+          {
+            "env_steps": 480000,
+            "mean_actual_steps": 480420.0,
+            "n": 2,
+            "mean": 0.08,
+            "sd": 0.1131370849898476,
+            "t_ci95": [
+              -0.9364963789145676,
+              1.0964963789145676
+            ],
+            "values": [
+              0.0,
+              0.16
+            ]
+          },
+          {
+            "env_steps": 520000,
+            "mean_actual_steps": 520442.5,
+            "n": 2,
+            "mean": 0.12,
+            "sd": 0.16970562748477142,
+            "t_ci95": [
+              -1.4047445683718514,
+              1.6447445683718516
+            ],
+            "values": [
+              0.0,
+              0.24
+            ]
+          },
+          {
+            "env_steps": 560000,
+            "mean_actual_steps": 560511.5,
+            "n": 2,
+            "mean": 0.06,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -0.7023722841859257,
+              0.8223722841859258
+            ],
+            "values": [
+              0.0,
+              0.12
+            ]
+          },
+          {
+            "env_steps": 600000,
+            "mean_actual_steps": 600558.0,
+            "n": 2,
+            "mean": 0.06,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -0.7023722841859257,
+              0.8223722841859258
+            ],
+            "values": [
+              0.12,
+              0.0
+            ]
+          },
+          {
+            "env_steps": 640000,
+            "mean_actual_steps": 640591.5,
+            "n": 2,
+            "mean": 0.02,
+            "sd": 0.0282842712474619,
+            "t_ci95": [
+              -0.2341240947286419,
+              0.2741240947286419
+            ],
+            "values": [
+              0.0,
+              0.04
+            ]
+          },
+          {
+            "env_steps": 680000,
+            "mean_actual_steps": 680635.0,
+            "n": 2,
+            "mean": 0.08,
+            "sd": 0.1131370849898476,
+            "t_ci95": [
+              -0.9364963789145676,
+              1.0964963789145676
+            ],
+            "values": [
+              0.16,
+              0.0
+            ]
+          },
+          {
+            "env_steps": 720000,
+            "mean_actual_steps": 720655.5,
+            "n": 2,
+            "mean": 0.22000000000000003,
+            "sd": 0.08485281374238572,
+            "t_ci95": [
+              -0.5423722841859258,
+              0.9823722841859259
+            ],
+            "values": [
+              0.28,
+              0.16
+            ]
+          },
+          {
+            "env_steps": 760000,
+            "mean_actual_steps": 760703.5,
+            "n": 2,
+            "mean": 0.0,
+            "sd": 0.0,
+            "t_ci95": [
+              0.0,
+              0.0
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "env_steps": 800000,
+            "mean_actual_steps": 800000.0,
+            "n": 2,
+            "mean": 0.0,
+            "sd": 0.0,
+            "t_ci95": [
+              0.0,
+              0.0
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "robometer": []
+      },
+      "normalized_auc_curves": {
+        "sparse": [
+          {
+            "env_steps": 40000,
+            "n": 2,
+            "mean": 0.53,
+            "sd": 0.04242640687119289,
+            "t_ci95": [
+              0.14881385790703688,
+              0.9111861420929632
+            ],
+            "values": [
+              0.5,
+              0.56
+            ]
+          },
+          {
+            "env_steps": 80000,
+            "n": 2,
+            "mean": 0.4799984376523257,
+            "sd": 0.04242508109570218,
+            "t_ci95": [
+              0.09882420717955037,
+              0.8611726681251011
+            ],
+            "values": [
+              0.4499993751171655,
+              0.5099975001874859
+            ]
+          },
+          {
+            "env_steps": 120000,
+            "n": 2,
+            "mean": 0.4566447353439949,
+            "sd": 0.05185763861594766,
+            "t_ci95": [
+              -0.009277662045873047,
+              0.9225671327338629
+            ],
+            "values": [
+              0.41997584742233696,
+              0.49331362326565287
+            ]
+          },
+          {
+            "env_steps": 160000,
+            "n": 2,
+            "mean": 0.4674842288041374,
+            "sd": 0.06717845666407112,
+            "t_ci95": [
+              -0.1360902573709768,
+              1.0710587149792516
+            ],
+            "values": [
+              0.4199818865473261,
+              0.5149865710609487
+            ]
+          },
+          {
+            "env_steps": 200000,
+            "n": 2,
+            "mean": 0.5139915944061825,
+            "sd": 0.06503461635508755,
+            "t_ci95": [
+              -0.07032125080259044,
+              1.0983044396149553
+            ],
+            "values": [
+              0.4680051761696345,
+              0.5599780126427304
+            ]
+          },
+          {
+            "env_steps": 240000,
+            "n": 2,
+            "mean": 0.5633307093903825,
+            "sd": 0.051840541107001585,
+            "t_ci95": [
+              0.09756192702368494,
+              1.0290994917570802
+            ],
+            "values": [
+              0.5266739112332418,
+              0.5999875075475234
+            ]
+          },
+          {
+            "env_steps": 280000,
+            "n": 2,
+            "mean": 0.604322921449711,
+            "sd": 0.042401041673695294,
+            "t_ci95": [
+              0.22336467661438947,
+              0.9852811662850325
+            ],
+            "values": [
+              0.5743408573528677,
+              0.6343049855465543
+            ]
+          },
+          {
+            "env_steps": 320000,
+            "n": 2,
+            "mean": 0.6325311672733817,
+            "sd": 0.031789970579401625,
+            "t_ci95": [
+              0.34690961371592405,
+              0.9181527208308393
+            ],
+            "values": [
+              0.6100522635029659,
+              0.6550100710437974
+            ]
+          },
+          {
+            "env_steps": 360000,
+            "n": 2,
+            "mean": 0.6500346708093027,
+            "sd": 0.03296935676589713,
+            "t_ci95": [
+              0.35381675277929286,
+              0.9462525888393125
+            ],
+            "values": [
+              0.6267218150687782,
+              0.6733475265498271
+            ]
+          },
+          {
+            "env_steps": 400000,
+            "n": 2,
+            "mean": 0.6470296528629522,
+            "sd": 0.03249991962072983,
+            "t_ci95": [
+              0.3550294602430798,
+              0.9390298454828246
+            ],
+            "values": [
+              0.6240487393111164,
+              0.670010566414788
+            ]
+          },
+          {
+            "env_steps": 440000,
+            "n": 2,
+            "mean": 0.6100281642439591,
+            "sd": 0.02951166250987759,
+            "t_ci95": [
+              0.3448763965478823,
+              0.875179931940036
+            ],
+            "values": [
+              0.5891602675591359,
+              0.6308960609287824
+            ]
+          },
+          {
+            "env_steps": 480000,
+            "n": 2,
+            "mean": 0.5642156641762501,
+            "sd": 0.034104178910082716,
+            "t_ci95": [
+              0.2578017737082,
+              0.8706295546443003
+            ],
+            "values": [
+              0.5401003680021313,
+              0.5883309603503688
+            ]
+          },
+          {
+            "env_steps": 520000,
+            "n": 2,
+            "mean": 0.5285202221546635,
+            "sd": 0.04232960348218628,
+            "t_ci95": [
+              0.148203824004641,
+              0.908836620304686
+            ],
+            "values": [
+              0.4985886724874719,
+              0.5584517718218551
+            ]
+          },
+          {
+            "env_steps": 560000,
+            "n": 2,
+            "mean": 0.4971708749655592,
+            "sd": 0.048413457227612054,
+            "t_ci95": [
+              0.062193219610385264,
+              0.9321485303207331
+            ],
+            "values": [
+              0.4629373910592298,
+              0.5314043588718885
+            ]
+          },
+          {
+            "env_steps": 600000,
+            "n": 2,
+            "mean": 0.4680192490198417,
+            "sd": 0.045182775982099715,
+            "t_ci95": [
+              0.06206811302200482,
+              0.8739703850176785
+            ],
+            "values": [
+              0.43607020173006633,
+              0.4999682963096171
+            ]
+          },
+          {
+            "env_steps": 640000,
+            "n": 2,
+            "mean": 0.4412702648136221,
+            "sd": 0.040590331699414256,
+            "t_ci95": [
+              0.07658060363755193,
+              0.8059599259896922
+            ],
+            "values": [
+              0.412568566018355,
+              0.4699719636088892
+            ]
+          },
+          {
+            "env_steps": 680000,
+            "n": 2,
+            "mean": 0.41825162718211384,
+            "sd": 0.03571372851267428,
+            "t_ci95": [
+              0.09737650728726238,
+              0.7391267470769654
+            ],
+            "values": [
+              0.3929982075693465,
+              0.4435050467948812
+            ]
+          },
+          {
+            "env_steps": 720000,
+            "n": 2,
+            "mean": 0.4033540852473764,
+            "sd": 0.02823050480855648,
+            "t_ci95": [
+              0.14971306280629965,
+              0.6569951076884533
+            ],
+            "values": [
+              0.3833921038609267,
+              0.42331606663382615
+            ]
+          },
+          {
+            "env_steps": 760000,
+            "n": 2,
+            "mean": 0.387910474099627,
+            "sd": 0.024513269650016014,
+            "t_ci95": [
+              0.16766748448367882,
+              0.6081534637155751
+            ],
+            "values": [
+              0.37057697490104624,
+              0.40524397329820766
+            ]
+          },
+          {
+            "env_steps": 800000,
+            "n": 2,
+            "mean": 0.36885595,
+            "sd": 0.023305390979771152,
+            "t_ci95": [
+              0.1594653196664412,
+              0.5782465803335588
+            ],
+            "values": [
+              0.35237655,
+              0.38533534999999997
+            ]
+          }
+        ],
+        "robometer": []
+      },
+      "final": {
+        "sparse": {
+          "n": 2,
+          "mean": 0.0,
+          "sd": 0.0,
+          "t_ci95": [
+            0.0,
+            0.0
+          ],
+          "values": [
+            0.0,
+            0.0
+          ]
+        },
+        "robometer": {
+          "n": 0,
+          "mean": null,
+          "sd": null,
+          "t_ci95": null,
+          "values": []
+        }
+      },
+      "normalized_auc": {
+        "sparse": {
+          "n": 2,
+          "mean": 0.36885595,
+          "sd": 0.023305390979771152,
+          "t_ci95": [
+            0.1594653196664412,
+            0.5782465803335588
+          ],
+          "values": [
+            0.35237655,
+            0.38533534999999997
+          ]
+        },
+        "robometer": {
+          "n": 0,
+          "mean": null,
+          "sd": null,
+          "t_ci95": null,
+          "values": []
+        }
+      },
+      "baseline": {
+        "n": 2,
+        "mean": 0.6200000000000001,
+        "sd": 0.08485281374238571,
+        "t_ci95": [
+          -0.14237228418592562,
+          1.3823722841859258
+        ],
+        "values": [
+          0.56,
+          0.68
+        ],
+        "seed_rates": {
+          "101": 0.56,
+          "102": 0.68
+        },
+        "episodes": 50.0,
+        "method": "95% Student t interval across seed means; reward arms averaged within each seed"
+      },
+      "checkpoint_comparisons": [
+        {
+          "env_steps": 0,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": 0.0,
+            "sd": 0.0,
+            "t_ci95": [
+              0.0,
+              0.0
+            ],
+            "values": [
+              0.0,
+              0.0
+            ],
+            "p": 1.0
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 40000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.18000000000000005,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -0.9423722841859258,
+              0.5823722841859257
+            ],
+            "values": [
+              -0.12000000000000005,
+              -0.24000000000000005
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 80000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.20000000000000007,
+            "sd": 0.0,
+            "t_ci95": [
+              -0.20000000000000007,
+              -0.20000000000000007
+            ],
+            "values": [
+              -0.20000000000000007,
+              -0.20000000000000007
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 120000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.22000000000000006,
+            "sd": 0.028284271247461888,
+            "t_ci95": [
+              -0.4741240947286418,
+              0.034124094728641724
+            ],
+            "values": [
+              -0.20000000000000007,
+              -0.24000000000000005
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 160000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.020000000000000073,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -0.7823722841859257,
+              0.7423722841859257
+            ],
+            "values": [
+              -0.08000000000000007,
+              0.039999999999999925
+            ],
+            "p": 1.0
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 200000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": 0.17999999999999994,
+            "sd": 0.14142135623730948,
+            "t_ci95": [
+              -1.0906204736432092,
+              1.4506204736432091
+            ],
+            "values": [
+              0.2799999999999999,
+              0.07999999999999996
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 240000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": 0.19999999999999996,
+            "sd": 0.05656854249492385,
+            "t_ci95": [
+              -0.30824818945728427,
+              0.7082481894572842
+            ],
+            "values": [
+              0.24,
+              0.15999999999999992
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 280000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": 0.25999999999999995,
+            "sd": 0.14142135623730956,
+            "t_ci95": [
+              -1.0106204736432098,
+              1.5306204736432099
+            ],
+            "values": [
+              0.36,
+              0.15999999999999992
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 320000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": 0.15999999999999998,
+            "sd": 0.11313708498984763,
+            "t_ci95": [
+              -0.8564963789145679,
+              1.1764963789145677
+            ],
+            "values": [
+              0.24,
+              0.07999999999999996
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 360000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": 0.17999999999999994,
+            "sd": 0.028284271247461926,
+            "t_ci95": [
+              -0.07412409472864218,
+              0.43412409472864205
+            ],
+            "values": [
+              0.15999999999999992,
+              0.19999999999999996
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 400000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.18000000000000005,
+            "sd": 0.14142135623730948,
+            "t_ci95": [
+              -1.4506204736432093,
+              1.090620473643209
+            ],
+            "values": [
+              -0.08000000000000007,
+              -0.28
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 440000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.5800000000000001,
+            "sd": 0.028284271247461926,
+            "t_ci95": [
+              -0.8341240947286421,
+              -0.32587590527135796
+            ],
+            "values": [
+              -0.56,
+              -0.6000000000000001
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 480000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.54,
+            "sd": 0.028284271247461926,
+            "t_ci95": [
+              -0.7941240947286421,
+              -0.2858759052713579
+            ],
+            "values": [
+              -0.56,
+              -0.52
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 520000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.5,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -1.2623722841859257,
+              0.26237228418592573
+            ],
+            "values": [
+              -0.56,
+              -0.44000000000000006
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 560000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.56,
+            "sd": 0.0,
+            "t_ci95": [
+              -0.56,
+              -0.56
+            ],
+            "values": [
+              -0.56,
+              -0.56
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 600000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.56,
+            "sd": 0.16970562748477142,
+            "t_ci95": [
+              -2.0847445683718515,
+              0.9647445683718514
+            ],
+            "values": [
+              -0.44000000000000006,
+              -0.68
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 640000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.6000000000000001,
+            "sd": 0.056568542494923775,
+            "t_ci95": [
+              -1.1082481894572838,
+              -0.09175181054271653
+            ],
+            "values": [
+              -0.56,
+              -0.64
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 680000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.54,
+            "sd": 0.19798989873223333,
+            "t_ci95": [
+              -2.3188686631004938,
+              1.2388686631004935
+            ],
+            "values": [
+              -0.4,
+              -0.68
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 720000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.4,
+            "sd": 0.16970562748477142,
+            "t_ci95": [
+              -1.9247445683718514,
+              1.1247445683718515
+            ],
+            "values": [
+              -0.28,
+              -0.52
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 760000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.6200000000000001,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -1.3823722841859258,
+              0.14237228418592562
+            ],
+            "values": [
+              -0.56,
+              -0.68
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        },
+        {
+          "env_steps": 800000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 2,
+            "mean": -0.6200000000000001,
+            "sd": 0.08485281374238571,
+            "t_ci95": [
+              -1.3823722841859258,
+              0.14237228418592562
+            ],
+            "values": [
+              -0.56,
+              -0.68
+            ],
+            "p": 0.5
+          },
+          "robometer_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          }
+        }
+      ],
+      "paired_final_sparse_minus_robometer": {
+        "n": 0,
+        "mean": null,
+        "sd": null,
+        "t_ci95": null,
+        "values": [],
+        "p": null
+      },
+      "paired_auc_sparse_minus_robometer": {
+        "n": 0,
+        "mean": null,
+        "sd": null,
+        "t_ci95": null,
+        "values": [],
+        "p": null
+      },
+      "completed_paired_seeds": [],
+      "uncertainty": "95% Student t intervals over training seeds, conditional on this held-out reset set; missing runs excluded",
+      "tests": "Two-sided exact paired seed sign-flip tests; checkpoint p-values are pointwise and uncorrected",
+      "alignment": "Scheduled transition bins; mean_actual_steps records chunk-boundary overshoot"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+{"step": 64, "updates": 1, "td_loss": 7.30219030380249, "update_seconds": 42.31758999824524, "actor_loss": -0.0, "bc_loss": 0.00032568711321800947, "gradient_norm": 0.0010061116190627217, "advantage_std": 0.0, "ratio": 1.0, "clipped_fraction": 0.0}
+{"step": 68, "updates": 2, "td_loss": 0.6858258247375488, "update_seconds": 26.905550479888916, "actor_loss": -0.0, "bc_loss": 0.021035607904195786, "gradient_norm": 0.009870778769254684, "advantage_std": 0.0, "ratio": 0.9993974566459656, "clipped_fraction": 0.0}

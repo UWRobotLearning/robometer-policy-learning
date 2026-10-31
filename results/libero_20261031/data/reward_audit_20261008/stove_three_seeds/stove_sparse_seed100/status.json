@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "env_steps": 100000,
+  "final_metrics": {
+    "success_rate": 0.32,
+    "successes": 8,
+    "episodes": 25,
+    "ci_low": 0.17205190306907978,
+    "ci_high": 0.5158973072689775
+  }
+}

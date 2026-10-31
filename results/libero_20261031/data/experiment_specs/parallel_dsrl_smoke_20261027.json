@@ -1,0 +1,88 @@
+{
+  "name": "parallel_dsrl_smoke_20261027",
+  "suite": "libero_90",
+  "tasks": [
+    29
+  ],
+  "base_model": "pi0.5",
+  "rewards": [
+    "robometer"
+  ],
+  "seeds": [
+    100
+  ],
+  "steps": 160,
+  "eval_every": 80,
+  "eval_episodes": 1,
+  "horizon": 20,
+  "train_init_states": 25,
+  "num_envs": 4,
+  "settle_steps": 10,
+  "save_every": 80,
+  "log_every": 40,
+  "buffer_capacity": 100000,
+  "torch_threads": 4,
+  "worker_timeout": 1800,
+  "eval_videos": 0,
+  "dino_checkpoint": "facebook/dinov2-small",
+  "actor_hidden": [
+    512,
+    512
+  ],
+  "critic_hidden": [
+    768,
+    512,
+    256
+  ],
+  "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "reward_camera": "agentview_image",
+  "reward_batch_size": 4,
+  "updates_per_transition": 1,
+  "initial_actor": null,
+  "ood_claim": "unverified",
+  "rolling_checkpoint_only": true,
+  "audit_sparse_rewards": false,
+  "sac": {
+    "learning_starts": 0,
+    "gamma": 0.9801888648295347,
+    "tau": 0.005,
+    "batch_size": 128,
+    "num_critics": 5,
+    "n_critics_to_sample": 2,
+    "pooled_critic_features": true,
+    "target_update_interval": 1,
+    "num_critic_updates_per_actor_update": 25,
+    "num_updates_per_train_step": 1,
+    "actor_optimizer_lr": 0.0001,
+    "critic_optimizer_lr": 0.0003,
+    "ent_coef_lr": 0.0003,
+    "target_entropy": -16,
+    "train_actor_with_entropy": true,
+    "train_critic_with_entropy": false,
+    "compute_chunked_gamma": false,
+    "clip_grad_norm": 10.0
+  },
+  "dsrl": {
+    "method": "SAC direct pi0 noise (original DSRL semantics)",
+    "noise_dim": 32,
+    "action_exec_len": 10,
+    "noise_mode": "direct"
+  },
+  "runtime": {
+    "data_root": "/data/rohan/Reward-Modeling",
+    "gpus": [
+      1
+    ],
+    "reward_gpu": null,
+    "policy_python": "/home/rohan/Robotics/Reward-Modeling/robometer-policy-learning/.venv-policy/bin/python",
+    "openpi_python": "/data/rohan/Reward-Modeling/.venv-pi0/bin/python",
+    "reward_python": "/home/rohan/Robotics/Reward-Modeling/robometer-policy-learning/.venv-reward/bin/python",
+    "cache_dir": "/data/rohan/Reward-Modeling/pi0_libero90_task38_five_seeds_20261011/cache",
+    "tmp_dir": "/data/rohan/rbm-tmp",
+    "min_free_gib": 30
+  },
+  "max_frames": 8,
+  "sparse_offset": 0.0,
+  "reward_formula": "progress_chunk_mean",
+  "checkpoint": "/data/rohan/Reward-Modeling/pi0_checkpoints/pi05_libero"
+}

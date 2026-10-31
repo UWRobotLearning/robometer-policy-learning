@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "env_steps": 100000,
+  "final_metrics": {
+    "success_rate": 0.0,
+    "successes": 0,
+    "episodes": 25,
+    "ci_low": 1.3877787807814457e-17,
+    "ci_high": 0.13319225093904846,
+    "reward_alignment": {
+      "n": 25,
+      "progress_auc": null,
+      "success_brier": 0.05746987887658179,
+      "success_progress_mean": null,
+      "failure_progress_mean": 0.6157137620449066,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": null
+    }
+  }
+}

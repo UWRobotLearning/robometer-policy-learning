@@ -1,0 +1,19 @@
+{
+  "status": "measured",
+  "comparisons": [
+    {
+      "run": "sanity_robometer",
+      "baseline": "sanity_sparse",
+      "mismatches": [],
+      "reward_formula": "progress_minus_one",
+      "ood_claim": "paper_protocol_public_checkpoint",
+      "conclusion": "incomplete_or_unmatched_comparison"
+    }
+  ],
+  "limitations": [
+    "Single training seed",
+    "Curves show Wilson intervals over reset states, not training seeds",
+    "Released general checkpoint is not the paper's LIBERO-only H2 ablation checkpoint",
+    "Wrist arm tests an explicit reward-input shift; it is not proof of natural task OOD failure"
+  ]
+}

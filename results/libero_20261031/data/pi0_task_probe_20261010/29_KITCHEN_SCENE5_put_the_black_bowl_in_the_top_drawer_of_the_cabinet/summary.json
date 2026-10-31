@@ -1,0 +1,161 @@
+{
+  "successes": 6,
+  "episodes": 25,
+  "success_rate": 0.24,
+  "wilson_ci95": [
+    0.11496313693401444,
+    0.4342968335542908
+  ],
+  "records": [
+    {
+      "init_state_id": 25,
+      "success": true,
+      "length": 190,
+      "chunks": 10
+    },
+    {
+      "init_state_id": 26,
+      "success": true,
+      "length": 136,
+      "chunks": 7
+    },
+    {
+      "init_state_id": 27,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 28,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 29,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 30,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 31,
+      "success": true,
+      "length": 138,
+      "chunks": 7
+    },
+    {
+      "init_state_id": 32,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 33,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 34,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 35,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 36,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 37,
+      "success": true,
+      "length": 152,
+      "chunks": 8
+    },
+    {
+      "init_state_id": 38,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 39,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 40,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 41,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 42,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 43,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 44,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 45,
+      "success": true,
+      "length": 132,
+      "chunks": 7
+    },
+    {
+      "init_state_id": 46,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 47,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 48,
+      "success": true,
+      "length": 243,
+      "chunks": 13
+    },
+    {
+      "init_state_id": 49,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    }
+  ]
+}

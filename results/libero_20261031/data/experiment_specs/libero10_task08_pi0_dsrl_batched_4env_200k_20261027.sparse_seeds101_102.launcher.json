@@ -1,0 +1,15 @@
+{
+  "pid": 3291897,
+  "command": [
+    ".venv-policy/bin/python",
+    "-u",
+    "-m",
+    "experiments.libero",
+    "run",
+    "/data/rohan/Reward-Modeling/experiment_specs/libero10_task08_pi0_dsrl_batched_4env_200k_20261027.sparse_seeds101_102.json",
+    "--out",
+    "/data/rohan/Reward-Modeling/experiment_workers/libero10_task08_pi0_dsrl_batched_4env_200k_20261027_sparse_seeds101_102",
+    "--wait-for-gpus"
+  ],
+  "combined_task": "/data/rohan/Reward-Modeling/experiments/libero10_task08_pi0_dsrl_batched_4env_200k_20261027/pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027"
+}

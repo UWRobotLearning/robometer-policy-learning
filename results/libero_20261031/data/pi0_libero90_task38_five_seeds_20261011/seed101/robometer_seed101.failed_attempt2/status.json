@@ -1,0 +1,4 @@
+{
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"/home/rohan/Robotics/Reward-Modeling/robometer-policy-learning/experiments/pi0_stove/rl.py\", line 117, in run\n    policy = Pi0Client(Path(cfg[\"pi0_python\"]), Path(cfg[\"pi0_checkpoint\"]), cfg[\"seed\"], cfg[\"policy_gpu\"], out)\n  File \"/home/rohan/Robotics/Reward-Modeling/robometer-policy-learning/experiments/pi0_stove/baseline.py\", line 30, in __init__\n    raise ValueError(\"Pi0 RPC socket path too long; choose a shorter TMPDIR\")\nValueError: Pi0 RPC socket path too long; choose a shorter TMPDIR\n"
+}

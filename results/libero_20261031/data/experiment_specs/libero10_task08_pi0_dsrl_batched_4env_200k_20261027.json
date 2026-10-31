@@ -1,0 +1,32 @@
+{
+  "name": "libero10_task08_pi0_dsrl_batched_4env_200k_20261027",
+  "base_model": "pi0",
+  "suite": "libero_10",
+  "tasks": [
+    8
+  ],
+  "seeds": [
+    100
+  ],
+  "rewards": [
+    "sparse",
+    "robometer"
+  ],
+  "num_envs": 4,
+  "steps": 800000,
+  "horizon": 600,
+  "eval_episodes": 25,
+  "runtime": {
+    "gpus": [
+      0,
+      1
+    ],
+    "cache_dir": "/data/rohan/Reward-Modeling/pi0_libero90_task38_five_seeds_20261011/cache",
+    "tmp_dir": "/data/rohan/rbm-tmp",
+    "data_root": "/data/rohan/Reward-Modeling"
+  },
+  "eval_every": 40000,
+  "dsrl": {
+    "batched_inference": true
+  }
+}

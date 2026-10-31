@@ -1,0 +1,25 @@
+{
+  "suite": "libero_10",
+  "task_id": 8,
+  "task": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "rewards": [
+    "sparse",
+    "robometer"
+  ],
+  "steps_per_run": 100000,
+  "algorithm": "direct DSRL",
+  "created": "2026-10-16T05:53:01.036109+00:00",
+  "pi0_checkpoint": "/data/rohan/Reward-Modeling/pi0_checkpoints/pi0_libero",
+  "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "baseline": "/data/rohan/Reward-Modeling/pi0_libero_families_20261014/libero_10"
+}

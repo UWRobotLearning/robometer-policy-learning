@@ -35,3 +35,6 @@ checkpoints/*
 extracted_episodes*
 replay_buffer/*
 replay_buffers/*
+
+# Local full experiment data; only curated results snapshots are published.
+/local_results

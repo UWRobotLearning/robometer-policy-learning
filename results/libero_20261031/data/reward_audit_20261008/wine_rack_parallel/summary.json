@@ -1,0 +1,29 @@
+{
+  "status": "measured",
+  "comparisons": [
+    {
+      "run": "wine_robometer",
+      "baseline": "wine_sparse",
+      "mismatches": [],
+      "reward_formula": "progress",
+      "ood_claim": "in_distribution",
+      "final": {
+        "difference": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "paired_states": 25,
+        "uncertainty": "Reset-state bootstrap for a single training seed; not seed-level uncertainty"
+      },
+      "initial_success_difference": 0.0,
+      "sparse_improvement": 0.0,
+      "normalized_success_auc_difference": 0.0,
+      "conclusion": "no_evidence_of_reward_harm_in_this_seed"
+    }
+  ],
+  "limitations": [
+    "Single training seed",
+    "Curves show Wilson intervals over reset states, not training seeds",
+    "Released general checkpoint is not the paper's LIBERO-only H2 ablation checkpoint",
+    "Wrist arm tests an explicit reward-input shift; it is not proof of natural task OOD failure"
+  ]
+}

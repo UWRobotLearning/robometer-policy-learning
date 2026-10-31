@@ -1,0 +1,59 @@
+{
+  "source": "yifengzhu-hf/LIBERO-datasets",
+  "revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "source_file": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_demo.hdf5",
+  "sha256": "75988131f8f443d68108bbfaacc22dab229ece93f141362524e69a2c49a23516",
+  "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+  "fps": 10,
+  "video_every_physical_steps": 4,
+  "demonstrations": [
+    {
+      "demo_id": 0,
+      "length": 203,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 202,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+    },
+    {
+      "demo_id": 1,
+      "length": 325,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 324,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+    },
+    {
+      "demo_id": 2,
+      "length": 253,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 252,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+    },
+    {
+      "demo_id": 3,
+      "length": 240,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 239,
+          "reward": 1.0
+        }
+      ],
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+    }
+  ]
+}

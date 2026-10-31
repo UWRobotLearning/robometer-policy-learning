@@ -1,0 +1,56 @@
+{
+  "task": "LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "new_seeds": [
+    101,
+    102,
+    103,
+    104
+  ],
+  "seed100_run": "/data/rohan/Reward-Modeling/pi0_libero90_task55_20261010/dsrl_LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray_seed100",
+  "created": "2026-10-11T09:10:33.391030+00:00",
+  "lanes": {
+    "0": [
+      [
+        "sparse",
+        101
+      ],
+      [
+        "sparse",
+        103
+      ],
+      [
+        "robometer",
+        101
+      ],
+      [
+        "robometer",
+        103
+      ]
+    ],
+    "1": [
+      [
+        "sparse",
+        102
+      ],
+      [
+        "sparse",
+        104
+      ],
+      [
+        "robometer",
+        102
+      ],
+      [
+        "robometer",
+        104
+      ]
+    ]
+  }
+}

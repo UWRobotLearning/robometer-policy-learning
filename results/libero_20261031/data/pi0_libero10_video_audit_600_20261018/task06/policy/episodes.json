@@ -1,0 +1,243 @@
+[
+  {
+    "init_state_id": 26,
+    "success": true,
+    "length": 271,
+    "chunks": 14,
+    "video": "episode_26.mp4",
+    "video_frames": 69,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.7972214818000793,
+    "final_success_probability": 0.515625
+  },
+  {
+    "init_state_id": 25,
+    "success": true,
+    "length": 238,
+    "chunks": 12,
+    "video": "episode_25.mp4",
+    "video_frames": 61,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.8700391054153442,
+    "final_success_probability": 0.80859375
+  },
+  {
+    "init_state_id": 29,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_29.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.8186497092247009,
+    "final_success_probability": 0.69921875
+  },
+  {
+    "init_state_id": 35,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_35.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.8612924218177795,
+    "final_success_probability": 0.87109375
+  },
+  {
+    "init_state_id": 27,
+    "success": true,
+    "length": 283,
+    "chunks": 15,
+    "video": "episode_27.mp4",
+    "video_frames": 72,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 28,
+    "success": true,
+    "length": 217,
+    "chunks": 11,
+    "video": "episode_28.mp4",
+    "video_frames": 56,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 30,
+    "success": true,
+    "length": 213,
+    "chunks": 11,
+    "video": "episode_30.mp4",
+    "video_frames": 55,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 31,
+    "success": true,
+    "length": 233,
+    "chunks": 12,
+    "video": "episode_31.mp4",
+    "video_frames": 60,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 32,
+    "success": true,
+    "length": 219,
+    "chunks": 11,
+    "video": "episode_32.mp4",
+    "video_frames": 56,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 33,
+    "success": true,
+    "length": 295,
+    "chunks": 15,
+    "video": "episode_33.mp4",
+    "video_frames": 75,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 34,
+    "success": true,
+    "length": 310,
+    "chunks": 16,
+    "video": "episode_34.mp4",
+    "video_frames": 79,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 36,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_36.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.9430737495422363,
+    "final_success_probability": 0.94921875
+  },
+  {
+    "init_state_id": 37,
+    "success": true,
+    "length": 226,
+    "chunks": 12,
+    "video": "episode_37.mp4",
+    "video_frames": 58,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 38,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_38.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 39,
+    "success": true,
+    "length": 237,
+    "chunks": 12,
+    "video": "episode_39.mp4",
+    "video_frames": 61,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 40,
+    "success": true,
+    "length": 251,
+    "chunks": 13,
+    "video": "episode_40.mp4",
+    "video_frames": 64,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 41,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_41.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 42,
+    "success": true,
+    "length": 212,
+    "chunks": 11,
+    "video": "episode_42.mp4",
+    "video_frames": 54,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 43,
+    "success": true,
+    "length": 220,
+    "chunks": 11,
+    "video": "episode_43.mp4",
+    "video_frames": 56,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 44,
+    "success": true,
+    "length": 217,
+    "chunks": 11,
+    "video": "episode_44.mp4",
+    "video_frames": 56,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 45,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_45.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  },
+  {
+    "init_state_id": 46,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_46.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.7111079692840576,
+    "final_success_probability": 0.296875
+  },
+  {
+    "init_state_id": 47,
+    "success": true,
+    "length": 221,
+    "chunks": 12,
+    "video": "episode_47.mp4",
+    "video_frames": 57,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.8922204375267029,
+    "final_success_probability": 0.890625
+  },
+  {
+    "init_state_id": 48,
+    "success": true,
+    "length": 222,
+    "chunks": 12,
+    "video": "episode_48.mp4",
+    "video_frames": 57,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "final_progress": 0.8749523162841797,
+    "final_success_probability": 0.82421875
+  },
+  {
+    "init_state_id": 49,
+    "success": false,
+    "length": 600,
+    "chunks": 30,
+    "video": "episode_49.mp4",
+    "video_frames": 151,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate"
+  }
+]

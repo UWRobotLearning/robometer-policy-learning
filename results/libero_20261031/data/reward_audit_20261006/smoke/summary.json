@@ -1,0 +1,10 @@
+{
+  "status": "measured",
+  "comparisons": [],
+  "limitations": [
+    "Single training seed",
+    "Curves show Wilson intervals over reset states, not training seeds",
+    "Released general checkpoint is not the paper's LIBERO-only H2 ablation checkpoint",
+    "Wrist arm tests an explicit reward-input shift; it is not proof of natural task OOD failure"
+  ]
+}

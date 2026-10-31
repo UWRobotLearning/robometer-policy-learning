@@ -1,0 +1,1158 @@
+{
+  "experiments": [
+    {
+      "suite": "libero_10",
+      "task": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+      "base_model": "pi0",
+      "curves": {
+        "sparse": [],
+        "robometer": [
+          {
+            "env_steps": 0,
+            "mean_actual_steps": 0.0,
+            "n": 1,
+            "mean": 0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.48
+            ]
+          },
+          {
+            "env_steps": 40000,
+            "mean_actual_steps": 40012.0,
+            "n": 1,
+            "mean": 0.32,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.32
+            ]
+          },
+          {
+            "env_steps": 80000,
+            "mean_actual_steps": 80035.0,
+            "n": 1,
+            "mean": 0.08,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.08
+            ]
+          },
+          {
+            "env_steps": 120000,
+            "mean_actual_steps": 120042.0,
+            "n": 1,
+            "mean": 0.72,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.72
+            ]
+          },
+          {
+            "env_steps": 160000,
+            "mean_actual_steps": 160101.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 200000,
+            "mean_actual_steps": 200153.0,
+            "n": 1,
+            "mean": 0.88,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.88
+            ]
+          },
+          {
+            "env_steps": 240000,
+            "mean_actual_steps": 240213.0,
+            "n": 1,
+            "mean": 0.36,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.36
+            ]
+          },
+          {
+            "env_steps": 280000,
+            "mean_actual_steps": 280261.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 320000,
+            "mean_actual_steps": 320285.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 360000,
+            "mean_actual_steps": 360289.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 400000,
+            "mean_actual_steps": 400334.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 440000,
+            "mean_actual_steps": 440394.0,
+            "n": 1,
+            "mean": 0.28,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.28
+            ]
+          },
+          {
+            "env_steps": 480000,
+            "mean_actual_steps": 480461.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 520000,
+            "mean_actual_steps": 520537.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 560000,
+            "mean_actual_steps": 560590.0,
+            "n": 1,
+            "mean": 0.24,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.24
+            ]
+          },
+          {
+            "env_steps": 600000,
+            "mean_actual_steps": 600666.0,
+            "n": 1,
+            "mean": 0.28,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.28
+            ]
+          },
+          {
+            "env_steps": 640000,
+            "mean_actual_steps": 640741.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 680000,
+            "mean_actual_steps": 680817.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 720000,
+            "mean_actual_steps": 720842.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 760000,
+            "mean_actual_steps": 760842.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          },
+          {
+            "env_steps": 800000,
+            "mean_actual_steps": 800000.0,
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ]
+          }
+        ]
+      },
+      "normalized_auc_curves": {
+        "sparse": [],
+        "robometer": [
+          {
+            "env_steps": 40000,
+            "n": 1,
+            "mean": 0.4,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.4
+            ]
+          },
+          {
+            "env_steps": 80000,
+            "n": 1,
+            "mean": 0.29998625601299433,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.29998625601299433
+            ]
+          },
+          {
+            "env_steps": 120000,
+            "n": 1,
+            "mean": 0.33331833858149645,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.33331833858149645
+            ]
+          },
+          {
+            "env_steps": 160000,
+            "n": 1,
+            "mean": 0.3399943785485412,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.3399943785485412
+            ]
+          },
+          {
+            "env_steps": 200000,
+            "n": 1,
+            "mean": 0.3600061952606256,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.3600061952606256
+            ]
+          },
+          {
+            "env_steps": 240000,
+            "n": 1,
+            "mean": 0.4033650135504739,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.4033650135504739
+            ]
+          },
+          {
+            "env_steps": 280000,
+            "n": 1,
+            "mean": 0.3714471867295128,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.3714471867295128
+            ]
+          },
+          {
+            "env_steps": 320000,
+            "n": 1,
+            "mean": 0.3250297703607724,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.3250297703607724
+            ]
+          },
+          {
+            "env_steps": 360000,
+            "n": 1,
+            "mean": 0.28894071148439165,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.28894071148439165
+            ]
+          },
+          {
+            "env_steps": 400000,
+            "n": 1,
+            "mean": 0.2600382680461814,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.2600382680461814
+            ]
+          },
+          {
+            "env_steps": 440000,
+            "n": 1,
+            "mean": 0.24911910698147563,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.24911910698147563
+            ]
+          },
+          {
+            "env_steps": 480000,
+            "n": 1,
+            "mean": 0.24001935640978142,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.24001935640978142
+            ]
+          },
+          {
+            "env_steps": 520000,
+            "n": 1,
+            "mean": 0.22154033238751517,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.22154033238751517
+            ]
+          },
+          {
+            "env_steps": 560000,
+            "n": 1,
+            "mean": 0.21428548493551436,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.21428548493551436
+            ]
+          },
+          {
+            "env_steps": 600000,
+            "n": 1,
+            "mean": 0.21733552423476604,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.21733552423476604
+            ]
+          },
+          {
+            "env_steps": 640000,
+            "n": 1,
+            "mean": 0.21249859147455835,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.21249859147455835
+            ]
+          },
+          {
+            "env_steps": 680000,
+            "n": 1,
+            "mean": 0.1999899532473484,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.1999899532473484
+            ]
+          },
+          {
+            "env_steps": 720000,
+            "n": 1,
+            "mean": 0.1888854423021966,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.1888854423021966
+            ]
+          },
+          {
+            "env_steps": 760000,
+            "n": 1,
+            "mean": 0.17895510500208978,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.17895510500208978
+            ]
+          },
+          {
+            "env_steps": 800000,
+            "n": 1,
+            "mean": 0.1701957,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.1701957
+            ]
+          }
+        ]
+      },
+      "final": {
+        "sparse": {
+          "n": 0,
+          "mean": null,
+          "sd": null,
+          "t_ci95": null,
+          "values": []
+        },
+        "robometer": {
+          "n": 1,
+          "mean": 0.0,
+          "sd": null,
+          "t_ci95": null,
+          "values": [
+            0.0
+          ]
+        }
+      },
+      "normalized_auc": {
+        "sparse": {
+          "n": 0,
+          "mean": null,
+          "sd": null,
+          "t_ci95": null,
+          "values": []
+        },
+        "robometer": {
+          "n": 1,
+          "mean": 0.1701957,
+          "sd": null,
+          "t_ci95": null,
+          "values": [
+            0.1701957
+          ]
+        }
+      },
+      "baseline": {
+        "n": 25,
+        "mean": 0.48,
+        "sd": 0.5099019513592785,
+        "t_ci95": [
+          0.26952281920365284,
+          0.6904771807963471
+        ],
+        "values": [
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seed_rates": {
+          "100": 0.48
+        },
+        "episodes": 25.0,
+        "method": "95% Student t interval across reset-state means, one sampling seed"
+      },
+      "checkpoint_comparisons": [
+        {
+          "env_steps": 0,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": 0.0,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.0
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 40000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.15999999999999998,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.15999999999999998
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 80000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.39999999999999997,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.39999999999999997
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 120000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": 0.24,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.24
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 160000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 200000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": 0.4,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              0.4
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 240000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.12,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.12
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 280000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 320000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 360000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 400000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 440000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.19999999999999996,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.19999999999999996
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 480000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 520000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 560000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.24,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.24
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 600000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.19999999999999996,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.19999999999999996
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 640000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 680000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 720000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 760000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        },
+        {
+          "env_steps": 800000,
+          "sparse_minus_robometer": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "sparse_minus_pretrained": {
+            "n": 0,
+            "mean": null,
+            "sd": null,
+            "t_ci95": null,
+            "values": [],
+            "p": null
+          },
+          "robometer_minus_pretrained": {
+            "n": 1,
+            "mean": -0.48,
+            "sd": null,
+            "t_ci95": null,
+            "values": [
+              -0.48
+            ],
+            "p": 1.0
+          }
+        }
+      ],
+      "paired_final_sparse_minus_robometer": {
+        "n": 0,
+        "mean": null,
+        "sd": null,
+        "t_ci95": null,
+        "values": [],
+        "p": null
+      },
+      "paired_auc_sparse_minus_robometer": {
+        "n": 0,
+        "mean": null,
+        "sd": null,
+        "t_ci95": null,
+        "values": [],
+        "p": null
+      },
+      "completed_paired_seeds": [],
+      "uncertainty": "95% Student t intervals over training seeds, conditional on this held-out reset set; missing runs excluded",
+      "tests": "Two-sided exact paired seed sign-flip tests; checkpoint p-values are pointwise and uncorrected",
+      "alignment": "Scheduled transition bins; mean_actual_steps records chunk-boundary overshoot"
+    }
+  ]
+}
