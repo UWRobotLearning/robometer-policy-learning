@@ -1,6 +1,12 @@
 # Robometer Policy Learning
 
-For a local-only LIBERO SAC comparison of frozen Robometer rewards and simulator rewards, see [the reward audit harness](experiments/reward_audit/README.md). It includes the paper's task-28 sanity protocol, a held-out task comparison, separate reward/policy GPUs, and an occupied-GPU launch guard.
+[Central repository layout and OGPO setup](docs/REPOSITORIES.md): pinned UWRobotLearning forks for OGPO and Robometer.
+
+[Numerical LIBERO results and plotting instructions](results/README.md). The full local data is available through the ignored `local_results` symlink.
+
+[Experiment report: learned rewards and DSRL comparison (2026-10-28)](docs/reports/reward_learning_summary_20261028/report.md). Includes compact, expandable curve screenshots and links to live experiments.
+
+For local LIBERO experiments with sparse or Robometer rewards, use the [config-driven experiment runner](experiments/libero/README.md). One JSON selects tasks, seeds, and a scratch SAC, pi0, or pi0.5 base policy; the same analysis command generates curves and paired statistics for every experiment.
 
 A flexible reinforcement \ imitation learning framework supporting multiple algorithms (SAC, IQL, BC), reward models (Robometer, RoboReward), and distributed training. We will soon include detailed guides for DSRL (Diffusion-steering RL) with Pi0/0.5 on LIBERO and Real World tasks.
 

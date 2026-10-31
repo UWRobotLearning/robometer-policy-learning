@@ -1,0 +1,556 @@
+{
+  "expected_seeds": [
+    100,
+    101,
+    102
+  ],
+  "completed_paired_seeds": [
+    100
+  ],
+  "all_complete": false,
+  "final": {
+    "sparse": {
+      "n": 1,
+      "mean": 0.32,
+      "sd": null,
+      "t_ci95": null,
+      "values": [
+        0.32
+      ]
+    },
+    "robometer": {
+      "n": 1,
+      "mean": 0.08,
+      "sd": null,
+      "t_ci95": null,
+      "values": [
+        0.08
+      ]
+    }
+  },
+  "normalized_auc": {
+    "sparse": {
+      "n": 1,
+      "mean": 0.082,
+      "sd": null,
+      "t_ci95": null,
+      "values": [
+        0.082
+      ]
+    },
+    "robometer": {
+      "n": 1,
+      "mean": 0.058,
+      "sd": null,
+      "t_ci95": null,
+      "values": [
+        0.058
+      ]
+    }
+  },
+  "paired_final_difference": {
+    "n": 1,
+    "mean": -0.24,
+    "sd": null,
+    "t_ci95": null,
+    "values": [
+      -0.24
+    ]
+  },
+  "paired_auc_difference": {
+    "n": 1,
+    "mean": -0.024,
+    "sd": null,
+    "t_ci95": null,
+    "values": [
+      -0.024
+    ]
+  },
+  "per_seed_differences": [
+    {
+      "seed": 100,
+      "final_difference": -0.24,
+      "normalized_auc_difference": -0.024,
+      "initial_difference": 0.0
+    }
+  ],
+  "curves": {
+    "sparse": [
+      {
+        "env_steps": 0.0,
+        "env_iterations": 0.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 5000.0,
+        "env_iterations": 625.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 10000.0,
+        "env_iterations": 1250.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 15000.0,
+        "env_iterations": 1875.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 20000.0,
+        "env_iterations": 2500.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 25000.0,
+        "env_iterations": 3125.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 30000.0,
+        "env_iterations": 3750.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 35000.0,
+        "env_iterations": 4375.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 40000.0,
+        "env_iterations": 5000.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 45000.0,
+        "env_iterations": 5625.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 50000.0,
+        "env_iterations": 6250.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 55000.0,
+        "env_iterations": 6875.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 60000.0,
+        "env_iterations": 7500.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 65000.0,
+        "env_iterations": 8125.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 70000.0,
+        "env_iterations": 8750.0,
+        "n": 1,
+        "mean": 0.04,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.04
+        ]
+      },
+      {
+        "env_steps": 75000.0,
+        "env_iterations": 9375.0,
+        "n": 1,
+        "mean": 0.44,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.44
+        ]
+      },
+      {
+        "env_steps": 80000.0,
+        "env_iterations": 10000.0,
+        "n": 1,
+        "mean": 0.6,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.6
+        ]
+      },
+      {
+        "env_steps": 85000.0,
+        "env_iterations": 10625.0,
+        "n": 1,
+        "mean": 0.04,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.04
+        ]
+      },
+      {
+        "env_steps": 90000.0,
+        "env_iterations": 11250.0,
+        "n": 1,
+        "mean": 0.04,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.04
+        ]
+      },
+      {
+        "env_steps": 95000.0,
+        "env_iterations": 11875.0,
+        "n": 1,
+        "mean": 0.32,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.32
+        ]
+      },
+      {
+        "env_steps": 100000.0,
+        "env_iterations": 12500.0,
+        "n": 1,
+        "mean": 0.32,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.32
+        ]
+      }
+    ],
+    "robometer": [
+      {
+        "env_steps": 0.0,
+        "env_iterations": 0.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 5000.0,
+        "env_iterations": 625.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 10000.0,
+        "env_iterations": 1250.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 15000.0,
+        "env_iterations": 1875.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 20000.0,
+        "env_iterations": 2500.0,
+        "n": 1,
+        "mean": 0.08,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.08
+        ]
+      },
+      {
+        "env_steps": 25000.0,
+        "env_iterations": 3125.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 30000.0,
+        "env_iterations": 3750.0,
+        "n": 1,
+        "mean": 0.32,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.32
+        ]
+      },
+      {
+        "env_steps": 35000.0,
+        "env_iterations": 4375.0,
+        "n": 1,
+        "mean": 0.04,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.04
+        ]
+      },
+      {
+        "env_steps": 40000.0,
+        "env_iterations": 5000.0,
+        "n": 1,
+        "mean": 0.4,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.4
+        ]
+      },
+      {
+        "env_steps": 45000.0,
+        "env_iterations": 5625.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 50000.0,
+        "env_iterations": 6250.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 55000.0,
+        "env_iterations": 6875.0,
+        "n": 1,
+        "mean": 0.2,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.2
+        ]
+      },
+      {
+        "env_steps": 60000.0,
+        "env_iterations": 7500.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 65000.0,
+        "env_iterations": 8125.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 70000.0,
+        "env_iterations": 8750.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 75000.0,
+        "env_iterations": 9375.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 80000.0,
+        "env_iterations": 10000.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 85000.0,
+        "env_iterations": 10625.0,
+        "n": 1,
+        "mean": 0.08,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.08
+        ]
+      },
+      {
+        "env_steps": 90000.0,
+        "env_iterations": 11250.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 95000.0,
+        "env_iterations": 11875.0,
+        "n": 1,
+        "mean": 0.0,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.0
+        ]
+      },
+      {
+        "env_steps": 100000.0,
+        "env_iterations": 12500.0,
+        "n": 1,
+        "mean": 0.08,
+        "sd": null,
+        "t_ci95": null,
+        "values": [
+          0.08
+        ]
+      }
+    ]
+  },
+  "uncertainty_unit": "Training seed; sample SD and two-sided Student t 95% interval for the mean",
+  "difference_direction": "Robometer minus simulator",
+  "limitations": [
+    "Only 3 training seeds are planned; intervals with few seeds are imprecise.",
+    "The same 25 held-out reset states are evaluated per seed; they are not 75 independent training runs.",
+    "Aggregates use only seeds with both arms complete at the full budget; pending runs are never counted as zero.",
+    "Curve bands show sample SD across training seeds, not a confidence interval.",
+    "Student t intervals are approximate and unbounded; zero SD in a tiny sample does not prove certainty.",
+    "LIBERO-Goal is in the declared reward-model training mix; this is not an OOD demonstration.",
+    "Policies train from scratch with frozen Robometer; online reward-model fine-tuning is not tested."
+  ]
+}

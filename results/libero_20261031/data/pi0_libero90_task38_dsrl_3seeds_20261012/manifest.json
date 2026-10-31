@@ -1,0 +1,20 @@
+{
+  "task_id": 38,
+  "task": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "steps_per_run": 100000,
+  "algorithm": "direct DSRL",
+  "source": "/data/rohan/Reward-Modeling/dsrl_task38_then55_20261012",
+  "created": "2026-10-12T22:12:43.790220+00:00",
+  "additional_seeds_source": "/data/rohan/Reward-Modeling/dsrl_add_seeds_103_104_20261013",
+  "next_seeds_source": "/data/rohan/Reward-Modeling/dsrl_task38_after55_105_107_20261013"
+}

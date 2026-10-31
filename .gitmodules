@@ -6,4 +6,7 @@
 	url = git@github.com:jesbu1/dsrl_openpi.git
 [submodule "robometer"]
 	path = robometer
-	url = git@github.com:rohanblueboybaijal/robometer.git
+	url = https://github.com/UWRobotLearning/robometer.git
+[submodule "OGPO"]
+	path = OGPO
+	url = https://github.com/UWRobotLearning/OGPO_public.git

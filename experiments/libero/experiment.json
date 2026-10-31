@@ -1,0 +1,29 @@
+{
+  "name": "libero10_task06_pi05_dsrl_20261025",
+  "suite": "libero_10",
+  "tasks": [
+    6
+  ],
+  "base_model": "pi0.5",
+  "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "rewards": [
+    "sparse",
+    "robometer"
+  ],
+  "seeds": [
+    100
+  ],
+  "steps": 100000,
+  "eval_every": 10000,
+  "eval_episodes": 25,
+  "horizon": 400,
+  "runtime": {
+    "data_root": "/data/rohan/Reward-Modeling",
+    "gpus": [
+      0,
+      1
+    ],
+    "cache_dir": "/data/rohan/Reward-Modeling/pi0_libero90_task38_five_seeds_20261011/cache",
+    "tmp_dir": "/data/rohan/rbm-tmp"
+  }
+}

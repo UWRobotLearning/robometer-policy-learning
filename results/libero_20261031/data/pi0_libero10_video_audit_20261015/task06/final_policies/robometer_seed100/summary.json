@@ -1,0 +1,64 @@
+{
+  "task_id": 6,
+  "arm": "robometer",
+  "seed": 100,
+  "actor_checkpoint": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed100/robometer_seed100/checkpoints/final.pt",
+  "checkpoint_env_steps": 100000,
+  "init_state_ids": [
+    26,
+    25,
+    29,
+    35
+  ],
+  "successes": 2,
+  "episodes": 4,
+  "records": [
+    {
+      "init_state_id": 26,
+      "success": true,
+      "length": 301,
+      "chunks": 16,
+      "video": "episode_26.mp4",
+      "video_frames": 77,
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "final_progress": 0.8691431283950806,
+      "final_success_probability": 0.87890625
+    },
+    {
+      "init_state_id": 25,
+      "success": true,
+      "length": 304,
+      "chunks": 16,
+      "video": "episode_25.mp4",
+      "video_frames": 77,
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "final_progress": 0.8821549415588379,
+      "final_success_probability": 0.9140625
+    },
+    {
+      "init_state_id": 29,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_29.mp4",
+      "video_frames": 101,
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "final_progress": 0.7885196208953857,
+      "final_success_probability": 0.4921875
+    },
+    {
+      "init_state_id": 35,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_35.mp4",
+      "video_frames": 101,
+      "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "final_progress": 0.7970853447914124,
+      "final_success_probability": 0.55078125
+    }
+  ],
+  "video_every_physical_steps": 4,
+  "robometer_every_physical_steps": 20,
+  "fps": 10
+}

@@ -1,0 +1,5 @@
+{"phase": "eval", "env_steps": 0, "episode": 0, "init_state_id": 25, "success": true, "length": 171}
+{"phase": "eval", "env_steps": 0, "episode": 1, "init_state_id": 26, "success": true, "length": 238}
+{"phase": "train", "env_steps": 400, "episode": 0, "success": false, "length": 400, "training_return": 0.0}
+{"phase": "eval", "env_steps": 700, "episode": 0, "init_state_id": 25, "success": true, "length": 296}
+{"phase": "eval", "env_steps": 700, "episode": 1, "init_state_id": 26, "success": true, "length": 126}

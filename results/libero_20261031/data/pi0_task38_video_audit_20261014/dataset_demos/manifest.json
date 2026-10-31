@@ -1,0 +1,36 @@
+{
+  "source": "yifengzhu-hf/LIBERO-datasets",
+  "revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "source_file": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove_demo.hdf5",
+  "sha256": "d2b6a54c21113cc128513ce1221e8ae28432133dde54785a17ce916fb898ab77",
+  "prompt": "put the right moka pot on the stove",
+  "fps": 10,
+  "video_every_physical_steps": 4,
+  "robometer_every_physical_steps": 20,
+  "demonstrations": [
+    {
+      "demo_id": 0,
+      "length": 192,
+      "video_frames": 49,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 191,
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "demo_id": 1,
+      "length": 207,
+      "video_frames": 53,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 206,
+          "reward": 1.0
+        }
+      ]
+    }
+  ]
+}

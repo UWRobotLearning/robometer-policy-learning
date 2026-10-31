@@ -1,0 +1,12 @@
+{
+  "status": "stopped",
+  "started": 1793303309.2802322,
+  "steps": 40008,
+  "budget": 50000,
+  "mode": "ODE",
+  "episode": 10,
+  "episodes": 25,
+  "updates": 5018,
+  "finished": 1793324066.2238715,
+  "reason": "User requested replacement with original OGPO MLP actor, task02"
+}

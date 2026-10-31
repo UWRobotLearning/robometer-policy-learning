@@ -1,0 +1,27 @@
+{
+  "suite": "libero_90",
+  "task_id": 28,
+  "task": "KITCHEN_SCENE5_close_the_top_drawer_of_the_cabinet",
+  "seeds": [
+    100,
+    101,
+    102
+  ],
+  "rewards": [
+    "sparse",
+    "robometer"
+  ],
+  "steps_per_run": 100000,
+  "algorithm": "direct DSRL",
+  "pi0_checkpoint": "/data/rohan/Reward-Modeling/pi0_checkpoints/pi05_libero",
+  "policy_config_name": "pi05_libero",
+  "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+  "eval_episodes": 25,
+  "eval_unique_states": 25,
+  "eval_every": 10000,
+  "horizon": 400,
+  "baseline_source": "seed100/sparse_seed100/evaluation.csv at 0 transitions",
+  "created": "2026-10-22T18:42:13.019745+00:00",
+  "analysis_note": "These historical curves evaluate deterministic latent means. The official DSRL evaluator samples latent actions; a separate reevaluation of the saved final actors found a large sampling-mode effect. Interpret these curves with that evaluation convention in mind.",
+  "analysis_url": "/video-audits/pi05_libero90_task28_seed100/diagnostics.html"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "init_state_id": 28,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_28.mp4"
+  },
+  {
+    "init_state_id": 25,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_25.mp4"
+  },
+  {
+    "init_state_id": 30,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_30.mp4"
+  },
+  {
+    "init_state_id": 26,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_26.mp4"
+  },
+  {
+    "init_state_id": 27,
+    "success": true,
+    "length": 373,
+    "chunks": 19,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_27.mp4"
+  },
+  {
+    "init_state_id": 34,
+    "success": true,
+    "length": 390,
+    "chunks": 20,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_34.mp4"
+  },
+  {
+    "init_state_id": 41,
+    "success": true,
+    "length": 384,
+    "chunks": 20,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_41.mp4"
+  },
+  {
+    "init_state_id": 42,
+    "success": true,
+    "length": 384,
+    "chunks": 20,
+    "prompt": "put both moka pots on the stove",
+    "held_out_initial_state": true,
+    "video": "state_42.mp4"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "episode": 0,
+    "init_state_id": null,
+    "success": true,
+    "length": 121,
+    "dataset_actions": 122,
+    "video": "episode_000.mp4",
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "episode": 1,
+    "init_state_id": null,
+    "success": true,
+    "length": 122,
+    "dataset_actions": 123,
+    "video": "episode_001.mp4",
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "episode": 2,
+    "init_state_id": null,
+    "success": true,
+    "length": 127,
+    "dataset_actions": 128,
+    "video": "episode_002.mp4",
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "episode": 3,
+    "init_state_id": null,
+    "success": true,
+    "length": 112,
+    "dataset_actions": 113,
+    "video": "episode_003.mp4",
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  }
+]

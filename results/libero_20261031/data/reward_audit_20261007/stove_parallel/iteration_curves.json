@@ -1,0 +1,426 @@
+{
+  "stove_robometer": [
+    {
+      "env_steps": 0.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 412.154076281935,
+      "env_iterations": 0.0
+    },
+    {
+      "env_steps": 5000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 1142.4657527823001,
+      "env_iterations": 625.0
+    },
+    {
+      "env_steps": 10000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 1990.8897328414023,
+      "env_iterations": 1250.0
+    },
+    {
+      "env_steps": 15000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 2849.353423593566,
+      "env_iterations": 1875.0
+    },
+    {
+      "env_steps": 20000.0,
+      "successes": 2.0,
+      "episodes": 25.0,
+      "success_rate": 0.08,
+      "ci_low": 0.022220401284847563,
+      "ci_high": 0.24966108950395313,
+      "elapsed_seconds": 3709.6290489695966,
+      "env_iterations": 2500.0
+    },
+    {
+      "env_steps": 25000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 4579.274100193754,
+      "env_iterations": 3125.0
+    },
+    {
+      "env_steps": 30000.0,
+      "successes": 8.0,
+      "episodes": 25.0,
+      "success_rate": 0.32,
+      "ci_low": 0.17205190306907978,
+      "ci_high": 0.5158973072689775,
+      "elapsed_seconds": 5410.806753270328,
+      "env_iterations": 3750.0
+    },
+    {
+      "env_steps": 35000.0,
+      "successes": 1.0,
+      "episodes": 25.0,
+      "success_rate": 0.04,
+      "ci_low": 0.007096233501987265,
+      "ci_high": 0.19544063736193734,
+      "elapsed_seconds": 6298.958836907521,
+      "env_iterations": 4375.0
+    },
+    {
+      "env_steps": 40000.0,
+      "successes": 10.0,
+      "episodes": 25.0,
+      "success_rate": 0.4,
+      "ci_low": 0.23403302377747973,
+      "ci_high": 0.5926054264103301,
+      "elapsed_seconds": 7134.723468061537,
+      "env_iterations": 5000.0
+    },
+    {
+      "env_steps": 45000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 8043.0449218302965,
+      "env_iterations": 5625.0
+    },
+    {
+      "env_steps": 50000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 8930.281235395,
+      "env_iterations": 6250.0
+    },
+    {
+      "env_steps": 55000.0,
+      "successes": 5.0,
+      "episodes": 25.0,
+      "success_rate": 0.2,
+      "ci_low": 0.08860584686802572,
+      "ci_high": 0.3913095036954033,
+      "elapsed_seconds": 9796.490044035017,
+      "env_iterations": 6875.0
+    },
+    {
+      "env_steps": 60000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 10710.16949570924,
+      "env_iterations": 7500.0
+    },
+    {
+      "env_steps": 65000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 11617.988430390134,
+      "env_iterations": 8125.0
+    },
+    {
+      "env_steps": 70000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 12527.485396049917,
+      "env_iterations": 8750.0
+    },
+    {
+      "env_steps": 75000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 13434.74331050925,
+      "env_iterations": 9375.0
+    },
+    {
+      "env_steps": 80000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 14349.123504946008,
+      "env_iterations": 10000.0
+    },
+    {
+      "env_steps": 85000.0,
+      "successes": 2.0,
+      "episodes": 25.0,
+      "success_rate": 0.08,
+      "ci_low": 0.022220401284847563,
+      "ci_high": 0.24966108950395313,
+      "elapsed_seconds": 15256.924978194758,
+      "env_iterations": 10625.0
+    },
+    {
+      "env_steps": 90000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 16171.391055360436,
+      "env_iterations": 11250.0
+    },
+    {
+      "env_steps": 95000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 17089.928789034486,
+      "env_iterations": 11875.0
+    },
+    {
+      "env_steps": 100000.0,
+      "successes": 2.0,
+      "episodes": 25.0,
+      "success_rate": 0.08,
+      "ci_low": 0.022220401284847563,
+      "ci_high": 0.24966108950395313,
+      "elapsed_seconds": 18005.359446870163,
+      "env_iterations": 12500.0
+    }
+  ],
+  "stove_sparse": [
+    {
+      "env_steps": 0.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 354.45511686988175,
+      "env_iterations": 0.0
+    },
+    {
+      "env_steps": 5000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 744.0524979624897,
+      "env_iterations": 625.0
+    },
+    {
+      "env_steps": 10000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 1249.2843964099884,
+      "env_iterations": 1250.0
+    },
+    {
+      "env_steps": 15000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 1758.5009969808161,
+      "env_iterations": 1875.0
+    },
+    {
+      "env_steps": 20000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 2266.445747435093,
+      "env_iterations": 2500.0
+    },
+    {
+      "env_steps": 25000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 2769.810888947919,
+      "env_iterations": 3125.0
+    },
+    {
+      "env_steps": 30000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 3293.6368943769485,
+      "env_iterations": 3750.0
+    },
+    {
+      "env_steps": 35000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 3814.0060112345964,
+      "env_iterations": 4375.0
+    },
+    {
+      "env_steps": 40000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 4331.331360083073,
+      "env_iterations": 5000.0
+    },
+    {
+      "env_steps": 45000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 4842.592589806765,
+      "env_iterations": 5625.0
+    },
+    {
+      "env_steps": 50000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 5364.903877669945,
+      "env_iterations": 6250.0
+    },
+    {
+      "env_steps": 55000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 5898.451126052067,
+      "env_iterations": 6875.0
+    },
+    {
+      "env_steps": 60000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 6423.892656007782,
+      "env_iterations": 7500.0
+    },
+    {
+      "env_steps": 65000.0,
+      "successes": 0.0,
+      "episodes": 25.0,
+      "success_rate": 0.0,
+      "ci_low": 1.3877787807814457e-17,
+      "ci_high": 0.13319225093904846,
+      "elapsed_seconds": 6972.7499745972455,
+      "env_iterations": 8125.0
+    },
+    {
+      "env_steps": 70000.0,
+      "successes": 1.0,
+      "episodes": 25.0,
+      "success_rate": 0.04,
+      "ci_low": 0.007096233501987265,
+      "ci_high": 0.19544063736193734,
+      "elapsed_seconds": 7500.868328887969,
+      "env_iterations": 8750.0
+    },
+    {
+      "env_steps": 75000.0,
+      "successes": 11.0,
+      "episodes": 25.0,
+      "success_rate": 0.44,
+      "ci_low": 0.26665638881067344,
+      "ci_high": 0.6293266813020123,
+      "elapsed_seconds": 7933.7981974594295,
+      "env_iterations": 9375.0
+    },
+    {
+      "env_steps": 80000.0,
+      "successes": 15.0,
+      "episodes": 25.0,
+      "success_rate": 0.6,
+      "ci_low": 0.40739457358967,
+      "ci_high": 0.7659669762225203,
+      "elapsed_seconds": 8311.859366174787,
+      "env_iterations": 10000.0
+    },
+    {
+      "env_steps": 85000.0,
+      "successes": 1.0,
+      "episodes": 25.0,
+      "success_rate": 0.04,
+      "ci_low": 0.007096233501987265,
+      "ci_high": 0.19544063736193734,
+      "elapsed_seconds": 8854.897761235014,
+      "env_iterations": 10625.0
+    },
+    {
+      "env_steps": 90000.0,
+      "successes": 1.0,
+      "episodes": 25.0,
+      "success_rate": 0.04,
+      "ci_low": 0.007096233501987265,
+      "ci_high": 0.19544063736193734,
+      "elapsed_seconds": 9403.743526730686,
+      "env_iterations": 11250.0
+    },
+    {
+      "env_steps": 95000.0,
+      "successes": 8.0,
+      "episodes": 25.0,
+      "success_rate": 0.32,
+      "ci_low": 0.17205190306907978,
+      "ci_high": 0.5158973072689775,
+      "elapsed_seconds": 9903.520082950592,
+      "env_iterations": 11875.0
+    },
+    {
+      "env_steps": 100000.0,
+      "successes": 8.0,
+      "episodes": 25.0,
+      "success_rate": 0.32,
+      "ci_low": 0.17205190306907978,
+      "ci_high": 0.5158973072689775,
+      "elapsed_seconds": 10406.16100051254,
+      "env_iterations": 12500.0
+    }
+  ]
+}

@@ -6,12 +6,13 @@ import argparse
 import csv
 import html
 import json
-import statistics
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
+
+from experiments.libero.analysis import read_jsonl, running_auc, summarize, training_reward_windows
 
 from .config import write_json
 
@@ -43,83 +44,6 @@ MATCH_FIELDS = (
 )
 LABELS = {"sparse": "Simulator sparse reward", "robometer": "Robometer reward"}
 COLORS = {"sparse": "#087f8c", "robometer": "#d36a35"}
-
-
-def read_jsonl(path):
-    """Ignore a trailing partial record while a run is writing its logs."""
-    if not path.exists():
-        return
-    with path.open() as stream:
-        for line in stream:
-            try:
-                yield json.loads(line)
-            except json.JSONDecodeError:
-                continue
-
-
-def training_reward_windows(episodes, measured_steps, window=5000):
-    """On-policy returns from episodes ending in each transition window.
-
-    Evaluation episodes and unfinished training episodes never contribute.
-    Reward density counts terminal successes per collected transition; for
-    native LIBERO 0/1 rewards, there is one reward on successful termination.
-    """
-    windows = {}
-    for end in range(window, int(measured_steps) + window, window):
-        end = min(end, int(measured_steps))
-        start = (end - 1) // window * window
-        windows[start] = {"start": start, "env_steps": end, "partial": end - start < window,
-                          "episodes": 0, "successes": 0, "returns": []}
-    for record in episodes:
-        if record.get("phase") != "train" or not 0 < record["env_steps"] <= measured_steps:
-            continue
-        start = (int(record["env_steps"]) - 1) // window * window
-        point = windows[start]
-        point["episodes"] += 1
-        point["successes"] += int(record["success"])
-        point["returns"].append(float(record["training_return"]))
-    result = []
-    for point in windows.values():
-        returns = point.pop("returns")
-        point["mean_episode_return"] = statistics.mean(returns) if returns else None
-        point["success_rewards_per_1000_transitions"] = 1000 * point["successes"] / (point["env_steps"] - point["start"])
-        result.append(point)
-    return result
-
-
-def summarize(values):
-    """The independent unit is a training seed, never an evaluation episode."""
-    values = [float(v) for v in values]
-    if not values:
-        return {"n": 0, "mean": None, "sd": None, "t_ci95": None, "values": []}
-    mean = statistics.mean(values)
-    sd = statistics.stdev(values) if len(values) > 1 else None
-    interval = None
-    if sd is not None:
-        from scipy.stats import t
-
-        half_width = float(t.ppf(0.975, len(values) - 1)) * sd / len(values) ** 0.5
-        interval = [mean - half_width, mean + half_width]
-    return {"n": len(values), "mean": mean, "sd": sd, "t_ci95": interval, "values": values}
-
-
-def running_auc(curve):
-    """Trapezoidal success AUC through each checkpoint, normalized by elapsed steps."""
-    if not curve:
-        return []
-    if curve[0]["env_steps"] != 0:
-        raise ValueError("Running AUC requires an evaluation at zero training transitions")
-    area, result = 0.0, []
-    for i, point in enumerate(curve):
-        step = point["env_steps"]
-        if i:
-            previous = curve[i - 1]
-            width = step - previous["env_steps"]
-            if width <= 0:
-                raise ValueError("AUC checkpoints must be strictly increasing")
-            area += width * (previous["success_rate"] + point["success_rate"]) / 2
-        result.append({"env_steps": step, "auc": area, "normalized_auc": area / step if step else None})
-    return result
 
 
 def read_runs(directory):

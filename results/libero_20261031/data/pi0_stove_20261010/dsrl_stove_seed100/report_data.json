@@ -1,0 +1,258 @@
+{
+  "sparse": [
+    {
+      "env_steps": 0.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 5016.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 10028.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 15039.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 20040.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 25042.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 30051.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 35064.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 40074.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 45092.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 50110.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 55124.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 60131.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 65148.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 70160.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 75161.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 80179.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 85186.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 90199.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 95206.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 100000.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    }
+  ],
+  "robometer": [
+    {
+      "env_steps": 0.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 5009.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 10015.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 15020.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 20032.0,
+      "successes": 25,
+      "episodes": 25,
+      "success_rate": 1.0
+    },
+    {
+      "env_steps": 25041.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 30044.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 35045.0,
+      "successes": 23,
+      "episodes": 25,
+      "success_rate": 0.92
+    },
+    {
+      "env_steps": 40056.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 45068.0,
+      "successes": 23,
+      "episodes": 25,
+      "success_rate": 0.92
+    },
+    {
+      "env_steps": 50087.0,
+      "successes": 23,
+      "episodes": 25,
+      "success_rate": 0.92
+    },
+    {
+      "env_steps": 55091.0,
+      "successes": 22,
+      "episodes": 25,
+      "success_rate": 0.88
+    },
+    {
+      "env_steps": 60098.0,
+      "successes": 23,
+      "episodes": 25,
+      "success_rate": 0.92
+    },
+    {
+      "env_steps": 65109.0,
+      "successes": 19,
+      "episodes": 25,
+      "success_rate": 0.76
+    },
+    {
+      "env_steps": 70110.0,
+      "successes": 20,
+      "episodes": 25,
+      "success_rate": 0.8
+    },
+    {
+      "env_steps": 75111.0,
+      "successes": 22,
+      "episodes": 25,
+      "success_rate": 0.88
+    },
+    {
+      "env_steps": 80129.0,
+      "successes": 23,
+      "episodes": 25,
+      "success_rate": 0.92
+    },
+    {
+      "env_steps": 85140.0,
+      "successes": 24,
+      "episodes": 25,
+      "success_rate": 0.96
+    },
+    {
+      "env_steps": 90148.0,
+      "successes": 16,
+      "episodes": 25,
+      "success_rate": 0.64
+    },
+    {
+      "env_steps": 95166.0,
+      "successes": 19,
+      "episodes": 25,
+      "success_rate": 0.76
+    },
+    {
+      "env_steps": 100000.0,
+      "successes": 23,
+      "episodes": 25,
+      "success_rate": 0.92
+    }
+  ]
+}

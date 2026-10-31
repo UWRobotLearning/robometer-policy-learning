@@ -1,0 +1,161 @@
+{
+  "successes": 15,
+  "episodes": 25,
+  "success_rate": 0.6,
+  "wilson_ci95": [
+    0.40739457358967,
+    0.7659669762225203
+  ],
+  "records": [
+    {
+      "init_state_id": 25,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 26,
+      "success": true,
+      "length": 380,
+      "chunks": 19
+    },
+    {
+      "init_state_id": 27,
+      "success": true,
+      "length": 374,
+      "chunks": 19
+    },
+    {
+      "init_state_id": 28,
+      "success": true,
+      "length": 281,
+      "chunks": 15
+    },
+    {
+      "init_state_id": 29,
+      "success": true,
+      "length": 317,
+      "chunks": 16
+    },
+    {
+      "init_state_id": 30,
+      "success": true,
+      "length": 328,
+      "chunks": 17
+    },
+    {
+      "init_state_id": 31,
+      "success": true,
+      "length": 331,
+      "chunks": 17
+    },
+    {
+      "init_state_id": 32,
+      "success": true,
+      "length": 392,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 33,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 34,
+      "success": true,
+      "length": 317,
+      "chunks": 16
+    },
+    {
+      "init_state_id": 35,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 36,
+      "success": true,
+      "length": 329,
+      "chunks": 17
+    },
+    {
+      "init_state_id": 37,
+      "success": true,
+      "length": 290,
+      "chunks": 15
+    },
+    {
+      "init_state_id": 38,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 39,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 40,
+      "success": true,
+      "length": 312,
+      "chunks": 16
+    },
+    {
+      "init_state_id": 41,
+      "success": true,
+      "length": 288,
+      "chunks": 15
+    },
+    {
+      "init_state_id": 42,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 43,
+      "success": true,
+      "length": 372,
+      "chunks": 19
+    },
+    {
+      "init_state_id": 44,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 45,
+      "success": true,
+      "length": 297,
+      "chunks": 15
+    },
+    {
+      "init_state_id": 46,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 47,
+      "success": true,
+      "length": 380,
+      "chunks": 19
+    },
+    {
+      "init_state_id": 48,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    },
+    {
+      "init_state_id": 49,
+      "success": false,
+      "length": 400,
+      "chunks": 20
+    }
+  ]
+}

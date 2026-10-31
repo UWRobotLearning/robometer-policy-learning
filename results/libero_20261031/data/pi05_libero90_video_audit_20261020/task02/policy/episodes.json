@@ -1,0 +1,235 @@
+[
+  {
+    "init_state_id": 25,
+    "success": true,
+    "length": 420,
+    "chunks": 42,
+    "video": "episode_25.mp4",
+    "video_frames": 106,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 26,
+    "success": true,
+    "length": 373,
+    "chunks": 38,
+    "video": "episode_26.mp4",
+    "video_frames": 95,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 27,
+    "success": true,
+    "length": 285,
+    "chunks": 29,
+    "video": "episode_27.mp4",
+    "video_frames": 73,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 28,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_28.mp4",
+    "video_frames": 151,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 29,
+    "success": true,
+    "length": 430,
+    "chunks": 43,
+    "video": "episode_29.mp4",
+    "video_frames": 109,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 30,
+    "success": true,
+    "length": 173,
+    "chunks": 18,
+    "video": "episode_30.mp4",
+    "video_frames": 45,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 31,
+    "success": true,
+    "length": 328,
+    "chunks": 33,
+    "video": "episode_31.mp4",
+    "video_frames": 83,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 32,
+    "success": true,
+    "length": 266,
+    "chunks": 27,
+    "video": "episode_32.mp4",
+    "video_frames": 68,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 33,
+    "success": true,
+    "length": 213,
+    "chunks": 22,
+    "video": "episode_33.mp4",
+    "video_frames": 55,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 34,
+    "success": true,
+    "length": 270,
+    "chunks": 27,
+    "video": "episode_34.mp4",
+    "video_frames": 69,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 35,
+    "success": true,
+    "length": 418,
+    "chunks": 42,
+    "video": "episode_35.mp4",
+    "video_frames": 106,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 36,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_36.mp4",
+    "video_frames": 151,
+    "prompt": "put the black bowl in the top drawer of the cabinet",
+    "final_progress": 0.35987624526023865,
+    "final_success_probability": 0.01324462890625
+  },
+  {
+    "init_state_id": 37,
+    "success": true,
+    "length": 420,
+    "chunks": 42,
+    "video": "episode_37.mp4",
+    "video_frames": 106,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 38,
+    "success": true,
+    "length": 233,
+    "chunks": 24,
+    "video": "episode_38.mp4",
+    "video_frames": 60,
+    "prompt": "put the black bowl in the top drawer of the cabinet",
+    "final_progress": 0.6268757581710815,
+    "final_success_probability": 0.1533203125
+  },
+  {
+    "init_state_id": 39,
+    "success": true,
+    "length": 406,
+    "chunks": 41,
+    "video": "episode_39.mp4",
+    "video_frames": 103,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 40,
+    "success": true,
+    "length": 426,
+    "chunks": 43,
+    "video": "episode_40.mp4",
+    "video_frames": 108,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 41,
+    "success": true,
+    "length": 257,
+    "chunks": 26,
+    "video": "episode_41.mp4",
+    "video_frames": 66,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 42,
+    "success": true,
+    "length": 428,
+    "chunks": 43,
+    "video": "episode_42.mp4",
+    "video_frames": 108,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 43,
+    "success": true,
+    "length": 393,
+    "chunks": 40,
+    "video": "episode_43.mp4",
+    "video_frames": 100,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 44,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_44.mp4",
+    "video_frames": 151,
+    "prompt": "put the black bowl in the top drawer of the cabinet",
+    "final_progress": 0.46516579389572144,
+    "final_success_probability": 0.040283203125
+  },
+  {
+    "init_state_id": 45,
+    "success": true,
+    "length": 352,
+    "chunks": 36,
+    "video": "episode_45.mp4",
+    "video_frames": 89,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 46,
+    "success": true,
+    "length": 405,
+    "chunks": 41,
+    "video": "episode_46.mp4",
+    "video_frames": 103,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 47,
+    "success": true,
+    "length": 355,
+    "chunks": 36,
+    "video": "episode_47.mp4",
+    "video_frames": 90,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 48,
+    "success": true,
+    "length": 381,
+    "chunks": 39,
+    "video": "episode_48.mp4",
+    "video_frames": 97,
+    "prompt": "put the black bowl in the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 49,
+    "success": true,
+    "length": 363,
+    "chunks": 37,
+    "video": "episode_49.mp4",
+    "video_frames": 92,
+    "prompt": "put the black bowl in the top drawer of the cabinet",
+    "final_progress": 0.7399024963378906,
+    "final_success_probability": 0.32421875
+  }
+]

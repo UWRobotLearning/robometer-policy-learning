@@ -1,0 +1,22 @@
+# Include curated snapshots despite the root data/ and logs/ ignore rules.
+!libero_*/
+!libero_*/**
+
+# Exported numerical data only. Generated figures and model artifacts stay local.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.html
+*.mp4
+*.webm
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.h5
+*.pkl

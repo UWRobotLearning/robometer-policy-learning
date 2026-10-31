@@ -1,0 +1,29 @@
+{
+  "algorithm": "OGPO native pi05 LoRA",
+  "checkpoint": "/data/rohan/Reward-Modeling/pi0_checkpoints/pi05_libero",
+  "trainable_parameters": 22118400,
+  "trainable_paths": [
+    "PaliGemma/llm/layers/attn/attn_vec_einsum_1/lora_a",
+    "PaliGemma/llm/layers/attn/attn_vec_einsum_1/lora_b",
+    "PaliGemma/llm/layers/attn/kv_einsum_1/lora_a",
+    "PaliGemma/llm/layers/attn/kv_einsum_1/lora_b",
+    "PaliGemma/llm/layers/attn/q_einsum_1/lora_a",
+    "PaliGemma/llm/layers/attn/q_einsum_1/lora_b",
+    "PaliGemma/llm/layers/mlp_1/gating_einsum_lora_a",
+    "PaliGemma/llm/layers/mlp_1/gating_einsum_lora_b",
+    "PaliGemma/llm/layers/mlp_1/linear_lora_a",
+    "PaliGemma/llm/layers/mlp_1/linear_lora_b"
+  ],
+  "zero_lora_max_error": 0.002587929368019104,
+  "offline_bc": false,
+  "group_size": 32,
+  "critic_batch_size": 16,
+  "actor_state_batch_size": 1,
+  "updates": "One actor update and one critic update per collected 4-action chunk after 20k physical steps",
+  "evaluation": "Single-sample ODE and single-sample SDE, same EMA adapters; no best-of-N",
+  "replay": "One variable-duration action-chunk transition; discounted chunk rewards and gamma^duration bootstrap",
+  "reward": "robometer",
+  "frozen_backbone": true,
+  "flow_steps": 10,
+  "seed": 100
+}

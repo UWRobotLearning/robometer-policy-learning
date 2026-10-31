@@ -1,3 +1,5 @@
+> New experiments use [experiments.libero](../libero/README.md): one configuration for scratch SAC, pi0, or pi0.5 and sparse or Robometer rewards. This directory provides shared low-level workers and the historical SAC reports.
+
 # LIBERO reward audit
 
 Compare a **frozen pretrained Robometer** against LIBERO's sparse simulator reward using the repository's native SAC learner, actor, and critic. This is the baseline study for deciding whether online reward-model adaptation is needed. It fine-tunes the policy; it does not update Robometer online.

@@ -1,0 +1,30 @@
+{
+  "suite": "libero_10",
+  "task_id": 6,
+  "task": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "rewards": [
+    "sparse",
+    "robometer"
+  ],
+  "steps_per_run": 100000,
+  "algorithm": "direct DSRL",
+  "created": "2026-10-15T05:21:21.953121+00:00",
+  "baseline": "/data/rohan/Reward-Modeling/pi0_libero_families_20261014/libero_10",
+  "additional_seeds": [
+    105,
+    106,
+    107
+  ],
+  "additional_seeds_source": "experiments.pi0_stove.dsrl_libero10_task06_add_seeds",
+  "extended_at": "2026-10-15T23:58:52.781420+00:00"
+}

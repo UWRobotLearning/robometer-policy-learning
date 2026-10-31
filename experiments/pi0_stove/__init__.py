@@ -1,1 +1,1 @@
-"""LIBERO stove experiments starting from a frozen pretrained pi0 policy."""
+"""Compatibility package for the live LIBERO dashboard."""

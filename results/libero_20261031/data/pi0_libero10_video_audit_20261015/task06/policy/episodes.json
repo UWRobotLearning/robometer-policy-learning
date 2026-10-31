@@ -1,0 +1,74 @@
+[
+  {
+    "init_state_id": 26,
+    "success": true,
+    "length": 270,
+    "chunks": 14,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_26.mp4"
+  },
+  {
+    "init_state_id": 25,
+    "success": true,
+    "length": 205,
+    "chunks": 11,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_25.mp4"
+  },
+  {
+    "init_state_id": 27,
+    "success": true,
+    "length": 291,
+    "chunks": 15,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_27.mp4"
+  },
+  {
+    "init_state_id": 29,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_29.mp4"
+  },
+  {
+    "init_state_id": 28,
+    "success": true,
+    "length": 223,
+    "chunks": 12,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_28.mp4"
+  },
+  {
+    "init_state_id": 35,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_35.mp4"
+  },
+  {
+    "init_state_id": 36,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_36.mp4"
+  },
+  {
+    "init_state_id": 38,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "prompt": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+    "held_out_initial_state": true,
+    "video": "state_38.mp4"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "task_id": 38,
+  "task": "KITCHEN_SCENE8_put_the_right_moka_pot_on_the_stove",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "steps_per_run": 100000,
+  "lanes": {
+    "0": [
+      [
+        "sparse",
+        100
+      ],
+      [
+        "robometer",
+        100
+      ],
+      [
+        "sparse",
+        102
+      ],
+      [
+        "robometer",
+        102
+      ],
+      [
+        "robometer",
+        104
+      ]
+    ],
+    "1": [
+      [
+        "sparse",
+        101
+      ],
+      [
+        "robometer",
+        101
+      ],
+      [
+        "sparse",
+        103
+      ],
+      [
+        "robometer",
+        103
+      ],
+      [
+        "sparse",
+        104
+      ]
+    ]
+  },
+  "source_config": "/data/rohan/Reward-Modeling/pi0_libero90_task55_20261010/dsrl_LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray_seed100",
+  "created": "2026-10-12T05:46:44.837455+00:00"
+}

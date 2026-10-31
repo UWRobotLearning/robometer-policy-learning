@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    38,
+    55
+  ],
+  "seeds": [
+    103,
+    104
+  ],
+  "rewards": [
+    "sparse",
+    "robometer"
+  ],
+  "steps_per_run": 100000,
+  "algorithm": "direct DSRL",
+  "created": "2026-10-13T18:16:32.924199+00:00"
+}

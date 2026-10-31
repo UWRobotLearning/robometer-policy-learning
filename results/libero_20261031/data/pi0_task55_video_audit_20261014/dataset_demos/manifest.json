@@ -1,0 +1,36 @@
+{
+  "source": "yifengzhu-hf/LIBERO-datasets",
+  "revision": "f13aa24a3da8c43c7225569f28c562979fa0e35a",
+  "source_file": "LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray_demo.hdf5",
+  "sha256": "d1bdd4ff5d08194649b73a94a53dca8d0bd14b1278cd85a75a9b8e6df5af88e9",
+  "prompt": "pick up the alphabet soup and put it in the tray",
+  "fps": 10,
+  "video_every_physical_steps": 4,
+  "robometer_every_physical_steps": 20,
+  "demonstrations": [
+    {
+      "demo_id": 0,
+      "length": 111,
+      "video_frames": 29,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 110,
+          "reward": 1.0
+        }
+      ]
+    },
+    {
+      "demo_id": 1,
+      "length": 110,
+      "video_frames": 29,
+      "success": true,
+      "reward_events": [
+        {
+          "step": 109,
+          "reward": 1.0
+        }
+      ]
+    }
+  ]
+}

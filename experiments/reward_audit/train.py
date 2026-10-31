@@ -29,7 +29,7 @@ def evaluate(cfg, actor, encoder, env, reward, language, log, step, device, out)
     episodes = []
     try:
         for episode in range(cfg["eval_episodes"]):
-            state_id = cfg["train_init_states"] + episode
+            state_id = cfg["train_init_states"] + episode % cfg.get("eval_unique_states", cfg["eval_episodes"])
             reset = env.reset({0: state_id})[0]
             obs = reset["obs"]
             history = [obs[cfg["reward_camera"]]]

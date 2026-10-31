@@ -1,0 +1,496 @@
+{
+  "expected_seeds": [
+    100,
+    101,
+    102
+  ],
+  "completed_paired_seeds": [
+    100,
+    101,
+    102
+  ],
+  "all_complete": true,
+  "final": {
+    "sparse": {
+      "n": 3,
+      "mean": 1.0,
+      "sd": 0.0,
+      "t_ci95": [
+        1.0,
+        1.0
+      ],
+      "values": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "robometer": {
+      "n": 3,
+      "mean": 1.0,
+      "sd": 0.0,
+      "t_ci95": [
+        1.0,
+        1.0
+      ],
+      "values": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "normalized_auc": {
+    "sparse": {
+      "n": 3,
+      "mean": 0.5486666666666666,
+      "sd": 0.054307764945110124,
+      "t_ci95": [
+        0.4137586997273178,
+        0.6835746336060154
+      ],
+      "values": [
+        0.606,
+        0.498,
+        0.542
+      ]
+    },
+    "robometer": {
+      "n": 3,
+      "mean": 0.6673333333333333,
+      "sd": 0.11036907779506598,
+      "t_ci95": [
+        0.3931613449749016,
+        0.941505321691765
+      ],
+      "values": [
+        0.75,
+        0.71,
+        0.542
+      ]
+    }
+  },
+  "paired_final_difference": {
+    "n": 3,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t_ci95": [
+      0.0,
+      0.0
+    ],
+    "values": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "paired_auc_difference": {
+    "n": 3,
+    "mean": 0.11866666666666666,
+    "sd": 0.1082466319722389,
+    "t_ci95": [
+      -0.1502328739821987,
+      0.387566207315532
+    ],
+    "values": [
+      0.144,
+      0.212,
+      0.0
+    ]
+  },
+  "per_seed_differences": [
+    {
+      "seed": 100,
+      "final_difference": 0.0,
+      "normalized_auc_difference": 0.144,
+      "initial_difference": 0.0
+    },
+    {
+      "seed": 101,
+      "final_difference": 0.0,
+      "normalized_auc_difference": 0.212,
+      "initial_difference": 0.0
+    },
+    {
+      "seed": 102,
+      "final_difference": 0.0,
+      "normalized_auc_difference": 0.0,
+      "initial_difference": 0.0
+    }
+  ],
+  "decoder_versions": {
+    "task28_robometer_seed100": "always_softmax_v1_with_independent_diagnostics",
+    "task28_robometer_seed101": "always_softmax_v1_with_independent_diagnostics",
+    "task28_robometer_seed102": "always_softmax_v1_with_independent_diagnostics"
+  },
+  "curves": {
+    "sparse": [
+      {
+        "env_steps": 0.0,
+        "env_iterations": 0.0,
+        "n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t_ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 10000.0,
+        "env_iterations": 10000.0,
+        "n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t_ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 20000.0,
+        "env_iterations": 20000.0,
+        "n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t_ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 30000.0,
+        "env_iterations": 30000.0,
+        "n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t_ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 40000.0,
+        "env_iterations": 40000.0,
+        "n": 3,
+        "mean": 0.3333333333333333,
+        "sd": 0.5773502691896257,
+        "t_ci95": [
+          -1.1008842432320474,
+          1.7675509098987139
+        ],
+        "values": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 50000.0,
+        "env_iterations": 50000.0,
+        "n": 3,
+        "mean": 0.8266666666666667,
+        "sd": 0.08326663997864532,
+        "t_ci95": [
+          0.6198208661675394,
+          1.0335124671657938
+        ],
+        "values": [
+          0.76,
+          0.8,
+          0.92
+        ]
+      },
+      {
+        "env_steps": 60000.0,
+        "env_iterations": 60000.0,
+        "n": 3,
+        "mean": 0.9066666666666667,
+        "sd": 0.10066445913694332,
+        "t_ci95": [
+          0.6566022874947346,
+          1.1567310458385989
+        ],
+        "values": [
+          0.8,
+          0.92,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 70000.0,
+        "env_iterations": 70000.0,
+        "n": 3,
+        "mean": 0.92,
+        "sd": 0.13856406460551018,
+        "t_ci95": [
+          0.5757877816243087,
+          1.2642122183756914
+        ],
+        "values": [
+          1.0,
+          0.76,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 80000.0,
+        "env_iterations": 80000.0,
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "t_ci95": [
+          1.0,
+          1.0
+        ],
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 90000.0,
+        "env_iterations": 90000.0,
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "t_ci95": [
+          1.0,
+          1.0
+        ],
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 100000.0,
+        "env_iterations": 100000.0,
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "t_ci95": [
+          1.0,
+          1.0
+        ],
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "robometer": [
+      {
+        "env_steps": 0.0,
+        "env_iterations": 0.0,
+        "n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t_ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 10000.0,
+        "env_iterations": 10000.0,
+        "n": 3,
+        "mean": 0.0,
+        "sd": 0.0,
+        "t_ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 20000.0,
+        "env_iterations": 20000.0,
+        "n": 3,
+        "mean": 0.2,
+        "sd": 0.3124099870362662,
+        "t_ci95": [
+          -0.5760694303146032,
+          0.9760694303146034
+        ],
+        "values": [
+          0.56,
+          0.04,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 30000.0,
+        "env_iterations": 30000.0,
+        "n": 3,
+        "mean": 0.56,
+        "sd": 0.5106858133921482,
+        "t_ci95": [
+          -0.708613887887606,
+          1.8286138878876061
+        ],
+        "values": [
+          0.68,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 40000.0,
+        "env_iterations": 40000.0,
+        "n": 3,
+        "mean": 0.49333333333333335,
+        "sd": 0.42770706486254506,
+        "t_ci95": [
+          -0.5691499160605926,
+          1.5558165827272594
+        ],
+        "values": [
+          0.76,
+          0.72,
+          0.0
+        ]
+      },
+      {
+        "env_steps": 50000.0,
+        "env_iterations": 50000.0,
+        "n": 3,
+        "mean": 0.9733333333333334,
+        "sd": 0.046188021535170036,
+        "t_ci95": [
+          0.858595927208103,
+          1.0880707394585638
+        ],
+        "values": [
+          1.0,
+          1.0,
+          0.92
+        ]
+      },
+      {
+        "env_steps": 60000.0,
+        "env_iterations": 60000.0,
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "t_ci95": [
+          1.0,
+          1.0
+        ],
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 70000.0,
+        "env_iterations": 70000.0,
+        "n": 3,
+        "mean": 0.96,
+        "sd": 0.06928203230275509,
+        "t_ci95": [
+          0.7878938908121543,
+          1.1321061091878457
+        ],
+        "values": [
+          1.0,
+          0.88,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 80000.0,
+        "env_iterations": 80000.0,
+        "n": 3,
+        "mean": 0.9866666666666667,
+        "sd": 0.023094010767585053,
+        "t_ci95": [
+          0.9292979636040514,
+          1.044035369729282
+        ],
+        "values": [
+          1.0,
+          0.96,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 90000.0,
+        "env_iterations": 90000.0,
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "t_ci95": [
+          1.0,
+          1.0
+        ],
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "env_steps": 100000.0,
+        "env_iterations": 100000.0,
+        "n": 3,
+        "mean": 1.0,
+        "sd": 0.0,
+        "t_ci95": [
+          1.0,
+          1.0
+        ],
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  "uncertainty_unit": "Training seed; sample SD and two-sided Student t 95% interval for the mean",
+  "difference_direction": "Robometer minus simulator",
+  "limitations": [
+    "Only 3 training seeds are planned; intervals with few seeds are imprecise.",
+    "The same 25 held-out reset states are evaluated per seed; they are not 75 independent training runs.",
+    "Aggregates use only seeds with both arms complete at the full budget; pending runs are never counted as zero.",
+    "Curve bands show sample SD across training seeds, not a confidence interval.",
+    "Student t intervals are approximate and unbounded; zero SD in a tiny sample does not prove certainty.",
+    "LIBERO-Goal is in the declared reward-model training mix; this is not an OOD demonstration.",
+    "Policies train from scratch with frozen Robometer; online reward-model fine-tuning is not tested.",
+    "Seed 100 used the original decoder with no recorded bypasses or mismatches. Corrected runs always softmax; decoder versions are recorded separately."
+  ]
+}

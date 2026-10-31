@@ -36,3 +36,12 @@ checkpoints/*
 extracted_episodes*
 replay_buffer/*
 replay_buffers/*
+
+# Keep the experiment report screenshots in the repository.
+!/docs/reports/reward_learning_summary_20261028/curve_*.png
+
+# Local full experiment data; publish only curated results snapshots.
+/local_results
+
+# Simulator runtime log
+MUJOCO_LOG.TXT

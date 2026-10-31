@@ -1,0 +1,2668 @@
+{
+  "snapshot_utc": "2026-10-28T17:34:31+00:00",
+  "experiments": [
+    {
+      "root": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "scratch",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 1,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "peak": {
+            "env_steps": 50000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_minus_one"
+        },
+        {
+          "reward": "robometer",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "scratch",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 1,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "peak": {
+            "env_steps": 30000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_minus_one"
+        },
+        {
+          "reward": "robometer",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "scratch",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 1,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "peak": {
+            "env_steps": 60000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_minus_one"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "scratch",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 1,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "peak": {
+            "env_steps": 40000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_minus_one"
+        },
+        {
+          "reward": "sparse",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "scratch",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 1,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "peak": {
+            "env_steps": 80000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_minus_one"
+        },
+        {
+          "reward": "sparse",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "scratch",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 1,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "peak": {
+            "env_steps": 60000.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_minus_one"
+        }
+      ],
+      "stats": {
+        "baseline": null,
+        "paired_final_sparse_minus_robometer": {
+          "n": 3,
+          "mean": 0.0,
+          "sd": 0.0,
+          "t_ci95": [
+            0.0,
+            0.0
+          ],
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "p": 1.0
+        },
+        "completed_paired_seeds": [
+          100,
+          101,
+          102
+        ]
+      },
+      "label": "SAC from scratch \u00b7 LIBERO-90 task 28 \u00b7 Oct 21",
+      "plot_url": "http://172.28.5.161:8768/#sac-task28-general",
+      "curve_snapshot": "curve_00.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs/planned_suite.json",
+          "sha256": "fffe0186579b913f5c99cc4baff773432f57997ab4c878b2d8f94ef2f2eebf36"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs/task28_robometer_seed101/evaluation.csv",
+          "sha256": "3d95569aad08b6893405cc16bf065b0f2b4fe4296703a96e0577703e664efbfd"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs/task28_robometer_seed102/evaluation.csv",
+          "sha256": "99f1ce3dded74e39343ebac98b97810a30e948f352f17541d8b285d68c066ecf"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs/task28_sparse_seed100/evaluation.csv",
+          "sha256": "bc5133069a546969a9ac5e7957f2e28ad10ce9cb47aba7cd5f0b97264d794b33"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs/task28_robometer_seed100/evaluation.csv",
+          "sha256": "c628c919c2a0e2612be6ac07963695ab425451c114561f42e8d3d53c8fd765b6"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs/task28_sparse_seed102/evaluation.csv",
+          "sha256": "37600bf416e16a27356ef86c0e8f558ce0fb98624206da95403c2eb77ea77624"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/sac_task28_general_robometer_20261021_runs/task28_sparse_seed101/evaluation.csv",
+          "sha256": "0fa2b9e57f6bec9445ff23791b778291a219f9e46c7c8f559d81743eab197e17"
+        }
+      ],
+      "curve_screenshot": "curve_00.png"
+    },
+    {
+      "root": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 18.0,
+            "episodes": 25.0,
+            "success_rate": 0.72
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "peak": {
+            "env_steps": 50085.0,
+            "successes": 20.0,
+            "episodes": 25.0,
+            "success_rate": 0.8
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 18.0,
+            "episodes": 25.0,
+            "success_rate": 0.72
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "peak": {
+            "env_steps": 55117.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 21.0,
+            "episodes": 25.0,
+            "success_rate": 0.84
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 7.0,
+            "episodes": 25.0,
+            "success_rate": 0.28
+          },
+          "peak": {
+            "env_steps": 5014.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 20.0,
+            "episodes": 25.0,
+            "success_rate": 0.8
+          },
+          "peak": {
+            "env_steps": 55104.0,
+            "successes": 23.0,
+            "episodes": 25.0,
+            "success_rate": 0.92
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 16.0,
+            "episodes": 25.0,
+            "success_rate": 0.64
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "peak": {
+            "env_steps": 75125.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 103,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "peak": {
+            "env_steps": 50086.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 103,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 18.0,
+            "episodes": 25.0,
+            "success_rate": 0.72
+          },
+          "peak": {
+            "env_steps": 5011.0,
+            "successes": 21.0,
+            "episodes": 25.0,
+            "success_rate": 0.84
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 104,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 13.0,
+            "episodes": 25.0,
+            "success_rate": 0.52
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 13.0,
+            "episodes": 25.0,
+            "success_rate": 0.52
+          },
+          "peak": {
+            "env_steps": 40090.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 104,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "peak": {
+            "env_steps": 60162.0,
+            "successes": 23.0,
+            "episodes": 25.0,
+            "success_rate": 0.92
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 105,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 21.0,
+            "episodes": 25.0,
+            "success_rate": 0.84
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 16.0,
+            "episodes": 25.0,
+            "success_rate": 0.64
+          },
+          "peak": {
+            "env_steps": 15029.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 105,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "peak": {
+            "env_steps": 20049.0,
+            "successes": 21.0,
+            "episodes": 25.0,
+            "success_rate": 0.84
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 106,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "peak": {
+            "env_steps": 5018.0,
+            "successes": 20.0,
+            "episodes": 25.0,
+            "success_rate": 0.8
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 106,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 16.0,
+            "episodes": 25.0,
+            "success_rate": 0.64
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "peak": {
+            "env_steps": 5004.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 107,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 20.0,
+            "episodes": 25.0,
+            "success_rate": 0.8
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 2.0,
+            "episodes": 25.0,
+            "success_rate": 0.08
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 20.0,
+            "episodes": 25.0,
+            "success_rate": 0.8
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 107,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 21.0,
+            "episodes": 25.0,
+            "success_rate": 0.84
+          },
+          "peak": {
+            "env_steps": 60140.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        }
+      ],
+      "stats": {
+        "baseline": {
+          "n": 8,
+          "mean": 0.725,
+          "sd": 0.0886405260427918,
+          "t_ci95": [
+            0.6508946657239627,
+            0.7991053342760372
+          ],
+          "values": [
+            0.72,
+            0.86,
+            0.76,
+            0.72,
+            0.6000000000000001,
+            0.76,
+            0.6000000000000001,
+            0.78
+          ],
+          "seed_rates": {
+            "100": 0.72,
+            "101": 0.86,
+            "102": 0.76,
+            "103": 0.72,
+            "104": 0.6000000000000001,
+            "105": 0.76,
+            "106": 0.6000000000000001,
+            "107": 0.78
+          },
+          "episodes": 400.0,
+          "method": "95% Student t interval across seed means; reward arms averaged within each seed"
+        },
+        "paired_final_sparse_minus_robometer": {
+          "n": 8,
+          "mean": 0.34,
+          "sd": 0.232256016376018,
+          "t_ci95": [
+            0.14582911113527613,
+            0.5341708888647239
+          ],
+          "values": [
+            0.36,
+            0.52,
+            0.12,
+            0.24,
+            0.24,
+            0.040000000000000036,
+            0.44,
+            0.76
+          ],
+          "p": 0.0078125
+        },
+        "completed_paired_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      "label": "\u03c0\u2080 \u00b7 LIBERO-10 task 6 \u00b7 Oct 15",
+      "plot_url": "http://172.28.5.161:8768/#task-pi0_libero10_task06_dsrl_5seeds_20261015",
+      "curve_snapshot": "curve_01.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/manifest.json",
+          "sha256": "43d1e56e00d0b47c924d200786289bc8017e4fb93ce5048daca8c6a8a261fe35"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed104/sparse_seed104/evaluation.csv",
+          "sha256": "8002b3aa0d9494e7a6ce9bf182aa0865188b5bff8f0a5b1e96a4d02b986c824a"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed104/robometer_seed104/evaluation.csv",
+          "sha256": "28ead652e0f733cbb1954a62fb9fa135baf3714ee5e5d9f90ad2abafaef781ce"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed106/sparse_seed106/evaluation.csv",
+          "sha256": "0d312403f65d25292d179cccf0b6eaf568e5f3519a50e287d45d1e61396143d9"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed106/robometer_seed106/evaluation.csv",
+          "sha256": "a618963369b655dfe55134a78f0fbc10541c1c0032456e308ad44c8c993354e6"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed101/robometer_seed101/evaluation.csv",
+          "sha256": "046b9d96ff89a1033f8ab37dd514d833f4c6c946ef1889652f175943cb295e9c"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed101/sparse_seed101/evaluation.csv",
+          "sha256": "a735d92f21ab6d73f9270151087ab13246ca5e91ff1a3f5687f4815542e32818"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed107/robometer_seed107/evaluation.csv",
+          "sha256": "1ae981ebf5e827b1b1c6fc97f250d3219a94b952ca51107b821a6ebb80c950a5"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed107/sparse_seed107/evaluation.csv",
+          "sha256": "4943d748a17779355ae3986079d22cfe313ad29e03f7319b1d176ce31511628f"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed102/sparse_seed102/evaluation.csv",
+          "sha256": "8fee559e30eed75ae4c1900a3297e631b938edd0a0adbb0f43240f690d4a94ff"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed102/robometer_seed102/evaluation.csv",
+          "sha256": "9761b0d596a290593564f6c8e86ddee722fdd4d1ebcc2015e2de7e84e0990eba"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed105/sparse_seed105/evaluation.csv",
+          "sha256": "e7ee88fe71439cc003304fde969a32cfddd0fac8ad832ee79f3eb7270eb2be6f"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed105/robometer_seed105/evaluation.csv",
+          "sha256": "89f42d89df97f5cd89c0aedd49e6c9bc075ac28e25870d7ebdec9df77fff0c54"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed100/sparse_seed100/evaluation.csv",
+          "sha256": "e9e65b231c636ff11a182c010120893b12512b6ed1797697e1d64699ab2ba9f8"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed100/robometer_seed100/evaluation.csv",
+          "sha256": "cf88dde6f1e6da60aa00e3076feb9ae91f6ef78837f914b1d168f57cc7710711"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed103/sparse_seed103/evaluation.csv",
+          "sha256": "4f6fda168445dba992e02cda80017f1bf9b5b5b4ddd3af3b7a338399114d59dc"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task06_dsrl_5seeds_20261015/seed103/robometer_seed103/evaluation.csv",
+          "sha256": "816c8e30f0b2a03710a0a025e2f920189cc3007ef9896559a09ee1da8a9fe051"
+        }
+      ],
+      "curve_screenshot": "curve_01.png"
+    },
+    {
+      "root": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "peak": {
+            "env_steps": 60075.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 6.0,
+            "episodes": 25.0,
+            "success_rate": 0.24
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 3.0,
+            "episodes": 25.0,
+            "success_rate": 0.12
+          },
+          "peak": {
+            "env_steps": 45045.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 8.0,
+            "episodes": 25.0,
+            "success_rate": 0.32
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 5.0,
+            "episodes": 25.0,
+            "success_rate": 0.2
+          },
+          "peak": {
+            "env_steps": 5000.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 1.0,
+            "episodes": 25.0,
+            "success_rate": 0.04
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "peak": {
+            "env_steps": 95104.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 13.0,
+            "episodes": 25.0,
+            "success_rate": 0.52
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 5.0,
+            "episodes": 25.0,
+            "success_rate": 0.2
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 13.0,
+            "episodes": 25.0,
+            "success_rate": 0.52
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 103,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 8.0,
+            "episodes": 25.0,
+            "success_rate": 0.32
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "peak": {
+            "env_steps": 10030.0,
+            "successes": 13.0,
+            "episodes": 25.0,
+            "success_rate": 0.52
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 103,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 3.0,
+            "episodes": 25.0,
+            "success_rate": 0.12
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 104,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "peak": {
+            "env_steps": 100000.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 104,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 6.0,
+            "episodes": 25.0,
+            "success_rate": 0.24
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 105,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 1.0,
+            "episodes": 25.0,
+            "success_rate": 0.04
+          },
+          "peak": {
+            "env_steps": 80133.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 105,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 4.0,
+            "episodes": 25.0,
+            "success_rate": 0.16
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 106,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 106,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 8.0,
+            "episodes": 25.0,
+            "success_rate": 0.32
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 3.0,
+            "episodes": 25.0,
+            "success_rate": 0.12
+          },
+          "peak": {
+            "env_steps": 60051.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 107,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 2.0,
+            "episodes": 25.0,
+            "success_rate": 0.08
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 107,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 20,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 6.0,
+            "episodes": 25.0,
+            "success_rate": 0.24
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "peak": {
+            "env_steps": 100000.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        }
+      ],
+      "stats": {
+        "baseline": {
+          "n": 8,
+          "mean": 0.385,
+          "sd": 0.0674007206404883,
+          "t_ci95": [
+            0.32865158741163225,
+            0.44134841258836777
+          ],
+          "values": [
+            0.3,
+            0.36,
+            0.5,
+            0.36,
+            0.44,
+            0.44,
+            0.33999999999999997,
+            0.33999999999999997
+          ],
+          "seed_rates": {
+            "100": 0.3,
+            "101": 0.36,
+            "102": 0.5,
+            "103": 0.36,
+            "104": 0.44,
+            "105": 0.44,
+            "106": 0.33999999999999997,
+            "107": 0.33999999999999997
+          },
+          "episodes": 400.0,
+          "method": "95% Student t interval across seed means; reward arms averaged within each seed"
+        },
+        "paired_final_sparse_minus_robometer": {
+          "n": 8,
+          "mean": 0.009999999999999992,
+          "sd": 0.22193950269643947,
+          "t_ci95": [
+            -0.17554606759031716,
+            0.19554606759031712
+          ],
+          "values": [
+            0.12,
+            -0.16,
+            -0.24,
+            0.12,
+            -0.32000000000000006,
+            0.12,
+            0.12,
+            0.32
+          ],
+          "p": 0.96875
+        },
+        "completed_paired_seeds": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ]
+      },
+      "label": "\u03c0\u2080 \u00b7 LIBERO-10 task 8 \u00b7 Oct 16",
+      "plot_url": "http://172.28.5.161:8768/#task-pi0_libero10_task08_dsrl_8seeds_20261016",
+      "curve_snapshot": "curve_02.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/manifest.json",
+          "sha256": "c637ad8556e3492fee228cc773afd6f0ed71d2baad530aebf7b6d5b2aa61c6f0"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed104/sparse_seed104/evaluation.csv",
+          "sha256": "896b1c7fd89032e091c52d2381950710197a7201c63aa2704fef30617e539831"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed104/robometer_seed104/evaluation.csv",
+          "sha256": "c3084f872a7ec12b5b6e1662984c88e5b6590d2c85eba44516bd683cf81ed025"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed106/sparse_seed106/evaluation.csv",
+          "sha256": "d19c9fc88d45ede8f9f88a7f3a3a48d4f67806a94a8bb9d6872450d18e353d2c"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed106/robometer_seed106/evaluation.csv",
+          "sha256": "e4345e968e87ebff58604d4b62ce6ac83f0c0884ebb1196913ed3c89e5a1830d"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed101/robometer_seed101/evaluation.csv",
+          "sha256": "60f5c5cfeb66aff289a5eca01be5717b40039b8ec9f5a1883226980248ea083f"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed101/sparse_seed101/evaluation.csv",
+          "sha256": "5b5f957971147d101076d5039f83ae4b1b00172bb085db4ac456a09bd8888657"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed107/robometer_seed107/evaluation.csv",
+          "sha256": "3c518b04a110d00e7576df226a7631c18f9b546e700ca4b5799b6aad171b3b5d"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed107/sparse_seed107/evaluation.csv",
+          "sha256": "e8c0e53b826f13b43e2a346bd9baeefc24b2e5a1b2796becab7a332ef16985b0"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed102/sparse_seed102/evaluation.csv",
+          "sha256": "1dbbd3d173745b9f5ccfcc95e013b8221a8b6cd99ab14e199b54fcecada94fba"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed102/robometer_seed102/evaluation.csv",
+          "sha256": "bc212a6bc4a1517eeed334861cebae942d99aaa3d9a0c0ac5c0c8efc0b8b7e41"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed105/sparse_seed105/evaluation.csv",
+          "sha256": "161bddf64c7be18718b8fd721f164d3c638ab13994c48dec438aa8ff046b3122"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed105/robometer_seed105/evaluation.csv",
+          "sha256": "e4a9cc13294a812b9f7a3bcf007decf0f72c9536693a1c45aac542c78124b34f"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed100/sparse_seed100/evaluation.csv",
+          "sha256": "c9156ababf7b6fd8d7fb7533b8e6c436924c0641891bd950943aeb71b5e2ef06"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed100/robometer_seed100/evaluation.csv",
+          "sha256": "b50d44dd2ec5b1102258e050a7ecb0cc4ab2572719b1d1f7b21472e21c5219c2"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed103/sparse_seed103/evaluation.csv",
+          "sha256": "0518ba3c7f1ef4093667fc3671657531eed812f7c332676212c9c957baecf645"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed103/robometer_seed103/evaluation.csv",
+          "sha256": "25f4105eaa4bbb930b4d1c0071c62d38f0e1ac3c9db2f83243746390c89cf7d2"
+        }
+      ],
+      "curve_screenshot": "curve_02.png"
+    },
+    {
+      "root": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "peak": {
+            "env_steps": 40019.0,
+            "successes": 16.0,
+            "episodes": 25.0,
+            "success_rate": 0.64
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "peak": {
+            "env_steps": 10004.0,
+            "successes": 18.0,
+            "episodes": 25.0,
+            "success_rate": 0.72
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 13.0,
+            "episodes": 25.0,
+            "success_rate": 0.52
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "peak": {
+            "env_steps": 30012.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 3.0,
+            "episodes": 25.0,
+            "success_rate": 0.12
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 16.0,
+            "episodes": 25.0,
+            "success_rate": 0.64
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 16.0,
+            "episodes": 25.0,
+            "success_rate": 0.64
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        }
+      ],
+      "stats": {
+        "baseline": {
+          "n": 3,
+          "mean": 0.5933333333333334,
+          "sd": 0.06110100926607786,
+          "t_ci95": [
+            0.4415500119913439,
+            0.7451166546753228
+          ],
+          "values": [
+            0.5800000000000001,
+            0.54,
+            0.66
+          ],
+          "seed_rates": {
+            "100": 0.5800000000000001,
+            "101": 0.54,
+            "102": 0.66
+          },
+          "episodes": 150.0,
+          "method": "95% Student t interval across seed means; reward arms averaged within each seed"
+        },
+        "paired_final_sparse_minus_robometer": {
+          "n": 3,
+          "mean": 0.24000000000000002,
+          "sd": 0.10583005244258362,
+          "t_ci95": [
+            -0.022896424305879154,
+            0.5028964243058792
+          ],
+          "values": [
+            0.15999999999999998,
+            0.20000000000000007,
+            0.36
+          ],
+          "p": 0.25
+        },
+        "completed_paired_seeds": [
+          100,
+          101,
+          102
+        ]
+      },
+      "label": "\u03c0\u2080.\u2085 \u00b7 LIBERO-90 task 28 \u00b7 Oct 22",
+      "plot_url": "http://172.28.5.161:8768/#task-pi05_libero90_task28_dsrl_3seeds_20261022",
+      "curve_snapshot": "curve_03.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022/manifest.json",
+          "sha256": "d9a0eceb57847fb5123b452a33cf63bc35b7e6a14d1debdf0e6ee9a96af9affd"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022/seed101/robometer_seed101/evaluation.csv",
+          "sha256": "e94a23680fdbe585aeaf60ecf0b0ab3ffab8e77e37f5841ddd93378494c1e957"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022/seed101/sparse_seed101/evaluation.csv",
+          "sha256": "b1b95f85e0dd7aec859042974252a0c81c22630874f4f5c51d926bbb5cbc5536"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022/seed102/sparse_seed102/evaluation.csv",
+          "sha256": "109b457a94e8ed3079f13106196dc1e987a79c667db1d3e0c49af7085db1f0ae"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022/seed102/robometer_seed102/evaluation.csv",
+          "sha256": "aa7c3e427c052375fca11693d463d84c864b2ee6744456ad8bc2c914ecae41f3"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022/seed100/sparse_seed100/evaluation.csv",
+          "sha256": "3a33d3d794cbf7f6c57aef587910e5722eda668b1f2eeaec4ea51e40fbb6e6c1"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/pi05_libero90_task28_dsrl_3seeds_20261022/seed100/robometer_seed100/evaluation.csv",
+          "sha256": "781246491f25a55ce3222bc008f44d146a067d8fb6e93214f1e091d5cccb5634"
+        }
+      ],
+      "curve_screenshot": "curve_03.png"
+    },
+    {
+      "root": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "peak": {
+            "env_steps": 30013.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 13.0,
+            "episodes": 25.0,
+            "success_rate": 0.52
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "peak": {
+            "env_steps": 30014.0,
+            "successes": 18.0,
+            "episodes": 25.0,
+            "success_rate": 0.72
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 4.0,
+            "episodes": 25.0,
+            "success_rate": 0.16
+          },
+          "peak": {
+            "env_steps": 60026.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "robometer",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 2.0,
+            "episodes": 25.0,
+            "success_rate": 0.08
+          },
+          "peak": {
+            "env_steps": 10000.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 100000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "last": {
+            "env_steps": 100000.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "peak": {
+            "env_steps": 70021.0,
+            "successes": 15.0,
+            "episodes": 25.0,
+            "success_rate": 0.6
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        }
+      ],
+      "stats": {
+        "baseline": {
+          "n": 3,
+          "mean": 0.46,
+          "sd": 0.034641016151377546,
+          "t_ci95": [
+            0.3739469454060772,
+            0.5460530545939228
+          ],
+          "values": [
+            0.44,
+            0.5,
+            0.44
+          ],
+          "seed_rates": {
+            "100": 0.44,
+            "101": 0.5,
+            "102": 0.44
+          },
+          "episodes": 150.0,
+          "method": "95% Student t interval across seed means; reward arms averaged within each seed"
+        },
+        "paired_final_sparse_minus_robometer": {
+          "n": 3,
+          "mean": 0.38666666666666666,
+          "sd": 0.1665332799572906,
+          "t_ci95": [
+            -0.027024934331587702,
+            0.800358267664921
+          ],
+          "values": [
+            0.20000000000000007,
+            0.43999999999999995,
+            0.52
+          ],
+          "p": 0.25
+        },
+        "completed_paired_seeds": [
+          100,
+          101,
+          102
+        ]
+      },
+      "label": "\u03c0\u2080.\u2085 \u00b7 LIBERO-90 task 29 \u00b7 Oct 23",
+      "plot_url": "http://172.28.5.161:8768/#task-pi05_libero90_task29_task29_pi05_dsrl",
+      "curve_snapshot": "curve_04.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl/manifest.json",
+          "sha256": "22b18e086e68df9fce3e685176542c1d5d3dca0de714f3feaa41723732b9e9b8"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl/seed101/robometer_seed101/evaluation.csv",
+          "sha256": "308b84e507a9f726a1f9f78d50ae8ca868ebdcdf8ecc1fc2b5c01b112c7b44f8"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl/seed101/sparse_seed101/evaluation.csv",
+          "sha256": "59b6b5fccce1f3675bd5ff102eb5e158b4fc6ad70fcf1b66132275b6f3f2af70"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl/seed102/sparse_seed102/evaluation.csv",
+          "sha256": "a17498bbac99dedfe1a7e624d7bc85e10a949315495bf4309f2f7dd05a80228d"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl/seed102/robometer_seed102/evaluation.csv",
+          "sha256": "32e2b2b2e8fa310b387e4f17867712978d0434bf4d82d34824401b177b441fa9"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl/seed100/sparse_seed100/evaluation.csv",
+          "sha256": "9af62579b25c18d61949d0a8316f89fd5b575a79e3b2bfc997d25f81f53873f6"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl/pi05_libero90_task29_task29_pi05_dsrl/seed100/robometer_seed100/evaluation.csv",
+          "sha256": "4efb269a3c557ea65f2040319f2a3770248cc97ddc3df0eee6259586b2de2707"
+        }
+      ],
+      "curve_screenshot": "curve_04.png"
+    },
+    {
+      "root": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_1m_20261026/pi05_libero90_task29_task29_pi05_dsrl_1m_20261026",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "canceled",
+          "base_model": "pi0.5",
+          "steps": 1000000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "last": {
+            "env_steps": 500192.0,
+            "successes": 6.0,
+            "episodes": 25.0,
+            "success_rate": 0.24
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 11.0,
+            "episodes": 25.0,
+            "success_rate": 0.44
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 1000000,
+          "envs": 1,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 9.0,
+            "episodes": 25.0,
+            "success_rate": 0.36
+          },
+          "last": {
+            "env_steps": 1000000.0,
+            "successes": 24.0,
+            "episodes": 25.0,
+            "success_rate": 0.96
+          },
+          "peak": {
+            "env_steps": 530243.0,
+            "successes": 25.0,
+            "episodes": 25.0,
+            "success_rate": 1.0
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        }
+      ],
+      "stats": {
+        "baseline": {
+          "n": 25,
+          "mean": 0.44,
+          "sd": 0.5066228051190221,
+          "t_ci95": [
+            0.23087638424537948,
+            0.6491236157546205
+          ],
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "seed_rates": {
+            "100": 0.4
+          },
+          "episodes": 25.0,
+          "method": "95% Student t interval across reset-state means, one sampling seed"
+        },
+        "paired_final_sparse_minus_robometer": {
+          "n": 0,
+          "mean": null,
+          "sd": null,
+          "t_ci95": null,
+          "values": [],
+          "p": null
+        },
+        "completed_paired_seeds": []
+      },
+      "label": "\u03c0\u2080.\u2085 \u00b7 Task 29 \u00b7 1M steps \u00b7 Oct 26",
+      "plot_url": "http://172.28.5.161:8768/#task-pi05_libero90_task29_task29_pi05_dsrl_1m_20261026",
+      "curve_snapshot": "curve_05.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_1m_20261026/pi05_libero90_task29_task29_pi05_dsrl_1m_20261026/manifest.json",
+          "sha256": "2259b839526df63e71e9011e4050a607b75b6ea623b18c325a7e0ecdf509f661"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_1m_20261026/pi05_libero90_task29_task29_pi05_dsrl_1m_20261026/seed100/sparse_seed100/evaluation.csv",
+          "sha256": "417146454e70fe645c30bf7605125f8407ed2f3bbddda2a9f1fdb1e85a1a7c9a"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_1m_20261026/pi05_libero90_task29_task29_pi05_dsrl_1m_20261026/seed100/robometer_seed100/evaluation.csv",
+          "sha256": "690ff61c08e5dcc841a2a6c5dbb91ee1aaccb891ee94d7d32aaf7aa2038586d9"
+        }
+      ],
+      "curve_screenshot": "curve_05.png"
+    },
+    {
+      "root": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_4env_200k_20261027/pi05_libero90_task29_task29_pi05_dsrl_4env_200k_20261027",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "canceled",
+          "base_model": "pi0.5",
+          "steps": 800000,
+          "envs": 4,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 8.0,
+            "episodes": 25.0,
+            "success_rate": 0.32
+          },
+          "last": {
+            "env_steps": 480293.0,
+            "successes": 1.0,
+            "episodes": 25.0,
+            "success_rate": 0.04
+          },
+          "peak": {
+            "env_steps": 0.0,
+            "successes": 8.0,
+            "episodes": 25.0,
+            "success_rate": 0.32
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0.5",
+          "steps": 800000,
+          "envs": 4,
+          "chunk": 10,
+          "horizon": 400,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 10.0,
+            "episodes": 25.0,
+            "success_rate": 0.4
+          },
+          "last": {
+            "env_steps": 800000.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "peak": {
+            "env_steps": 520294.0,
+            "successes": 24.0,
+            "episodes": 25.0,
+            "success_rate": 0.96
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        }
+      ],
+      "stats": {
+        "baseline": {
+          "n": 25,
+          "mean": 0.32,
+          "sd": 0.4760952285695233,
+          "t_ci95": [
+            0.12347754851147943,
+            0.5165224514885206
+          ],
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "seed_rates": {
+            "100": 0.36
+          },
+          "episodes": 25.0,
+          "method": "95% Student t interval across reset-state means, one sampling seed"
+        },
+        "paired_final_sparse_minus_robometer": {
+          "n": 0,
+          "mean": null,
+          "sd": null,
+          "t_ci95": null,
+          "values": [],
+          "p": null
+        },
+        "completed_paired_seeds": []
+      },
+      "label": "\u03c0\u2080.\u2085 \u00b7 Task 29 \u00b7 four environments \u00b7 Oct 27",
+      "plot_url": "http://172.28.5.161:8768/#task-pi05_libero90_task29_task29_pi05_dsrl_4env_200k_20261027",
+      "curve_snapshot": "curve_06.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_4env_200k_20261027/pi05_libero90_task29_task29_pi05_dsrl_4env_200k_20261027/manifest.json",
+          "sha256": "4685afe9cba714e1324ebb8476fbc56c948160d6f547bbf19750716b071e8a5b"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_4env_200k_20261027/pi05_libero90_task29_task29_pi05_dsrl_4env_200k_20261027/seed100/sparse_seed100/evaluation.csv",
+          "sha256": "692b4860b8ff768a2ac085ccdb0d5a1644d8e1c3803e8bdff665bc3dea247efe"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/task29_pi05_dsrl_4env_200k_20261027/pi05_libero90_task29_task29_pi05_dsrl_4env_200k_20261027/seed100/robometer_seed100/evaluation.csv",
+          "sha256": "472efd0162217931c5dfbcc843b3252cec6004fe55df668125a9ea67fb0052c8"
+        }
+      ],
+      "curve_screenshot": "curve_06.png"
+    },
+    {
+      "root": "/data/rohan/Reward-Modeling/experiments/libero10_task08_pi0_dsrl_batched_4env_200k_20261027/pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027",
+      "runs": [
+        {
+          "reward": "robometer",
+          "seed": 100,
+          "status": "running",
+          "base_model": "pi0",
+          "steps": 800000,
+          "envs": 4,
+          "chunk": 20,
+          "horizon": 600,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 12.0,
+            "episodes": 25.0,
+            "success_rate": 0.48
+          },
+          "last": {
+            "env_steps": 680817.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "peak": {
+            "env_steps": 200153.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "progress_chunk_mean"
+        },
+        {
+          "reward": "sparse",
+          "seed": 100,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 800000,
+          "envs": 4,
+          "chunk": 20,
+          "horizon": 600,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 19.0,
+            "episodes": 25.0,
+            "success_rate": 0.76
+          },
+          "last": {
+            "env_steps": 800000.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "peak": {
+            "env_steps": 280399.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "sparse",
+          "seed": 101,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 800000,
+          "envs": 4,
+          "chunk": 20,
+          "horizon": 600,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 14.0,
+            "episodes": 25.0,
+            "success_rate": 0.56
+          },
+          "last": {
+            "env_steps": 800000.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "peak": {
+            "env_steps": 280258.0,
+            "successes": 23.0,
+            "episodes": 25.0,
+            "success_rate": 0.92
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        },
+        {
+          "reward": "sparse",
+          "seed": 102,
+          "status": "complete",
+          "base_model": "pi0",
+          "steps": 800000,
+          "envs": 4,
+          "chunk": 20,
+          "horizon": 600,
+          "eval_episodes": 25,
+          "first": {
+            "env_steps": 0.0,
+            "successes": 17.0,
+            "episodes": 25.0,
+            "success_rate": 0.68
+          },
+          "last": {
+            "env_steps": 800000.0,
+            "successes": 0.0,
+            "episodes": 25.0,
+            "success_rate": 0.0
+          },
+          "peak": {
+            "env_steps": 360266.0,
+            "successes": 22.0,
+            "episodes": 25.0,
+            "success_rate": 0.88
+          },
+          "reward_checkpoint": "robometer/Robometer-4B@beef63bc914c5c189329d49c6d712d96d632aa34",
+          "formula": "sparse_chunk_terminal"
+        }
+      ],
+      "stats": {
+        "baseline": {
+          "n": 3,
+          "mean": 0.62,
+          "sd": 0.06,
+          "t_ci95": [
+            0.47095173729682727,
+            0.7690482627031727
+          ],
+          "values": [
+            0.62,
+            0.56,
+            0.68
+          ],
+          "seed_rates": {
+            "100": 0.62,
+            "101": 0.56,
+            "102": 0.68
+          },
+          "episodes": 100.0,
+          "method": "95% Student t interval across seed means; reward arms averaged within each seed"
+        },
+        "paired_final_sparse_minus_robometer": {
+          "n": 0,
+          "mean": null,
+          "sd": null,
+          "t_ci95": null,
+          "values": [],
+          "p": null
+        },
+        "completed_paired_seeds": []
+      },
+      "label": "\u03c0\u2080 \u00b7 LIBERO-10 task 8 \u00b7 batched \u00b7 Oct 27",
+      "plot_url": "http://172.28.5.161:8768/#task-pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027",
+      "curve_snapshot": "curve_07.svg",
+      "source_files": [
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/libero10_task08_pi0_dsrl_batched_4env_200k_20261027/pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027/manifest.json",
+          "sha256": "16fd25599229339f4cb54cc19f60e7b7d8877ddd24d11e6246347e77cd565b98"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/libero10_task08_pi0_dsrl_batched_4env_200k_20261027/pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027/seed101/sparse_seed101/evaluation.csv",
+          "sha256": "dfb34db5dfbddc532b54ca3c41d2ae741f28cee86f15417bda8e5e00ace44f0a"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/libero10_task08_pi0_dsrl_batched_4env_200k_20261027/pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027/seed102/sparse_seed102/evaluation.csv",
+          "sha256": "b78a35322d4d797267c890fd47867a8acf745738e2b29736df8ddf79fbfbe38b"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/libero10_task08_pi0_dsrl_batched_4env_200k_20261027/pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027/seed100/sparse_seed100/evaluation.csv",
+          "sha256": "f9b637631cac1ec49bad8cfde8a240fcecad4f653fa8d59f9a0e238c344cf144"
+        },
+        {
+          "path": "/data/rohan/Reward-Modeling/experiments/libero10_task08_pi0_dsrl_batched_4env_200k_20261027/pi0_libero10_task08_libero10_task08_pi0_dsrl_batched_4env_200k_20261027/seed100/robometer_seed100/evaluation.csv",
+          "sha256": "10d56e0c53a8f23ebb2cabb1279df728ab16e06820f898731ed878b535dff519"
+        }
+      ],
+      "curve_screenshot": "curve_07.png"
+    }
+  ],
+  "task28_stochastic_controls": {
+    "final_stochastic_by_seed": {
+      "100": {
+        "sparse": {
+          "successes": 11,
+          "episodes": 25,
+          "rate": 0.44
+        },
+        "robometer": {
+          "successes": 17,
+          "episodes": 25,
+          "rate": 0.68
+        }
+      },
+      "101": {
+        "sparse": {
+          "successes": 16,
+          "episodes": 25,
+          "rate": 0.64
+        },
+        "robometer": {
+          "successes": 9,
+          "episodes": 25,
+          "rate": 0.36
+        }
+      },
+      "102": {
+        "sparse": {
+          "successes": 16,
+          "episodes": 25,
+          "rate": 0.64
+        },
+        "robometer": {
+          "successes": 11,
+          "episodes": 25,
+          "rate": 0.44
+        }
+      }
+    },
+    "summary": {
+      "sparse": {
+        "n": 3,
+        "mean": 0.5733333333333334,
+        "sd": 0.11547005383792516,
+        "t_ci95": [
+          0.2864898180202572,
+          0.8601768486464095
+        ],
+        "values": [
+          0.44,
+          0.64,
+          0.64
+        ]
+      },
+      "robometer": {
+        "n": 3,
+        "mean": 0.49333333333333335,
+        "sd": 0.16653327995729064,
+        "t_ci95": [
+          0.07964173233507887,
+          0.9070249343315878
+        ],
+        "values": [
+          0.68,
+          0.36,
+          0.44
+        ]
+      }
+    },
+    "paired_final": {
+      "n": 3,
+      "mean": 0.08,
+      "sd": 0.28,
+      "t_ci95": [
+        -0.6155585592814729,
+        0.7755585592814728
+      ],
+      "values": [
+        -0.24000000000000005,
+        0.28,
+        0.2
+      ]
+    },
+    "paired_training_seed_p": 0.75,
+    "seed100_sampling_tests": {
+      "sparse": {
+        "deterministic_successes": 16,
+        "stochastic_successes": 11,
+        "discordant_improvements": 2,
+        "discordant_regressions": 7,
+        "matched_state_exact_p": 0.1796875
+      },
+      "robometer": {
+        "deterministic_successes": 6,
+        "stochastic_successes": 17,
+        "discordant_improvements": 12,
+        "discordant_regressions": 1,
+        "matched_state_exact_p": 0.00341796875
+      }
+    },
+    "video_reward_examples": [
+      {
+        "policy": "robometer",
+        "state": 26,
+        "success": false,
+        "step": 400,
+        "progress": 0.8928706645965576,
+        "success_probability": 0.94921875,
+        "ground_truth_reward": 0.0
+      },
+      {
+        "policy": "robometer",
+        "state": 35,
+        "success": false,
+        "step": 400,
+        "progress": 0.8789206743240356,
+        "success_probability": 0.7890625,
+        "ground_truth_reward": 0.0
+      },
+      {
+        "policy": "sparse",
+        "state": 45,
+        "success": true,
+        "step": 239,
+        "progress": 0.5683066248893738,
+        "success_probability": 0.1357421875,
+        "ground_truth_reward": 1.0
+      },
+      {
+        "policy": "pretrained",
+        "state": 26,
+        "success": false,
+        "step": 400,
+        "progress": 0.9252840876579285,
+        "success_probability": 0.9609375,
+        "ground_truth_reward": 0.0
+      }
+    ],
+    "evaluation_only": true
+  },
+  "step_units": "Raw env_steps are total physical steps; displayed x = env_steps / training num_envs.",
+  "screenshot_method": "Firefox headless browser capture of the saved report SVG curves, with experiment titles and legends; 1280 x 840 PNG."
+}

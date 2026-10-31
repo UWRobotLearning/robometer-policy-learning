@@ -1,0 +1,4 @@
+{
+  "status": "failed",
+  "error": "RuntimeError('Traceback (most recent call last):\\n  File \"/home/rohan/Robotics/Reward-Modeling/robometer-policy-learning/experiments/reward_audit/envs.py\", line 51, in _worker\\n    from libero.libero import benchmark\\nModuleNotFoundError: No module named \\'libero\\'\\n')"
+}

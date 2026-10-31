@@ -182,3 +182,43 @@ def test_pi05_25_episode_step_zero_baseline_pools_both_arms_by_seed(tmp_path):
     task['baseline'] = baseline
     assert 'class="baseline-line"' in plot(task)
     assert 'class="baseline-ci"' in plot(task)
+
+
+def test_dashboard_discovers_config_driven_scratch_experiments(tmp_path):
+    from experiments.libero.config import resolve
+    from experiments.libero.runner import initialize
+
+    out = tmp_path / 'experiments' / 'new_experiment'
+    out.mkdir(parents=True)
+    spec = resolve({'base_model': 'scratch', 'suite': 'libero_goal', 'tasks': [7], 'rewards': ['sparse'],
+                    'runtime': {'data_root': str(tmp_path)}})
+    initialize(spec, out, False)
+    roots = task_roots(tmp_path)
+    assert len(roots) == 1
+    task = load_task(roots[0])
+    assert task['base_model'] == 'scratch'
+    assert task['suite'] == 'libero_goal'
+    assert task['baseline'] is None
+    assert task['runs']['robometer'][100]['status'] == 'not selected'
+
+
+def test_audit_links_match_task_checkpoint_and_training_experiment(tmp_path):
+    from experiments.pi0_stove.dashboard import video_audit_url
+
+    task = {'id': 29, 'suite': 'libero_90', 'root': tmp_path / 'training',
+            'policy_checkpoints': {'/models/pi05_libero'}}
+    def audit(name, checkpoint='/models/pi05_libero', actor=None):
+        folder = tmp_path / 'video_audits' / name
+        folder.mkdir(parents=True)
+        (folder / 'manifest.json').write_text(json.dumps({'jobs': [{
+            'config': {'task_id': 29, 'suite': 'libero_90', 'pi0_checkpoint': checkpoint},
+            'actor_checkpoint': actor}]}))
+
+    assert video_audit_url(task, tmp_path) is None
+    audit('wrong-model', '/models/pi0_libero')
+    audit('other-training', actor=str(tmp_path / 'other/checkpoints/final.pt'))
+    assert video_audit_url(task, tmp_path) is None
+    audit('frozen')
+    assert video_audit_url(task, tmp_path) == '/video-audits/frozen/'
+    audit('matching-training', actor=str(task['root'] / 'seed100/checkpoints/final.pt'))
+    assert video_audit_url(task, tmp_path) == '/video-audits/matching-training/'

@@ -1,0 +1,112 @@
+[
+  {
+    "init_state_id": 25,
+    "success": true,
+    "length": 356,
+    "chunks": 18,
+    "video": "episode_25.mp4",
+    "video_frames": 90,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9465480446815491,
+    "final_success_probability": 0.9765625
+  },
+  {
+    "init_state_id": 26,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_26.mp4",
+    "video_frames": 101,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9334637522697449,
+    "final_success_probability": 0.921875
+  },
+  {
+    "init_state_id": 27,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_27.mp4",
+    "video_frames": 101,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9553375840187073,
+    "final_success_probability": 0.95703125
+  },
+  {
+    "init_state_id": 28,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_28.mp4",
+    "video_frames": 101,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.22066731750965118,
+    "final_success_probability": 0.004608154296875
+  },
+  {
+    "init_state_id": 29,
+    "success": true,
+    "length": 395,
+    "chunks": 20,
+    "video": "episode_29.mp4",
+    "video_frames": 100,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9400231838226318,
+    "final_success_probability": 0.97265625
+  },
+  {
+    "init_state_id": 30,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_30.mp4",
+    "video_frames": 101,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9156593084335327,
+    "final_success_probability": 0.91796875
+  },
+  {
+    "init_state_id": 31,
+    "success": true,
+    "length": 377,
+    "chunks": 19,
+    "video": "episode_31.mp4",
+    "video_frames": 96,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9486069679260254,
+    "final_success_probability": 0.97265625
+  },
+  {
+    "init_state_id": 32,
+    "success": true,
+    "length": 397,
+    "chunks": 20,
+    "video": "episode_32.mp4",
+    "video_frames": 101,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9375703930854797,
+    "final_success_probability": 0.95703125
+  },
+  {
+    "init_state_id": 33,
+    "success": true,
+    "length": 372,
+    "chunks": 19,
+    "video": "episode_33.mp4",
+    "video_frames": 94,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.9423927068710327,
+    "final_success_probability": 0.97265625
+  },
+  {
+    "init_state_id": 34,
+    "success": false,
+    "length": 400,
+    "chunks": 20,
+    "video": "episode_34.mp4",
+    "video_frames": 101,
+    "prompt": "put the right moka pot on the stove",
+    "final_progress": 0.8022136092185974,
+    "final_success_probability": 0.62109375
+  }
+]

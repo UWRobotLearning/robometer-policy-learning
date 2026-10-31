@@ -1,0 +1,34 @@
+{
+  "stove_robometer_smoke": [
+    {
+      "env_steps": 0.0,
+      "successes": 0.0,
+      "episodes": 1.0,
+      "success_rate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7934506856227626,
+      "elapsed_seconds": 63.899602975696325,
+      "env_iterations": 0.0
+    },
+    {
+      "env_steps": 8.0,
+      "successes": 0.0,
+      "episodes": 1.0,
+      "success_rate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7934506856227626,
+      "elapsed_seconds": 67.22472493723035,
+      "env_iterations": 1.0
+    },
+    {
+      "env_steps": 16.0,
+      "successes": 0.0,
+      "episodes": 1.0,
+      "success_rate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.7934506856227626,
+      "elapsed_seconds": 70.34654774330556,
+      "env_iterations": 2.0
+    }
+  ]
+}

@@ -143,8 +143,12 @@ class SAC(BaseAlgorithm):
 
         # Training counters
         self._n_updates = 0
+        self._diagnostic_actor_updates = 0
+        self._diagnostic_critic_updates = 0
 
-    def train_step(self, logging_prefix: str = "online", rollout_step: int = None) -> None:
+    def train_step(
+        self, logging_prefix: str = "online", rollout_step: int = None, collect_diagnostics: bool = False
+    ) -> dict:
         if rollout_step is not None and rollout_step < self.learning_starts:
             return {}
 
@@ -158,6 +162,12 @@ class SAC(BaseAlgorithm):
         reward_values = []
         progress_rewards = []  # Collect progress rewards from info dict
         success_probs = []  # Collect success probabilities from info dict
+
+        diagnostic_values = {}
+
+        def record_diagnostics(values):
+            for key, value in values.items():
+                diagnostic_values.setdefault(key, []).append(value.detach())
 
         gradient_steps = self.config.num_updates_per_train_step
 
@@ -233,6 +243,22 @@ class SAC(BaseAlgorithm):
                 t0 = time.perf_counter()
                 actions_pi, log_prob = self.actor.action_dist.log_prob_from_params(mean_actions, log_std, **kwargs)
                 time_actor_logprob_s += time.perf_counter() - t0
+
+            if collect_diagnostics:
+                with torch.no_grad():
+                    # Gaussian parameters before tanh; std is exp(log_std), not variance.
+                    latent_mean = mean_actions.detach().float()
+                    latent_std = log_std.detach().float().exp()
+                    record_diagnostics({
+                        "latent_mean_norm": latent_mean.norm(dim=-1).mean(),
+                        "latent_std_norm": latent_std.norm(dim=-1).mean(),
+                        "latent_mean": latent_mean.mean(),
+                        "latent_std": latent_std.mean(),
+                        "latent_mean_min": latent_mean.min(),
+                        "latent_mean_max": latent_mean.max(),
+                        "latent_std_min": latent_std.min(),
+                        "latent_std_max": latent_std.max(),
+                    })
 
             for critic_update in range(self.config.num_critic_updates_per_actor_update):
                 update_step = (
@@ -325,6 +351,14 @@ class SAC(BaseAlgorithm):
                 target_q_values_f32 = target_q_values.float().expand_as(current_q_values_f32)
                 critic_loss = F.mse_loss(current_q_values_f32, target_q_values_f32)
                 critic_losses.append(critic_loss.item())
+                if collect_diagnostics:
+                    with torch.no_grad():
+                        record_diagnostics({
+                            "critic_q_mean": current_q_values_f32.mean(),
+                            "bellman_target_mean": target_q_values_f32.mean(),
+                            "bootstrap_q_mean": next_q_values.float().mean(),
+                            "critic_ensemble_std": current_q_values_f32.std(dim=1, unbiased=False).mean(),
+                        })
 
                 # Optimize the critic
                 t0 = time.perf_counter()
@@ -333,6 +367,7 @@ class SAC(BaseAlgorithm):
                 if self.config.clip_grad_norm and self.config.clip_grad_norm > 0:
                     torch.nn.utils.clip_grad_norm_(self.critic.parameters(), max_norm=self.config.clip_grad_norm)
                 self.critic_optimizer.step()
+                self._diagnostic_critic_updates += 1
                 time_critic_backward_s += time.perf_counter() - t0
 
                 # Target network update (once per gradient_step, using global schedule)
@@ -444,6 +479,9 @@ class SAC(BaseAlgorithm):
                     actor_loss = (-min_qf_pi).mean()
             min_qf_pis.append(min_qf_pi.mean().item())
             actor_losses.append(actor_loss.item())
+            if collect_diagnostics:
+                with torch.no_grad():
+                    record_diagnostics({"actor_entropy_term": (ent_coef.float() * log_prob).mean()})
 
             t0 = time.perf_counter()
             self.actor_optimizer.zero_grad()
@@ -451,6 +489,7 @@ class SAC(BaseAlgorithm):
             if self.config.clip_grad_norm and self.config.clip_grad_norm > 0:
                 torch.nn.utils.clip_grad_norm_(self.actor.parameters(), max_norm=self.config.clip_grad_norm)
             self.actor_optimizer.step()
+            self._diagnostic_actor_updates += 1
             time_actor_backward_s += time.perf_counter() - t0
 
             actor_log_pis.append(log_prob.mean().item())
@@ -470,6 +509,21 @@ class SAC(BaseAlgorithm):
             "actor_chosen_q_mean": np.mean(min_qf_pis),
         }
 
+        if collect_diagnostics:
+            keys = list(diagnostic_values)
+            values = torch.stack([torch.stack(diagnostic_values[key]).mean() for key in keys]).cpu().tolist()
+            metrics_dict.update(zip(keys, values, strict=True))
+            metrics_dict.update(
+                diagnostics_version=1,
+                entropy=-float(np.mean(actor_log_pis)),
+                target_entropy=float(self.target_entropy),
+                temperature=float(np.mean(ent_coefs)),
+                actor_updates=self._diagnostic_actor_updates,
+                critic_updates=self._diagnostic_critic_updates,
+            )
+            if ent_coef_losses:
+                metrics_dict["temperature_loss"] = float(np.mean(ent_coef_losses))
+        # Legacy target_q_mean is the next-state bootstrap, not the Bellman target.
         if len(ent_coef_losses) > 0:
             metrics_dict["ent_coef_loss"] = np.mean(ent_coef_losses)
 

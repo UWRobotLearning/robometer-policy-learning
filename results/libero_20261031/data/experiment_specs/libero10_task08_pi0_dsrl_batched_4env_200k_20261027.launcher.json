@@ -1,0 +1,12 @@
+{
+  "pid": 2608156,
+  "command": [
+    ".venv-policy/bin/python",
+    "-u",
+    "-m",
+    "experiments.libero",
+    "run",
+    "/data/rohan/Reward-Modeling/experiment_specs/libero10_task08_pi0_dsrl_batched_4env_200k_20261027.json",
+    "--wait-for-gpus"
+  ]
+}

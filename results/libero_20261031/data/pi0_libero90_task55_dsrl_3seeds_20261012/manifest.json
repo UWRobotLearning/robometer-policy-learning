@@ -1,0 +1,16 @@
+{
+  "task_id": 55,
+  "task": "LIVING_ROOM_SCENE3_pick_up_the_alphabet_soup_and_put_it_in_the_tray",
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "steps_per_run": 100000,
+  "algorithm": "direct DSRL",
+  "source": "/data/rohan/Reward-Modeling/dsrl_task38_then55_20261012",
+  "created": "2026-10-12T22:12:43.790390+00:00",
+  "additional_seeds_source": "/data/rohan/Reward-Modeling/dsrl_add_seeds_103_104_20261013"
+}

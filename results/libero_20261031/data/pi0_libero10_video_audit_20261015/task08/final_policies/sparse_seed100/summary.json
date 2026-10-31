@@ -1,0 +1,64 @@
+{
+  "task_id": 8,
+  "arm": "sparse",
+  "seed": 100,
+  "actor_checkpoint": "/data/rohan/Reward-Modeling/pi0_libero10_task08_dsrl_8seeds_20261016/seed100/sparse_seed100/checkpoints/final.pt",
+  "checkpoint_env_steps": 100000,
+  "init_state_ids": [
+    27,
+    34,
+    28,
+    25
+  ],
+  "successes": 1,
+  "episodes": 4,
+  "records": [
+    {
+      "init_state_id": 27,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_27.mp4",
+      "video_frames": 101,
+      "prompt": "put both moka pots on the stove",
+      "final_progress": 0.8843257427215576,
+      "final_success_probability": 0.8515625
+    },
+    {
+      "init_state_id": 34,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_34.mp4",
+      "video_frames": 101,
+      "prompt": "put both moka pots on the stove",
+      "final_progress": 0.7836115956306458,
+      "final_success_probability": 0.5
+    },
+    {
+      "init_state_id": 28,
+      "success": false,
+      "length": 400,
+      "chunks": 20,
+      "video": "episode_28.mp4",
+      "video_frames": 101,
+      "prompt": "put both moka pots on the stove",
+      "final_progress": 0.8253021240234375,
+      "final_success_probability": 0.5078125
+    },
+    {
+      "init_state_id": 25,
+      "success": true,
+      "length": 390,
+      "chunks": 20,
+      "video": "episode_25.mp4",
+      "video_frames": 99,
+      "prompt": "put both moka pots on the stove",
+      "final_progress": 0.9192716479301453,
+      "final_success_probability": 0.95703125
+    }
+  ],
+  "video_every_physical_steps": 4,
+  "robometer_every_physical_steps": 20,
+  "fps": 10
+}

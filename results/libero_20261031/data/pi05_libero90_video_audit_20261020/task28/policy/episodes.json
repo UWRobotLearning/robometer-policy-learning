@@ -1,0 +1,235 @@
+[
+  {
+    "init_state_id": 25,
+    "success": true,
+    "length": 87,
+    "chunks": 9,
+    "video": "episode_25.mp4",
+    "video_frames": 23,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 26,
+    "success": true,
+    "length": 338,
+    "chunks": 34,
+    "video": "episode_26.mp4",
+    "video_frames": 86,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 27,
+    "success": true,
+    "length": 225,
+    "chunks": 23,
+    "video": "episode_27.mp4",
+    "video_frames": 58,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 28,
+    "success": true,
+    "length": 83,
+    "chunks": 9,
+    "video": "episode_28.mp4",
+    "video_frames": 22,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 29,
+    "success": true,
+    "length": 433,
+    "chunks": 44,
+    "video": "episode_29.mp4",
+    "video_frames": 110,
+    "prompt": "close the top drawer of the cabinet",
+    "final_progress": 0.9019701480865479,
+    "final_success_probability": 0.890625
+  },
+  {
+    "init_state_id": 30,
+    "success": true,
+    "length": 268,
+    "chunks": 27,
+    "video": "episode_30.mp4",
+    "video_frames": 68,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 31,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_31.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 32,
+    "success": true,
+    "length": 102,
+    "chunks": 11,
+    "video": "episode_32.mp4",
+    "video_frames": 27,
+    "prompt": "close the top drawer of the cabinet",
+    "final_progress": 0.5499405860900879,
+    "final_success_probability": 0.193359375
+  },
+  {
+    "init_state_id": 33,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_33.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet",
+    "final_progress": 0.2431514859199524,
+    "final_success_probability": 0.0029754638671875
+  },
+  {
+    "init_state_id": 34,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_34.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 35,
+    "success": true,
+    "length": 175,
+    "chunks": 18,
+    "video": "episode_35.mp4",
+    "video_frames": 45,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 36,
+    "success": true,
+    "length": 104,
+    "chunks": 11,
+    "video": "episode_36.mp4",
+    "video_frames": 27,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 37,
+    "success": true,
+    "length": 529,
+    "chunks": 53,
+    "video": "episode_37.mp4",
+    "video_frames": 134,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 38,
+    "success": true,
+    "length": 362,
+    "chunks": 37,
+    "video": "episode_38.mp4",
+    "video_frames": 92,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 39,
+    "success": true,
+    "length": 203,
+    "chunks": 21,
+    "video": "episode_39.mp4",
+    "video_frames": 52,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 40,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_40.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 41,
+    "success": true,
+    "length": 112,
+    "chunks": 12,
+    "video": "episode_41.mp4",
+    "video_frames": 29,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 42,
+    "success": true,
+    "length": 69,
+    "chunks": 7,
+    "video": "episode_42.mp4",
+    "video_frames": 19,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 43,
+    "success": true,
+    "length": 350,
+    "chunks": 35,
+    "video": "episode_43.mp4",
+    "video_frames": 89,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 44,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_44.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 45,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_45.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 46,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_46.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 47,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_47.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet"
+  },
+  {
+    "init_state_id": 48,
+    "success": false,
+    "length": 600,
+    "chunks": 60,
+    "video": "episode_48.mp4",
+    "video_frames": 151,
+    "prompt": "close the top drawer of the cabinet",
+    "final_progress": 0.9107479453086853,
+    "final_success_probability": 0.9453125
+  },
+  {
+    "init_state_id": 49,
+    "success": true,
+    "length": 462,
+    "chunks": 47,
+    "video": "episode_49.mp4",
+    "video_frames": 117,
+    "prompt": "close the top drawer of the cabinet"
+  }
+]
