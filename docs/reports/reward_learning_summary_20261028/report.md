@@ -6,6 +6,8 @@
 
 [Live experiment dashboard](http://172.28.5.161:8768/) · [Download Markdown](report.md) · [Download report with screenshots](http://172.28.5.161:8768/reports/reward_learning_summary_20261028/report_with_screenshots.zip) · [Numerical snapshot and run locations](evidence.json)
 
+[OGPO success summary (2026-10-31)](../ogpo_success_summary_20261031/report.md) provides the corresponding OGPO success curves and step-count conventions.
+
 ## 1. Sanity check: SAC from scratch
 
 We first tested **LIBERO-90 task 28: close the top drawer**, using SAC with DINOv2-small visual features and either sparse simulator reward or Robometer reward. With **three seeds per variant**, both reached **100% final success at 100k physical steps**: 25/25 evaluation episodes in every seed. This establishes that the local pipeline can recover the high-success behavior motivating the paper's experiment. [Experiment and curves](http://172.28.5.161:8768/#sac-task28-general).

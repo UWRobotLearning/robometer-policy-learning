@@ -39,6 +39,7 @@ replay_buffers/*
 
 # Keep the experiment report screenshots in the repository.
 !/docs/reports/reward_learning_summary_20261028/curve_*.png
+!/docs/reports/ogpo_success_summary_20261031/curve_*.png
 
 # Local full experiment data; publish only curated results snapshots.
 /local_results

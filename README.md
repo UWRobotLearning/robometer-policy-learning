@@ -6,6 +6,8 @@
 
 [Experiment report: learned rewards and DSRL comparison (2026-10-28)](docs/reports/reward_learning_summary_20261028/report.md). Includes compact, expandable curve screenshots and links to live experiments.
 
+[OGPO success rates and training step counts (2026-10-31)](docs/reports/ogpo_success_summary_20261031/report.md). Success curves, seed counts, physical-step axes, and action-chunk equivalents.
+
 For local LIBERO experiments with sparse or Robometer rewards, use the [config-driven experiment runner](experiments/libero/README.md). One JSON selects tasks, seeds, and a scratch SAC, pi0, or pi0.5 base policy; the same analysis command generates curves and paired statistics for every experiment.
 
 A flexible reinforcement \ imitation learning framework supporting multiple algorithms (SAC, IQL, BC), reward models (Robometer, RoboReward), and distributed training. We will soon include detailed guides for DSRL (Diffusion-steering RL) with Pi0/0.5 on LIBERO and Real World tasks.

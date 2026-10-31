@@ -1,0 +1,261 @@
+run,reward,seed,mode,state,physical_steps_total,physical_steps_per_env,num_envs,full_chunk_equivalents,max_actions_per_chunk,successes,episodes,success_rate
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,ODE,Online RL,0,0,1,0.0,4,10,25,0.4
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,ODE,Online RL,20000,20000,1,5000.0,4,9,25,0.36
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,ODE,Online RL,30000,30000,1,7500.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,ODE,Online RL,40000,40000,1,10000.0,4,16,25,0.64
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,SDE,Online RL,0,0,1,0.0,4,13,25,0.52
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,SDE,Online RL,20000,20000,1,5000.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,SDE,Online RL,30000,30000,1,7500.0,4,17,25,0.68
+libero_90_task02_robometer_100k_seed102_20261030,robometer,102,SDE,Online RL,40000,40000,1,10000.0,4,15,25,0.6
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,0,0,1,0.0,4,11,25,0.44
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,20000,20000,1,5000.0,4,6,25,0.24
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,30000,30000,1,7500.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,40000,40000,1,10000.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,50000,50000,1,12500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,60000,60000,1,15000.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,70000,70000,1,17500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,80000,80000,1,20000.0,4,24,25,0.96
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,ODE,Online RL,90000,90000,1,22500.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,0,0,1,0.0,4,15,25,0.6
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,20000,20000,1,5000.0,4,12,25,0.48
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,30000,30000,1,7500.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,40000,40000,1,10000.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,50000,50000,1,12500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,60000,60000,1,15000.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,70000,70000,1,17500.0,4,24,25,0.96
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,80000,80000,1,20000.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed103_20261030,sparse_minus_one,103,SDE,Online RL,90000,90000,1,22500.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,0,0,1,0.0,4,9,25,0.36
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,20000,20000,1,5000.0,4,3,25,0.12
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,30000,30000,1,7500.0,4,17,25,0.68
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,40000,40000,1,10000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,50000,50000,1,12500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,60000,60000,1,15000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,70000,70000,1,17500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,80000,80000,1,20000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,90000,90000,1,22500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,ODE,Completed,100000,100000,1,25000.0,4,19,25,0.76
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,0,0,1,0.0,4,13,25,0.52
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,20000,20000,1,5000.0,4,15,25,0.6
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,30000,30000,1,7500.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,40000,40000,1,10000.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,50000,50000,1,12500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,60000,60000,1,15000.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,70000,70000,1,17500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,80000,80000,1,20000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,90000,90000,1,22500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed102_20261030,sparse_minus_one,102,SDE,Completed,100000,100000,1,25000.0,4,19,25,0.76
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,0,0,1,0.0,4,7,25,0.28
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,20000,20000,1,5000.0,4,13,25,0.52
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,30000,30000,1,7500.0,4,0,25,0.0
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,40000,40000,1,10000.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,50000,50000,1,12500.0,4,18,25,0.72
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,60000,60000,1,15000.0,4,15,25,0.6
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,70000,70000,1,17500.0,4,15,25,0.6
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,80000,80000,1,20000.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,90000,90000,1,22500.0,4,15,25,0.6
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,ODE,Completed,100000,100000,1,25000.0,4,19,25,0.76
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,0,0,1,0.0,4,16,25,0.64
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,20000,20000,1,5000.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,30000,30000,1,7500.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,40000,40000,1,10000.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,50000,50000,1,12500.0,4,13,25,0.52
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,60000,60000,1,15000.0,4,16,25,0.64
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,70000,70000,1,17500.0,4,16,25,0.64
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,80000,80000,1,20000.0,4,17,25,0.68
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,90000,90000,1,22500.0,4,17,25,0.68
+libero_90_task02_robometer_100k_seed101_20261030,robometer,101,SDE,Completed,100000,100000,1,25000.0,4,17,25,0.68
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,0,0,1,0.0,4,9,25,0.36
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,20000,20000,1,5000.0,4,4,25,0.16
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,30000,30000,1,7500.0,4,15,25,0.6
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,40000,40000,1,10000.0,4,11,25,0.44
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,50000,50000,1,12500.0,4,13,25,0.52
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,60000,60000,1,15000.0,4,16,25,0.64
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,70000,70000,1,17500.0,4,19,25,0.76
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,80000,80000,1,20000.0,4,16,25,0.64
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,90000,90000,1,22500.0,4,12,25,0.48
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,ODE,Completed,100000,100000,1,25000.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,0,0,1,0.0,4,16,25,0.64
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,20000,20000,1,5000.0,4,13,25,0.52
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,30000,30000,1,7500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,40000,40000,1,10000.0,4,17,25,0.68
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,50000,50000,1,12500.0,4,18,25,0.72
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,60000,60000,1,15000.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,70000,70000,1,17500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,80000,80000,1,20000.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,90000,90000,1,22500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed101_20261030,sparse_minus_one,101,SDE,Completed,100000,100000,1,25000.0,4,18,25,0.72
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,0,0,1,0.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,20000,20000,1,5000.0,4,15,25,0.6
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,30000,30000,1,7500.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,40000,40000,1,10000.0,4,8,25,0.32
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,50000,50000,1,12500.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,60000,60000,1,15000.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,70000,70000,1,17500.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,80000,80000,1,20000.0,4,13,25,0.52
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,90000,90000,1,22500.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,ODE,Completed,100000,100000,1,25000.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,0,0,1,0.0,4,16,25,0.64
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,20000,20000,1,5000.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,30000,30000,1,7500.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,40000,40000,1,10000.0,4,13,25,0.52
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,50000,50000,1,12500.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,60000,60000,1,15000.0,4,13,25,0.52
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,70000,70000,1,17500.0,4,15,25,0.6
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,80000,80000,1,20000.0,4,12,25,0.48
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,90000,90000,1,22500.0,4,14,25,0.56
+libero_90_task02_robometer_100k_seed100_20261030,robometer,100,SDE,Completed,100000,100000,1,25000.0,4,15,25,0.6
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,0,0,1,0.0,4,12,25,0.48
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,20000,20000,1,5000.0,4,4,25,0.16
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,30000,30000,1,7500.0,4,14,25,0.56
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,40000,40000,1,10000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,50000,50000,1,12500.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,60000,60000,1,15000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,70000,70000,1,17500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,80000,80000,1,20000.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,90000,90000,1,22500.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,ODE,Completed,100000,100000,1,25000.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,0,0,1,0.0,4,16,25,0.64
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,20000,20000,1,5000.0,4,13,25,0.52
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,30000,30000,1,7500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,40000,40000,1,10000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,50000,50000,1,12500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,60000,60000,1,15000.0,4,21,25,0.84
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,70000,70000,1,17500.0,4,20,25,0.8
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,80000,80000,1,20000.0,4,23,25,0.92
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,90000,90000,1,22500.0,4,22,25,0.88
+libero_90_task02_sparse_100k_seed100_20261030,sparse_minus_one,100,SDE,Completed,100000,100000,1,25000.0,4,22,25,0.88
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,ODE,Completed,0,0,1,0.0,4,12,25,0.48
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,ODE,Completed,20000,20000,1,5000.0,4,10,25,0.4
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,ODE,Completed,30000,30000,1,7500.0,4,8,25,0.32
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,ODE,Completed,40000,40000,1,10000.0,4,20,25,0.8
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,ODE,Completed,50000,50000,1,12500.0,4,17,25,0.68
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,SDE,Completed,0,0,1,0.0,4,16,25,0.64
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,SDE,Completed,20000,20000,1,5000.0,4,15,25,0.6
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,SDE,Completed,30000,30000,1,7500.0,4,17,25,0.68
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,SDE,Completed,40000,40000,1,10000.0,4,18,25,0.72
+libero_90_task02_robometer_50k_seed102_20261030,robometer,102,SDE,Completed,50000,50000,1,12500.0,4,19,25,0.76
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,ODE,Completed,0,0,1,0.0,4,10,25,0.4
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,ODE,Completed,20000,20000,1,5000.0,4,0,25,0.0
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,ODE,Completed,30000,30000,1,7500.0,4,15,25,0.6
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,ODE,Completed,40000,40000,1,10000.0,4,20,25,0.8
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,ODE,Completed,50000,50000,1,12500.0,4,18,25,0.72
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,SDE,Completed,0,0,1,0.0,4,16,25,0.64
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,SDE,Completed,20000,20000,1,5000.0,4,17,25,0.68
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,SDE,Completed,30000,30000,1,7500.0,4,20,25,0.8
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,SDE,Completed,40000,40000,1,10000.0,4,18,25,0.72
+libero_90_task02_sparse_50k_seed102_20261030,sparse_minus_one,102,SDE,Completed,50000,50000,1,12500.0,4,20,25,0.8
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,ODE,Completed,0,0,1,0.0,4,10,25,0.4
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,ODE,Completed,20000,20000,1,5000.0,4,12,25,0.48
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,ODE,Completed,30000,30000,1,7500.0,4,11,25,0.44
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,ODE,Completed,40000,40000,1,10000.0,4,19,25,0.76
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,ODE,Completed,50000,50000,1,12500.0,4,18,25,0.72
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,SDE,Completed,0,0,1,0.0,4,15,25,0.6
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,SDE,Completed,20000,20000,1,5000.0,4,17,25,0.68
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,SDE,Completed,30000,30000,1,7500.0,4,12,25,0.48
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,SDE,Completed,40000,40000,1,10000.0,4,17,25,0.68
+libero_90_task02_robometer_50k_seed101_20261030,robometer,101,SDE,Completed,50000,50000,1,12500.0,4,18,25,0.72
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,ODE,Completed,0,0,1,0.0,4,11,25,0.44
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,ODE,Completed,20000,20000,1,5000.0,4,6,25,0.24
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,ODE,Completed,30000,30000,1,7500.0,4,17,25,0.68
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,ODE,Completed,40000,40000,1,10000.0,4,20,25,0.8
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,ODE,Completed,50000,50000,1,12500.0,4,23,25,0.92
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,SDE,Completed,0,0,1,0.0,4,15,25,0.6
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,SDE,Completed,20000,20000,1,5000.0,4,15,25,0.6
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,SDE,Completed,30000,30000,1,7500.0,4,21,25,0.84
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,SDE,Completed,40000,40000,1,10000.0,4,23,25,0.92
+libero_90_task02_sparse_50k_seed101_20261030,sparse_minus_one,101,SDE,Completed,50000,50000,1,12500.0,4,22,25,0.88
+libero_90_task02_robometer_50k_20261029,robometer,100,ODE,Completed,0,0,1,0.0,4,12,25,0.48
+libero_90_task02_robometer_50k_20261029,robometer,100,ODE,Completed,20000,20000,1,5000.0,4,16,25,0.64
+libero_90_task02_robometer_50k_20261029,robometer,100,ODE,Completed,30000,30000,1,7500.0,4,2,25,0.08
+libero_90_task02_robometer_50k_20261029,robometer,100,ODE,Completed,40000,40000,1,10000.0,4,18,25,0.72
+libero_90_task02_robometer_50k_20261029,robometer,100,ODE,Completed,50000,50000,1,12500.0,4,15,25,0.6
+libero_90_task02_robometer_50k_20261029,robometer,100,SDE,Completed,0,0,1,0.0,4,16,25,0.64
+libero_90_task02_robometer_50k_20261029,robometer,100,SDE,Completed,20000,20000,1,5000.0,4,14,25,0.56
+libero_90_task02_robometer_50k_20261029,robometer,100,SDE,Completed,30000,30000,1,7500.0,4,15,25,0.6
+libero_90_task02_robometer_50k_20261029,robometer,100,SDE,Completed,40000,40000,1,10000.0,4,14,25,0.56
+libero_90_task02_robometer_50k_20261029,robometer,100,SDE,Completed,50000,50000,1,12500.0,4,11,25,0.44
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,ODE,Completed,0,0,1,0.0,4,11,25,0.44
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,ODE,Completed,20000,20000,1,5000.0,4,2,25,0.08
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,ODE,Completed,30000,30000,1,7500.0,4,15,25,0.6
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,ODE,Completed,40000,40000,1,10000.0,4,12,25,0.48
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,ODE,Completed,50000,50000,1,12500.0,4,24,25,0.96
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,SDE,Completed,0,0,1,0.0,4,13,25,0.52
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,SDE,Completed,20000,20000,1,5000.0,4,10,25,0.4
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,SDE,Completed,30000,30000,1,7500.0,4,24,25,0.96
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,SDE,Completed,40000,40000,1,10000.0,4,21,25,0.84
+libero_90_task02_sparse_50k_20261029,sparse_minus_one,100,SDE,Completed,50000,50000,1,12500.0,4,22,25,0.88
+libero_90_task29_native_lora_robometer_50k,robometer,100,ODE,Stopped,0,0,1,0.0,4,17,25,0.68
+libero_90_task29_native_lora_robometer_50k,robometer,100,ODE,Stopped,10003,10003,1,2500.75,4,19,25,0.76
+libero_90_task29_native_lora_robometer_50k,robometer,100,ODE,Stopped,20005,20005,1,5001.25,4,16,25,0.64
+libero_90_task29_native_lora_robometer_50k,robometer,100,ODE,Stopped,30005,30005,1,7501.25,4,17,25,0.68
+libero_90_task29_native_lora_robometer_50k,robometer,100,SDE,Stopped,0,0,1,0.0,4,18,25,0.72
+libero_90_task29_native_lora_robometer_50k,robometer,100,SDE,Stopped,10003,10003,1,2500.75,4,14,25,0.56
+libero_90_task29_native_lora_robometer_50k,robometer,100,SDE,Stopped,20005,20005,1,5001.25,4,19,25,0.76
+libero_90_task29_native_lora_robometer_50k,robometer,100,SDE,Stopped,30005,30005,1,7501.25,4,14,25,0.56
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,ODE,Completed,0,0,1,0.0,4,17,25,0.68
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,ODE,Completed,10002,10002,1,2500.5,4,18,25,0.72
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,ODE,Completed,20005,20005,1,5001.25,4,17,25,0.68
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,ODE,Completed,30008,30008,1,7502.0,4,18,25,0.72
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,ODE,Completed,40010,40010,1,10002.5,4,19,25,0.76
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,ODE,Completed,50000,50000,1,12500.0,4,18,25,0.72
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,SDE,Completed,0,0,1,0.0,4,18,25,0.72
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,SDE,Completed,10002,10002,1,2500.5,4,16,25,0.64
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,SDE,Completed,20005,20005,1,5001.25,4,21,25,0.84
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,SDE,Completed,30008,30008,1,7502.0,4,20,25,0.8
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,SDE,Completed,40010,40010,1,10002.5,4,19,25,0.76
+libero_90_task29_native_lora_sparse_50k,sparse_minus_one,100,SDE,Completed,50000,50000,1,12500.0,4,20,25,0.8
+libero_10_task08_robometer_50k,robometer,100,ODE,Completed,0,0,1,0.0,4,2,25,0.08
+libero_10_task08_robometer_50k,robometer,100,ODE,Completed,20000,20000,1,5000.0,4,3,25,0.12
+libero_10_task08_robometer_50k,robometer,100,ODE,Completed,30000,30000,1,7500.0,4,3,25,0.12
+libero_10_task08_robometer_50k,robometer,100,ODE,Completed,40000,40000,1,10000.0,4,3,25,0.12
+libero_10_task08_robometer_50k,robometer,100,ODE,Completed,50000,50000,1,12500.0,4,8,25,0.32
+libero_10_task08_robometer_50k,robometer,100,SDE,Completed,0,0,1,0.0,4,3,25,0.12
+libero_10_task08_robometer_50k,robometer,100,SDE,Completed,20000,20000,1,5000.0,4,1,25,0.04
+libero_10_task08_robometer_50k,robometer,100,SDE,Completed,30000,30000,1,7500.0,4,5,25,0.2
+libero_10_task08_robometer_50k,robometer,100,SDE,Completed,40000,40000,1,10000.0,4,5,25,0.2
+libero_10_task08_robometer_50k,robometer,100,SDE,Completed,50000,50000,1,12500.0,4,7,25,0.28
+libero_90_task29_robometer_50k,robometer,100,ODE,Completed,0,0,1,0.0,4,8,25,0.32
+libero_90_task29_robometer_50k,robometer,100,ODE,Completed,20000,20000,1,5000.0,4,20,25,0.8
+libero_90_task29_robometer_50k,robometer,100,ODE,Completed,30000,30000,1,7500.0,4,23,25,0.92
+libero_90_task29_robometer_50k,robometer,100,ODE,Completed,40000,40000,1,10000.0,4,25,25,1.0
+libero_90_task29_robometer_50k,robometer,100,ODE,Completed,50000,50000,1,12500.0,4,23,25,0.92
+libero_90_task29_robometer_50k,robometer,100,SDE,Completed,0,0,1,0.0,4,23,25,0.92
+libero_90_task29_robometer_50k,robometer,100,SDE,Completed,20000,20000,1,5000.0,4,24,25,0.96
+libero_90_task29_robometer_50k,robometer,100,SDE,Completed,30000,30000,1,7500.0,4,24,25,0.96
+libero_90_task29_robometer_50k,robometer,100,SDE,Completed,40000,40000,1,10000.0,4,25,25,1.0
+libero_90_task29_robometer_50k,robometer,100,SDE,Completed,50000,50000,1,12500.0,4,22,25,0.88
+libero_10_task08_sparse_50k,sparse_minus_one,100,ODE,Completed,0,0,1,0.0,4,2,25,0.08
+libero_10_task08_sparse_50k,sparse_minus_one,100,ODE,Completed,20000,20000,1,5000.0,4,1,25,0.04
+libero_10_task08_sparse_50k,sparse_minus_one,100,ODE,Completed,30000,30000,1,7500.0,4,4,25,0.16
+libero_10_task08_sparse_50k,sparse_minus_one,100,ODE,Completed,40000,40000,1,10000.0,4,6,25,0.24
+libero_10_task08_sparse_50k,sparse_minus_one,100,ODE,Completed,50000,50000,1,12500.0,4,6,25,0.24
+libero_10_task08_sparse_50k,sparse_minus_one,100,SDE,Completed,0,0,1,0.0,4,3,25,0.12
+libero_10_task08_sparse_50k,sparse_minus_one,100,SDE,Completed,20000,20000,1,5000.0,4,3,25,0.12
+libero_10_task08_sparse_50k,sparse_minus_one,100,SDE,Completed,30000,30000,1,7500.0,4,6,25,0.24
+libero_10_task08_sparse_50k,sparse_minus_one,100,SDE,Completed,40000,40000,1,10000.0,4,9,25,0.36
+libero_10_task08_sparse_50k,sparse_minus_one,100,SDE,Completed,50000,50000,1,12500.0,4,8,25,0.32
+libero_90_task29_sparse_50k,sparse_minus_one,100,ODE,Completed,0,0,1,0.0,4,10,25,0.4
+libero_90_task29_sparse_50k,sparse_minus_one,100,ODE,Completed,20000,20000,1,5000.0,4,17,25,0.68
+libero_90_task29_sparse_50k,sparse_minus_one,100,ODE,Completed,30000,30000,1,7500.0,4,24,25,0.96
+libero_90_task29_sparse_50k,sparse_minus_one,100,ODE,Completed,40000,40000,1,10000.0,4,18,25,0.72
+libero_90_task29_sparse_50k,sparse_minus_one,100,ODE,Completed,50000,50000,1,12500.0,4,25,25,1.0
+libero_90_task29_sparse_50k,sparse_minus_one,100,SDE,Completed,0,0,1,0.0,4,23,25,0.92
+libero_90_task29_sparse_50k,sparse_minus_one,100,SDE,Completed,20000,20000,1,5000.0,4,25,25,1.0
+libero_90_task29_sparse_50k,sparse_minus_one,100,SDE,Completed,30000,30000,1,7500.0,4,25,25,1.0
+libero_90_task29_sparse_50k,sparse_minus_one,100,SDE,Completed,40000,40000,1,10000.0,4,23,25,0.92
+libero_90_task29_sparse_50k,sparse_minus_one,100,SDE,Completed,50000,50000,1,12500.0,4,23,25,0.92
+libero_90_task29_bc1k_rl,sparse_minus_one,100,ODE,Stopped,0,0,1,0.0,4,8,25,0.32
+libero_90_task29_bc1k_rl,sparse_minus_one,100,ODE,Stopped,20000,20000,1,5000.0,4,18,25,0.72
+libero_90_task29_bc1k_rl,sparse_minus_one,100,ODE,Stopped,30000,30000,1,7500.0,4,25,25,1.0
+libero_90_task29_bc1k_rl,sparse_minus_one,100,ODE,Stopped,40000,40000,1,10000.0,4,23,25,0.92
+libero_90_task29_bc1k_rl,sparse_minus_one,100,SDE,Stopped,0,0,1,0.0,4,22,25,0.88
+libero_90_task29_bc1k_rl,sparse_minus_one,100,SDE,Stopped,20000,20000,1,5000.0,4,24,25,0.96
+libero_90_task29_bc1k_rl,sparse_minus_one,100,SDE,Stopped,30000,30000,1,7500.0,4,23,25,0.92
+libero_90_task29_bc1k_rl,sparse_minus_one,100,SDE,Stopped,40000,40000,1,10000.0,4,25,25,1.0
+libero_90_task29,sparse_minus_one,100,ODE,Stopped,0,0,1,0.0,4,19,25,0.76
+libero_90_task29,sparse_minus_one,100,ODE,Stopped,20000,20000,1,5000.0,4,21,25,0.84
+libero_90_task29,sparse_minus_one,100,ODE,Stopped,30000,30000,1,7500.0,4,23,25,0.92
+libero_90_task29,sparse_minus_one,100,SDE,Stopped,0,0,1,0.0,4,21,25,0.84
+libero_90_task29,sparse_minus_one,100,SDE,Stopped,20000,20000,1,5000.0,4,23,25,0.92
+libero_90_task29,sparse_minus_one,100,SDE,Stopped,30000,30000,1,7500.0,4,24,25,0.96
