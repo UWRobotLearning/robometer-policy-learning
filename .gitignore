@@ -36,3 +36,6 @@ checkpoints/*
 extracted_episodes*
 replay_buffer/*
 replay_buffers/*
+
+# Full experiment data remains outside version control.
+/local_results

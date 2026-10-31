@@ -1,5 +1,7 @@
 # Robometer Policy Learning
 
+[Central repository layout and OGPO setup](docs/REPOSITORIES.md): pinned UWRobotLearning forks for OGPO and Robometer.
+
 For a local-only LIBERO SAC comparison of frozen Robometer rewards and simulator rewards, see [the reward audit harness](experiments/reward_audit/README.md). It includes the paper's task-28 sanity protocol, a held-out task comparison, separate reward/policy GPUs, and an occupied-GPU launch guard.
 
 A flexible reinforcement \ imitation learning framework supporting multiple algorithms (SAC, IQL, BC), reward models (Robometer, RoboReward), and distributed training. We will soon include detailed guides for DSRL (Diffusion-steering RL) with Pi0/0.5 on LIBERO and Real World tasks.
