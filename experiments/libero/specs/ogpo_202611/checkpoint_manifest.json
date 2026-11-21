@@ -1,0 +1,12 @@
+{
+  "/data/rohan/Reward-Modeling/ogpo_libero/libero_10_task08_bc5k_20261101/logs/exp/OGPO_LIBERO/task08_bc5k_20261101/libero-10-task08-image/seedseed100/bc_selected/params_latest.pkl": {
+    "sha256": "6f5d1c04afbba3619a2a47a5624aafc79c7d38ef27c238d0c346ebac2e633716",
+    "bc_updates": 5000,
+    "ode_success": 0.04
+  },
+  "/data/rohan/Reward-Modeling/ogpo_libero/libero_goal_task07_25demos_successselect_bc5k_20261103/logs/exp/OGPO_LIBERO/goal_task07_25demos_successselect_bc5k_20261103/libero-goal-task07-image/seedseed100/bc_selected/params_latest.pkl": {
+    "sha256": "8e2e46799a3529bd3c65ec00fb14f107e36f797731a63a8f76484fec70d2c271",
+    "bc_updates": 500,
+    "ode_success": 0.12
+  }
+}

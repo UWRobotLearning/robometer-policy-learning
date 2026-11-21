@@ -6,7 +6,7 @@ as submodules. Experiment outputs remain outside the code checkouts.
 
 | Directory | Repository | Pinned experiment version |
 |---|---|---|
-| `OGPO/` | [UWRobotLearning/OGPO_public](https://github.com/UWRobotLearning/OGPO_public) | `b113b2c70b314956f2b3fdb51a10966b5fcb7b11` on `rss27` |
+| `OGPO/` | [UWRobotLearning/OGPO_public](https://github.com/UWRobotLearning/OGPO_public) | `5f0dc936892399ea390294ead78728ed3f972020` on `rss27` |
 | `robometer/` | [UWRobotLearning/robometer](https://github.com/UWRobotLearning/robometer) | `3ad5da10038717e028aa6ab146f40bfc74bfecd5` on `fixes/reward-decoder` |
 | `LIBERO/` | `nakamotoo/LIBERO` | Existing parent-repository pin, unchanged |
 | `dsrl_openpi/` | `jesbu1/dsrl_openpi` | Existing parent-repository pin, unchanged |
@@ -89,5 +89,11 @@ The local `local_results` symlink points there; it is not a portable data archiv
 contain the exported SAC/DSRL data and OGPO numeric logs without weights or media.
 OGPO ODE/SDE evaluations and step conventions remain distinct in that export.
 
-Validation of the pinned OGPO integration: all 10 existing unit tests passed using
+Validation of the pinned OGPO integration: all 12 existing unit tests passed using
 `CUDA_VISIBLE_DEVICES='' JAX_PLATFORMS=cpu`, with no training or GPU smoke run launched.
+
+## Moving experiments to another machine
+
+[November run specs and migration notes](../experiments/libero/specs/ogpo_202611/README.md)
+preserve the task08 and task07 campaigns and selected BC checkpoint hashes. Model
+weights and full run data require separate transfer; they are not included in Git.

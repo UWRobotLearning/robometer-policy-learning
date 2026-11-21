@@ -18,3 +18,11 @@ The dashboard reads logs on each refresh and discovers both historical task
 folders and the new config-driven output layout. No result files or checkpoints
 were removed by the refactor. Shared OpenPI inference now lives in
 `experiments.libero.policy` and `experiments.libero.policy_worker`.
+
+The `/reward-model-methods/` subpage explains frozen reward/value heuristics,
+supervised RM adaptation, Bellman and inverse-RL objectives, optional feature
+distillation, and BC-initialized flow-policy updates. Its standalone source is
+[`reward_model_methods.html`](reward_model_methods.html); equations use native
+MathML with their editable LaTeX retained in each `annotation` element. The page
+has no CDN dependencies. Restart an already-running dashboard to load new routes
+or navigation changes; the guide's HTML is read from disk on every request.

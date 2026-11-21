@@ -998,6 +998,7 @@ def sidebar(data_root: Path, tasks: list[dict]) -> str:
             '<a class="sidebar-home" href="#top">LIBERO results</a>'
             '<p class="side-caption">Live experiment progress</p>'
             '<nav aria-label="Experiment groups">'
+            '<a class="side-link" href="/reward-model-methods/"><span>Reward-model methods<small>Objectives · values · flow policies</small></span><b>↗</b></a>'
             '<a class="side-link" href="/ogpo/"><span>OGPO · LIBERO fine-tuning<small>π₀.₅ features · live results</small></span><b>↗</b></a>'
             '<section class="side-group"><h2>Frozen Eval</h2>' + frozen_links + '</section>'
             '<section class="side-group"><h2>Fine-tuning</h2>'
@@ -1180,6 +1181,7 @@ th{{color:#536c72}}.error{{color:#9b3a2b}}
 <tr><td>4 envs, 10 actions/chunk</td><td>200k</td><td>800k</td><td>80k total (20k/env)</td></tr>
 </tbody></table><p class="meta">Chunks can stop early on success, timeout, or the training budget, so the exact replay count can exceed the full-chunk estimate. Collected replay transitions are cumulative; current replay-buffer size can be smaller after eviction. Sampling the same transition repeatedly for gradient updates does not advance the x-axis. With one environment, per-environment and total physical steps are identical. SAC-from-scratch stores one transition per physical step; OGPO comparisons below use physical training steps in one environment, with one replay transition per physical step; their detailed diagnostics remain on the OGPO dashboard.</p></section>
 <p class="meta"><a href="/ogpo/">OGPO experiments · live dashboard ↗</a></p>
+<p class="meta"><a href="/reward-model-methods/">Reward-model fine-tuning · mathematical guide for π₀.₅ and flow policies ↗</a></p>
 <p class="meta"><a href="/reports/reward_learning_summary_20261028/">Concise experiment report · 2026-10-28 ↗</a></p>
 <details class="method-notes"><summary>How to read the plots and significance markers</summary><p class="meta">Colored bands are 95% t intervals across available independent RL seeds at each evaluation checkpoint (shown for n ≥ 2; clipped to 0–100% on the plot). The gray band around each dotted frozen-π₀ baseline is a 95% Wilson interval over its 25 evaluation episodes; it does not measure checkpoint or training-seed variation. On every task plot, green stars compare sparse reward with frozen π₀, orange stars compare Robometer reward with frozen π₀, and black stars compare sparse with Robometer reward. The black-star test is a two-sided exact paired sign-flip test across matched training seeds. Baseline stars require p &lt; 0.05 in both an exact seed-level sign-flip test and an exact matched-state sign-flip test of seed-mean outcomes. Hover for sample sizes, effect, and p-values. These pointwise tests are unadjusted for testing multiple checkpoints. Final comparisons use only matching seed pairs completed at the target transition count. The paired t interval summarizes final effect size and may disagree with the exact test for small samples. With five paired seeds, the smallest possible two-sided exact p-value is 0.0625, so a five-seed comparison cannot receive a significance star at α = 0.05.</p></details>
 <p class="meta">Refreshes every 60 seconds · Latest read: {updated} UTC · All curves are read from local evaluation files</p>
@@ -1281,6 +1283,15 @@ def serve(data_root: Path, host: str, port: int) -> None:
                     remaining -= len(block)
 
         def do_GET(self) -> None:
+            if self.path.split('?')[0].rstrip('/') == '/reward-model-methods':
+                body = Path(__file__).with_name('reward_model_methods.html').read_bytes()
+                self.send_response(200)
+                self.send_header('Content-Type', 'text/html; charset=utf-8')
+                self.send_header('Content-Length', str(len(body)))
+                self.send_header('Cache-Control', 'no-store')
+                self.end_headers()
+                self.wfile.write(body)
+                return
             if self.path.split('?')[0].rstrip('/') == '/ogpo':
                 from experiments.ogpo_dashboard import render as render_ogpo
 
