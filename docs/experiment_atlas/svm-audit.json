@@ -1,0 +1,42 @@
+{
+  "audited_at": "2026-11-23T18:55:30.279982+00:00",
+  "applies_to_current_cohort": true,
+  "cohort_label": "0/1 sparse (SVM inactive)",
+  "valid_svm_evidence": false,
+  "finding": "EpisodeMonitor hides cfg; getattr(env, cfg, {}) returned an empty dict. The SVM initialization branch was skipped, leaving the discriminator and replay reward callback inactive.",
+  "observed_behavior": "OGPO trained on 0/1 sparse simulator outcomes with the selected30-demo BC initialization. All five runs have no svm.csv and no discriminator state. Preserve their curves as unshaped controls, not SVM results.",
+  "configured_but_inactive_schedule": "32 discriminator optimizer steps every1000 physical steps",
+  "correction": "Read cfg from env.unwrapped; retain paper Appendix D Table5 schedule (32 discriminator updates every1000 physical steps); relabel every sampled replay transition with the current classifier before discounted returns.",
+  "runs": [
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "svm_csv_files": 0,
+      "discriminator_checkpoints": 0,
+      "valid_svm_run": false
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed101",
+      "svm_csv_files": 0,
+      "discriminator_checkpoints": 0,
+      "valid_svm_run": false
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed102",
+      "svm_csv_files": 0,
+      "discriminator_checkpoints": 0,
+      "valid_svm_run": false
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed103",
+      "svm_csv_files": 0,
+      "discriminator_checkpoints": 0,
+      "valid_svm_run": false
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed104",
+      "svm_csv_files": 0,
+      "discriminator_checkpoints": 0,
+      "valid_svm_run": false
+    }
+  ]
+}

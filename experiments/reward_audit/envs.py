@@ -45,6 +45,26 @@ def observation(raw):
     return {"state": state, **images}
 
 
+def trajectory_telemetry(env, raw):
+    """Project world-space EEF onto the exact rotated/resized observation image."""
+    from robosuite.utils.camera_utils import get_camera_transform_matrix
+    from robosuite import macros
+    height,width = raw['agentview_image'].shape[:2]
+    transform = get_camera_transform_matrix(env.env.sim,'agentview',height,width)
+    position = np.asarray(raw['robot0_eef_pos'],dtype=float)
+    point = transform @ np.r_[position,1.]
+    if point[2] <= 0:
+        raise RuntimeError('End effector lies behind the agent-view camera')
+    u,v = point[:2]/point[2]
+    # Projection uses OpenCV top-left coordinates. Raw OpenGL RGB has its Y
+    # axis flipped; observation() then rotates that raw RGB by 180 degrees.
+    u = width-1-u
+    if macros.IMAGE_CONVENTION != 'opengl':
+        v = height-1-v
+    pixel = [(u+.5)*224/width-.5,(v+.5)*224/height-.5]
+    return dict(eef_pixel=pixel,eef_position=position.tolist())
+
+
 def _worker(connection, cfg, rank):
     env = None
     try:
@@ -95,6 +115,8 @@ def _worker(connection, cfg, rank):
                 }
             else:
                 raise ValueError(command)
+            if cfg.get('capture_trajectory', False):
+                result['telemetry'] = trajectory_telemetry(env, raw)
             connection.send({"ok": True, "result": result})
     except (EOFError, BrokenPipeError):
         pass

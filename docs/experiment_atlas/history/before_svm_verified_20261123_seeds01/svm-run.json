@@ -1,0 +1,859 @@
+{
+  "status": "completed",
+  "message": "BC selection and100k physical SVM training steps completed.",
+  "updated_at": "2026-11-23 05:28:46 UTC",
+  "physical_steps": 100000,
+  "budget": 100000,
+  "seed": 100,
+  "bc_updates": 5000,
+  "bc_budget": 5000,
+  "bc_evaluations": [
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 500.0,
+      "success": 0.0
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 1000.0,
+      "success": 0.0
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 1500.0,
+      "success": 0.0
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 2000.0,
+      "success": 0.32
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 2500.0,
+      "success": 0.24
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 3000.0,
+      "success": 0.08
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 3500.0,
+      "success": 0.04
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 4000.0,
+      "success": 0.44
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 4500.0,
+      "success": 0.48
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 5000.0,
+      "success": 0.6
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 500.0,
+      "success": 0.0
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 1000.0,
+      "success": 0.08
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 1500.0,
+      "success": 0.44
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 2000.0,
+      "success": 0.28
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 2500.0,
+      "success": 0.36
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 3000.0,
+      "success": 0.28
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 3500.0,
+      "success": 0.36
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 4000.0,
+      "success": 0.4
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 4500.0,
+      "success": 0.24
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 5000.0,
+      "success": 0.36
+    }
+  ],
+  "bc_selection": {
+    "bc_updates": 2000,
+    "ode_success": 0.32,
+    "sde_success": 0.28,
+    "episodes_per_mode": 25,
+    "criterion": "first checkpoint in requested ODE interval",
+    "selection_policy": "interval_or_smallest_positive",
+    "minimum": 0.25,
+    "maximum": 0.5,
+    "note": "Selection evaluation; not an independent confirmation.",
+    "checkpoint": "/home/rohan/Robotics/MPAIL/experiment_results/ogpo_libero/libero_90_task02_svm_bc30demos_100k_seed100_bc30demos_5k/logs/exp/OGPO_LIBERO/task02_bc30demos_5k_seed100/libero-90-task02-image/seedseed100/bc_selected/params_latest.pkl",
+    "sha256": "fadc74d04fc3ec6d86c4e7bee7f9f9f99fb51922c1a1ac47eb239830f17ec34d"
+  },
+  "baseline": [
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.44
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.24
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.96
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.6
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.48
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.96
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed103_20261030",
+      "seed": 103,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.36
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.12
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.76
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.52
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.6
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed102_20261030",
+      "seed": 102,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.76
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.36
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.16
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.6
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.44
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.52
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.64
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.76
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.64
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.48
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.64
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.52
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.72
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed101_20261030",
+      "seed": 101,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.72
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.48
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.16
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.56
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.64
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.52
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.84
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.8
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.92
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.88
+    },
+    {
+      "run": "libero_90_task02_sparse_100k_seed100_20261030",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.88
+    }
+  ],
+  "evaluations": [
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.12
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.4
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.56
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.64
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.6
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.76
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.72
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.56
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.32
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.36
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.6
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.68
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.76
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.72
+    },
+    {
+      "run": "libero_90_task02_svm_bc30demos_100k_seed100",
+      "seed": 100,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.68
+    }
+  ],
+  "returncode": 0,
+  "spec": "/experiments/libero/specs/svm/libero90_task02_svm_100k_seed100.json",
+  "bc_spec": "/experiments/libero/specs/svm/libero90_task02_bc30demos_5k_seed100.json",
+  "baseline_source": "/docs/reports/ogpo_success_summary_20261031/evaluation_points.csv"
+}

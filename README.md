@@ -1,5 +1,7 @@
 # Robometer Policy Learning
 
+[Experiment Atlas](docs/experiment_atlas/index.html): searchable experiments, seed curves, reports, and theory notes. [Run locally and extend](docs/experiment_atlas/README.md).
+
 [Central repository layout and OGPO setup](docs/REPOSITORIES.md): pinned UWRobotLearning forks for OGPO and Robometer.
 
 [Numerical LIBERO results and plotting instructions](results/README.md). The full local data is available through the ignored `local_results` symlink.

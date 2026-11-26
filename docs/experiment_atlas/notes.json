@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Evaluation convention changes the observed gap",
+    "kind": "Observation",
+    "body": "On LIBERO-90 task 28, the October 28 report records a 24-point sparse–Robometer gap under deterministic evaluation and an 8-point gap in a separate stochastic reevaluation. Match the sampler before interpreting reward effects.",
+    "source": "/docs/reports/reward_learning_summary_20261028/report.md"
+  },
+  {
+    "title": "Match the optimization protocol",
+    "kind": "Hypothesis to test",
+    "body": "The implementation audit documents differences in actor update frequency, warm-up units, chunk discount, and evaluation versus the reference π₀/LIBERO DSRL setup. A controlled follow-up should match these before attributing degradation to reward error.",
+    "source": "/docs/reports/reward_learning_summary_20261028/report.md"
+  },
+  {
+    "title": "Early peaks do not establish stable improvement",
+    "kind": "Observation",
+    "body": "The October 28 report shows substantial early gains followed by collapse in several four-environment runs. Inspect the full curve alongside the latest checkpoint; longer training alone is not established as a remedy.",
+    "source": "/docs/reports/reward_learning_summary_20261028/report.md"
+  }
+]

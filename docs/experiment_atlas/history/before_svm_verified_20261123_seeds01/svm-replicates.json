@@ -1,0 +1,1247 @@
+{
+  "updated_at": "2026-11-23T14:35:15.701955+00:00",
+  "runs": [
+    {
+      "seed": 100,
+      "gpu": 0,
+      "status": "completed",
+      "physical_steps": 100000
+    },
+    {
+      "seed": 101,
+      "gpu": 0,
+      "status": "completed",
+      "physical_steps": 100000,
+      "output_dir": "/home/rohan/Robotics/MPAIL/experiment_results/ogpo_libero/libero_90_task02_svm_bc30demos_100k_seed101",
+      "spec": "/home/rohan/Robotics/MPAIL/robometer-policy-learning/experiments/libero/specs/svm/libero90_task02_svm_100k_seed101.json",
+      "pid": 3258796,
+      "started": "2026-11-23T07:37:45.288373+00:00",
+      "returncode": 0,
+      "finished": "2026-11-23T11:10:00.238666+00:00"
+    },
+    {
+      "seed": 102,
+      "gpu": 1,
+      "status": "completed",
+      "physical_steps": 100000,
+      "output_dir": "/home/rohan/Robotics/MPAIL/experiment_results/ogpo_libero/libero_90_task02_svm_bc30demos_100k_seed102",
+      "spec": "/home/rohan/Robotics/MPAIL/robometer-policy-learning/experiments/libero/specs/svm/libero90_task02_svm_100k_seed102.json",
+      "pid": 3258797,
+      "started": "2026-11-23T07:37:45.288788+00:00",
+      "returncode": 0,
+      "finished": "2026-11-23T11:08:00.078003+00:00"
+    },
+    {
+      "seed": 103,
+      "gpu": 0,
+      "status": "completed",
+      "physical_steps": 100000,
+      "output_dir": "/home/rohan/Robotics/MPAIL/experiment_results/ogpo_libero/libero_90_task02_svm_bc30demos_100k_seed103",
+      "spec": "/home/rohan/Robotics/MPAIL/robometer-policy-learning/experiments/libero/specs/svm/libero90_task02_svm_100k_seed103.json",
+      "pid": 3280453,
+      "started": "2026-11-23T11:10:00.239286+00:00",
+      "returncode": 0,
+      "finished": "2026-11-23T14:32:45.528258+00:00"
+    },
+    {
+      "seed": 104,
+      "gpu": 1,
+      "status": "completed",
+      "physical_steps": 100000,
+      "output_dir": "/home/rohan/Robotics/MPAIL/experiment_results/ogpo_libero/libero_90_task02_svm_bc30demos_100k_seed104",
+      "spec": "/home/rohan/Robotics/MPAIL/robometer-policy-learning/experiments/libero/specs/svm/libero90_task02_svm_100k_seed104.json",
+      "pid": 3279021,
+      "started": "2026-11-23T11:08:00.087013+00:00",
+      "returncode": 0,
+      "finished": "2026-11-23T14:35:15.700799+00:00"
+    }
+  ],
+  "evaluations": [
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.12
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.4
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.56
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.64
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.6
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.76
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.72
+    },
+    {
+      "seed": 100,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.56
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.32
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.36
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.6
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.76
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.72
+    },
+    {
+      "seed": 100,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.16
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.36
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.2
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.36
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.64
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.56
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.76
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.72
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.76
+    },
+    {
+      "seed": 101,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.32
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.32
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.48
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.64
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.72
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.56
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.72
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 101,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.72
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.16
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.24
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.92
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.92
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 102,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.48
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.24
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 102,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.16
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.32
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.4
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.92
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 103,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.96
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.48
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.4
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.76
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.76
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 1.0
+    },
+    {
+      "seed": 103,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 1.0
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 0.0,
+      "success": 0.12
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 20000.0,
+      "success": 0.56
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 30000.0,
+      "success": 0.68
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 40000.0,
+      "success": 0.56
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 50000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 60000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 70000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 80000.0,
+      "success": 0.96
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 90000.0,
+      "success": 0.92
+    },
+    {
+      "seed": 104,
+      "mode": "ODE",
+      "step": 100000.0,
+      "success": 0.92
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 0.0,
+      "success": 0.44
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 20000.0,
+      "success": 0.24
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 30000.0,
+      "success": 0.8
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 40000.0,
+      "success": 0.76
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 50000.0,
+      "success": 0.92
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 60000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 70000.0,
+      "success": 0.92
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 80000.0,
+      "success": 0.84
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 90000.0,
+      "success": 0.88
+    },
+    {
+      "seed": 104,
+      "mode": "SDE",
+      "step": 100000.0,
+      "success": 0.8
+    }
+  ],
+  "summaries": {
+    "SVM": [
+      {
+        "mode": "ODE",
+        "step": 0.0,
+        "mean": 0.144,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.11679650477364814,
+        "high": 0.17120349522635184
+      },
+      {
+        "mode": "ODE",
+        "step": 20000.0,
+        "mean": 0.376,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.22866517336052433,
+        "high": 0.5233348266394757
+      },
+      {
+        "mode": "ODE",
+        "step": 30000.0,
+        "mean": 0.504,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.24929237014737282,
+        "high": 0.7587076298526272
+      },
+      {
+        "mode": "ODE",
+        "step": 40000.0,
+        "mean": 0.64,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.3867492417531335,
+        "high": 0.8932507582468665
+      },
+      {
+        "mode": "ODE",
+        "step": 50000.0,
+        "mean": 0.768,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.6215046948759986,
+        "high": 0.9144953051240015
+      },
+      {
+        "mode": "ODE",
+        "step": 60000.0,
+        "mean": 0.752,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.549034456559301,
+        "high": 0.954965543440699
+      },
+      {
+        "mode": "ODE",
+        "step": 70000.0,
+        "mean": 0.744,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.6608919493052485,
+        "high": 0.8271080506947515
+      },
+      {
+        "mode": "ODE",
+        "step": 80000.0,
+        "mean": 0.824,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.6725373487343016,
+        "high": 0.9754626512656983
+      },
+      {
+        "mode": "ODE",
+        "step": 90000.0,
+        "mean": 0.808,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.7124644644759249,
+        "high": 0.9035355355240752
+      },
+      {
+        "mode": "ODE",
+        "step": 100000.0,
+        "mean": 0.808,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.6143641018263208,
+        "high": 1.0016358981736793
+      },
+      {
+        "mode": "SDE",
+        "step": 0.0,
+        "mean": 0.408,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.30621384114025096,
+        "high": 0.509786158859749
+      },
+      {
+        "mode": "SDE",
+        "step": 20000.0,
+        "mean": 0.312,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.2231537566336,
+        "high": 0.4008462433664
+      },
+      {
+        "mode": "SDE",
+        "step": 30000.0,
+        "mean": 0.7040000000000001,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.5370435114209826,
+        "high": 0.8709564885790175
+      },
+      {
+        "mode": "SDE",
+        "step": 40000.0,
+        "mean": 0.744,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.5925373487343015,
+        "high": 0.8954626512656985
+      },
+      {
+        "mode": "SDE",
+        "step": 50000.0,
+        "mean": 0.784,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.6643870842442888,
+        "high": 0.9036129157557112
+      },
+      {
+        "mode": "SDE",
+        "step": 60000.0,
+        "mean": 0.8,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.6639825238682409,
+        "high": 0.9360174761317592
+      },
+      {
+        "mode": "SDE",
+        "step": 70000.0,
+        "mean": 0.76,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.5844021933828439,
+        "high": 0.9355978066171561
+      },
+      {
+        "mode": "SDE",
+        "step": 80000.0,
+        "mean": 0.8079999999999999,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.7263895143209445,
+        "high": 0.8896104856790554
+      },
+      {
+        "mode": "SDE",
+        "step": 90000.0,
+        "mean": 0.848,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.7194412971706181,
+        "high": 0.9765587028293818
+      },
+      {
+        "mode": "SDE",
+        "step": 100000.0,
+        "mean": 0.8160000000000001,
+        "n": 5,
+        "seeds": [
+          100,
+          101,
+          102,
+          103,
+          104
+        ],
+        "low": 0.6566020643059169,
+        "high": 0.9753979356940832
+      }
+    ],
+    "Historical sparse": [
+      {
+        "mode": "ODE",
+        "step": 0.0,
+        "mean": 0.41,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.314526610841,
+        "high": 0.505473389159
+      },
+      {
+        "mode": "ODE",
+        "step": 20000.0,
+        "mean": 0.16999999999999998,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.08991019098615295,
+        "high": 0.25008980901384703
+      },
+      {
+        "mode": "ODE",
+        "step": 30000.0,
+        "mean": 0.6900000000000001,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.4334229761655099,
+        "high": 0.9465770238344902
+      },
+      {
+        "mode": "ODE",
+        "step": 40000.0,
+        "mean": 0.73,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.4209037933171784,
+        "high": 1.0390962066828215
+      },
+      {
+        "mode": "ODE",
+        "step": 50000.0,
+        "mean": 0.78,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.5025607632390583,
+        "high": 1.0574392367609418
+      },
+      {
+        "mode": "ODE",
+        "step": 60000.0,
+        "mean": 0.8,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.6276378933003399,
+        "high": 0.9723621066996602
+      },
+      {
+        "mode": "ODE",
+        "step": 70000.0,
+        "mean": 0.8300000000000001,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.7345266108410001,
+        "high": 0.925473389159
+      },
+      {
+        "mode": "ODE",
+        "step": 80000.0,
+        "mean": 0.84,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.6134718117694932,
+        "high": 1.0665281882305069
+      },
+      {
+        "mode": "ODE",
+        "step": 90000.0,
+        "mean": 0.76,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.4525464774358605,
+        "high": 1.0674535225641395
+      },
+      {
+        "mode": "ODE",
+        "step": 100000.0,
+        "mean": 0.8533333333333334,
+        "n": 3,
+        "seeds": [
+          100,
+          101,
+          102
+        ],
+        "low": 0.6464875328340207,
+        "high": 1.060179133832646
+      },
+      {
+        "mode": "SDE",
+        "step": 0.0,
+        "mean": 0.6,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.5099868254704119,
+        "high": 0.6900131745295881
+      },
+      {
+        "mode": "SDE",
+        "step": 20000.0,
+        "mean": 0.53,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.44991019098615304,
+        "high": 0.610089809013847
+      },
+      {
+        "mode": "SDE",
+        "step": 30000.0,
+        "mean": 0.8200000000000001,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.7832522753790704,
+        "high": 0.8567477246209297
+      },
+      {
+        "mode": "SDE",
+        "step": 40000.0,
+        "mean": 0.8300000000000001,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.6626061478281673,
+        "high": 0.9973938521718329
+      },
+      {
+        "mode": "SDE",
+        "step": 50000.0,
+        "mean": 0.8200000000000001,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.6981215855330711,
+        "high": 0.941878414466929
+      },
+      {
+        "mode": "SDE",
+        "step": 60000.0,
+        "mean": 0.89,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.8290607927665354,
+        "high": 0.9509392072334646
+      },
+      {
+        "mode": "SDE",
+        "step": 70000.0,
+        "mean": 0.86,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.7381215855330712,
+        "high": 0.9818784144669288
+      },
+      {
+        "mode": "SDE",
+        "step": 80000.0,
+        "mean": 0.87,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.7745266108409999,
+        "high": 0.965473389159
+      },
+      {
+        "mode": "SDE",
+        "step": 90000.0,
+        "mean": 0.8500000000000001,
+        "n": 4,
+        "seeds": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "low": 0.7545266108410001,
+        "high": 0.945473389159
+      },
+      {
+        "mode": "SDE",
+        "step": 100000.0,
+        "mean": 0.7866666666666666,
+        "n": 3,
+        "seeds": [
+          100,
+          101,
+          102
+        ],
+        "low": 0.579820866167354,
+        "high": 0.9935124671659793
+      }
+    ]
+  },
+  "interval": "95% Student-t across available independent RL training seeds at each checkpoint; no interval for n=1.",
+  "cohort_note": "All five SVM seeds share the selected 30-demo BC checkpoint. Historical sparse uses a different 50-demo BC start. Available seed counts can vary with checkpoint and run progress."
+}

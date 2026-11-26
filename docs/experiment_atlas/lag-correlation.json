@@ -1,0 +1,3720 @@
+{
+  "created_at": "2026-11-25T04:47:01.474577+00:00",
+  "campaign_id": "/home/rohan/Robotics/MPAIL/experiment_results/ogpo_libero/svm_verified_20261123_seeds23",
+  "interval_steps": 10000,
+  "lag_steps": 10000,
+  "estimator": "cumulative_within_seed_pearson",
+  "averaging": "arithmetic mean of defined seed coefficients",
+  "series": [
+    {
+      "cohort": "SVM",
+      "mode": "ODE",
+      "seeds": [
+        {
+          "seed": 0,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": 1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 30000,
+              "correlation": 0.9869115726091127,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.47788950436097505,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.569178648868583,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.6439822787077026,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.6649903699358014,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.6288891052263557,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.5726048107554809,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.6439260462837841,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.2,
+              "current": 0.24
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.24,
+              "current": 0.32
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.32,
+              "current": 0.68
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.68,
+              "current": 0.52
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.52,
+              "current": 0.72
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.72,
+              "current": 0.68
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.68,
+              "current": 0.64
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.64,
+              "current": 0.52
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.52,
+              "current": 0.8
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.8,
+              "current": 0.8
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 2,
+              "reason": "Constant success rates in one paired vector"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": 0.5,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.7060630805716389,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.8375699267192823,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.7660562211298736,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.7764471331068459,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.8231010531403236,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.8482504962592462,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.8483397431530859,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.24,
+              "current": 0.24
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.24,
+              "current": 0.48
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.48,
+              "current": 0.48
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.48,
+              "current": 0.76
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.76,
+              "current": 0.84
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.84,
+              "current": 0.68
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.68,
+              "current": 0.88
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.88,
+              "current": 0.92
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.92,
+              "current": 0.92
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.92,
+              "current": 0.84
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 30000,
+              "correlation": 0.9607689228305228,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9493857663422881,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.9258987423804463,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.9359342335950203,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.9401500111536677,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.8461004133562386,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.8183944557856876,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.8337647102300039,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.12,
+              "current": 0.24
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.24,
+              "current": 0.36
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.36,
+              "current": 0.4
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.4,
+              "current": 0.52
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.52,
+              "current": 0.84
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.84,
+              "current": 0.92
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.92,
+              "current": 0.92
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.92,
+              "current": 0.64
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.64,
+              "current": 0.92
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.92,
+              "current": 0.88
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 30000,
+              "correlation": 0.8773384834252593,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.7859189300296583,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.8055780551770564,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.8404020372454397,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.843775328253522,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.8593769446689102,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.8541421933786177,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.8629834890035915,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.04,
+              "current": 0.2
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.2,
+              "current": 0.28
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.28,
+              "current": 0.56
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.56,
+              "current": 0.52
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.52,
+              "current": 0.88
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.84,
+              "current": 0.76
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.76,
+              "current": 0.92
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.92,
+              "current": 0.8
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.8,
+              "current": 0.84
+            }
+          ]
+        }
+      ],
+      "points": [
+        {
+          "physical_step": 10000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 20000,
+          "correlation": 1.0,
+          "n_seeds": 3,
+          "seeds": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 30000,
+          "correlation": 0.8312547447162237,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 40000,
+          "correlation": 0.7298143203261401,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 50000,
+          "correlation": 0.784556343286342,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 60000,
+          "correlation": 0.7965936926695091,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 70000,
+          "correlation": 0.8063407106124593,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 80000,
+          "correlation": 0.7893668790979571,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 90000,
+          "correlation": 0.7733479890447581,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 100000,
+          "correlation": 0.7972534971676164,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "SVM",
+      "mode": "SDE",
+      "seeds": [
+        {
+          "seed": 0,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 30000,
+              "correlation": -0.6196270936648576,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.08992864744290849,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.18894625016962024,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.2707452643950732,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.37291475164539295,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.4253371379408116,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.43670886075949367,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.4362961204509867,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.52,
+              "current": 0.36
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.36,
+              "current": 0.24
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.24,
+              "current": 0.64
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.64,
+              "current": 0.64
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.64,
+              "current": 0.56
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.56,
+              "current": 0.8
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.8,
+              "current": 0.68
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.68,
+              "current": 0.72
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.72,
+              "current": 0.64
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.64,
+              "current": 0.6
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 2,
+              "reason": "Constant success rates in one paired vector"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": 0.9948497511671099,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.8325998618839867,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.8198915917499229,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.8250792239967834,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.8232906452954607,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.8265306122448979,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.8327555539950517,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.8415080674960326,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.4,
+              "current": 0.4
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.4,
+              "current": 0.44
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.44,
+              "current": 0.76
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.76,
+              "current": 0.92
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.92,
+              "current": 0.88
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.84,
+              "current": 0.8
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.8,
+              "current": 0.8
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.8,
+              "current": 0.84
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.84,
+              "current": 0.88
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 30000,
+              "correlation": -0.8733316384655722,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.30752719062380973,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.42262151338689685,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.5370813023194951,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.5764640232975846,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.6213367422689617,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.6552811762142936,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.6828582923601462,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.32,
+              "current": 0.4
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.4,
+              "current": 0.28
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.28,
+              "current": 0.84
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.84,
+              "current": 0.76
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.76,
+              "current": 0.76
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.76,
+              "current": 0.96
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.96,
+              "current": 0.84
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.84,
+              "current": 0.96
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.96,
+              "current": 0.92
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.92,
+              "current": 0.96
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": -0.9999999999999998,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 30000,
+              "correlation": 0.46632137126854395,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.6474192743220522,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.7145080211491531,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.746424523513968,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.773265294843245,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.7809847359838918,
+              "n_pairs": 8,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.7946911769258053,
+              "n_pairs": 9,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.8159726945159971,
+              "n_pairs": 10,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 0,
+              "physical_step": 10000,
+              "previous": 0.36,
+              "current": 0.24
+            },
+            {
+              "previous_step": 10000,
+              "physical_step": 20000,
+              "previous": 0.24,
+              "current": 0.4
+            },
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.4,
+              "current": 0.8
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.8,
+              "current": 0.8
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.8,
+              "current": 0.8
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.8,
+              "current": 0.8
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.8,
+              "current": 0.84
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.84,
+              "current": 0.8
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.8,
+              "current": 0.88
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.88,
+              "current": 0.96
+            }
+          ]
+        }
+      ],
+      "points": [
+        {
+          "physical_step": 10000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 20000,
+          "correlation": -0.3333333333333333,
+          "n_seeds": 3,
+          "seeds": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 30000,
+          "correlation": -0.00794690242369396,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 40000,
+          "correlation": 0.4693687435681893,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 50000,
+          "correlation": 0.5364918441138983,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 60000,
+          "correlation": 0.59483257855633,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 70000,
+          "correlation": 0.6364836787704209,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 80000,
+          "correlation": 0.6635473071096407,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 90000,
+          "correlation": 0.6798591919736611,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "physical_step": 100000,
+          "correlation": 0.6941587937057906,
+          "n_seeds": 4,
+          "seeds": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "Historical sparse",
+      "mode": "ODE",
+      "seeds": [
+        {
+          "seed": 100,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.9122454608393061,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.9119293395186461,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.9236917395094973,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.9312057514478388,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.9058206498660523,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.8996738591943997,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.16,
+              "current": 0.56
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.56,
+              "current": 0.84
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.84,
+              "current": 0.84
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.84,
+              "current": 0.84
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.88,
+              "current": 0.92
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.92,
+              "current": 0.84
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.84,
+              "current": 0.92
+            }
+          ]
+        },
+        {
+          "seed": 101,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": -0.9878291611472619,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": -0.4788918899071041,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.11763649580214616,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.1961931491349238,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.07809475220897155,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": -0.025830414621519457,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.16,
+              "current": 0.6
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.6,
+              "current": 0.44
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.44,
+              "current": 0.52
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.52,
+              "current": 0.64
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.64,
+              "current": 0.76
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.76,
+              "current": 0.64
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.64,
+              "current": 0.48
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.48,
+              "current": 0.88
+            }
+          ]
+        },
+        {
+          "seed": 102,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.9997334399526148,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.9641745454663659,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.9645047202131837,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.9457239247536084,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.8929138318672587,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.8047915912511178,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.12,
+              "current": 0.68
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.68,
+              "current": 0.84
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.84,
+              "current": 0.8
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.8,
+              "current": 0.76
+            }
+          ]
+        },
+        {
+          "seed": 103,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": -0.8537502746828904,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": -0.7430871142695971,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": -0.7372605710373364,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": -0.49085773975862557,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": -0.3542181734879074,
+              "n_pairs": 7,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.24,
+              "current": 0.92
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.92,
+              "current": 0.8
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.8,
+              "current": 0.88
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.88,
+              "current": 0.88
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.88,
+              "current": 0.8
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.8,
+              "current": 0.96
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.96,
+              "current": 0.92
+            }
+          ]
+        }
+      ],
+      "points": [
+        {
+          "physical_step": 10000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 20000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 30000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 40000,
+          "correlation": -2.7755575615628914e-17,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 50000,
+          "correlation": 0.01759986624044213,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 60000,
+          "correlation": 0.16353122020207775,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 70000,
+          "correlation": 0.31714309612187264,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 80000,
+          "correlation": 0.39556627139443634,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 90000,
+          "correlation": 0.3806527651135938,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 100000,
+          "correlation": 0.5595450119413327,
+          "n_seeds": 3,
+          "seeds": [
+            100,
+            101,
+            102
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "Historical sparse",
+      "mode": "SDE",
+      "seeds": [
+        {
+          "seed": 100,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.9176629354822468,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.7999999999999994,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.5243788202755696,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.3922546216038657,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.45862461606583904,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.4879500364742662,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.52,
+              "current": 0.8
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.8,
+              "current": 0.84
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.84,
+              "current": 0.8
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.8,
+              "current": 0.92
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.92,
+              "current": 0.88
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.88,
+              "current": 0.88
+            }
+          ]
+        },
+        {
+          "seed": 101,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": -0.9941916256019202,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": -0.35745004483171605,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": -0.15127225520401308,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": -0.10848886740343242,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": -0.08018060978713164,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": -0.1374323630069465,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.52,
+              "current": 0.8
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.8,
+              "current": 0.68
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.68,
+              "current": 0.72
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.72,
+              "current": 0.88
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.88,
+              "current": 0.8
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.8,
+              "current": 0.8
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.8,
+              "current": 0.8
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.8,
+              "current": 0.72
+            }
+          ]
+        },
+        {
+          "seed": 102,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.720576692122892,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.750757193529548,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.6428571428571427,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.44232586846469124,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.324578450560973,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.3283958645352341,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.6,
+              "current": 0.84
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.84,
+              "current": 0.92
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.92,
+              "current": 0.88
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.88,
+              "current": 0.92
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.92,
+              "current": 0.88
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.84,
+              "current": 0.8
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.8,
+              "current": 0.76
+            }
+          ]
+        },
+        {
+          "seed": 103,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": -0.09078412990031964,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.08468361554064618,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.3599078753743477,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.4297967830559869,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.46193076184167753,
+              "n_pairs": 7,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.48,
+              "current": 0.84
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.88,
+              "current": 0.8
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.8,
+              "current": 0.92
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.92,
+              "current": 0.96
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.96,
+              "current": 0.92
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.92,
+              "current": 0.92
+            }
+          ]
+        }
+      ],
+      "points": [
+        {
+          "physical_step": 10000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 20000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 30000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 40000,
+          "correlation": 0.49999999999999994,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 50000,
+          "correlation": 0.1383159680257247,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 60000,
+          "correlation": 0.31949769105961934,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 70000,
+          "correlation": 0.3439678958257617,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 80000,
+          "correlation": 0.28897210143027785,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 90000,
+          "correlation": 0.29123830467033945,
+          "n_seeds": 4,
+          "seeds": [
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "physical_step": 100000,
+          "correlation": 0.22630451266751794,
+          "n_seeds": 3,
+          "seeds": [
+            100,
+            101,
+            102
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "Earlier sparse controls",
+      "mode": "ODE",
+      "seeds": [
+        {
+          "seed": 100,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.71457523090138,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.542137476548394,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.4136910905501737,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.43536244795133927,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.4813927390655833,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.23536316906701477,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.4,
+              "current": 0.56
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.56,
+              "current": 0.68
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.68,
+              "current": 0.64
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.64,
+              "current": 0.6
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.6,
+              "current": 0.76
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.76,
+              "current": 0.68
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.68,
+              "current": 0.72
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.72,
+              "current": 0.56
+            }
+          ]
+        },
+        {
+          "seed": 101,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.1555427542095639,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.42557418190091767,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.5716438045168487,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.6592312754136993,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.7147483474097291,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.7576996885384455,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.36,
+              "current": 0.2
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.2,
+              "current": 0.36
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.36,
+              "current": 0.64
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.64,
+              "current": 0.56
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.56,
+              "current": 0.76
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.76,
+              "current": 0.72
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.72,
+              "current": 0.76
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.76,
+              "current": 0.8
+            }
+          ]
+        },
+        {
+          "seed": 102,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.7719663819176443,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.8075858385569441,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.3693269378772325,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.3583091499489163,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.3694117650098636,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.352029362655439,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.24,
+              "current": 0.68
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.68,
+              "current": 0.92
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.92,
+              "current": 0.84
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.84,
+              "current": 0.92
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.92,
+              "current": 0.68
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.68,
+              "current": 0.84
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.84,
+              "current": 0.84
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.84,
+              "current": 0.8
+            }
+          ]
+        },
+        {
+          "seed": 103,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.9185842746843561,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.7947641203291489,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.7114133386970535,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.6699255641661791,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.6564578581712569,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.6696769152389845,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.32,
+              "current": 0.4
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.4,
+              "current": 0.68
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.68,
+              "current": 0.88
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.88,
+              "current": 0.8
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.8,
+              "current": 0.68
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.68,
+              "current": 0.92
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.92,
+              "current": 0.8
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.8,
+              "current": 0.96
+            }
+          ]
+        },
+        {
+          "seed": 104,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": -0.8219949365267866,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.29904998630487023,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.428889832351286,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.541147132169576,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.6110824143859135,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.6480419448218137,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.56,
+              "current": 0.68
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.68,
+              "current": 0.56
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.56,
+              "current": 0.84
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.84,
+              "current": 0.96
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.96,
+              "current": 0.92
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.92,
+              "current": 0.92
+            }
+          ]
+        }
+      ],
+      "points": [
+        {
+          "physical_step": 10000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 20000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 30000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 40000,
+          "correlation": 0.19999999999999996,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 50000,
+          "correlation": 0.34773474103723157,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 60000,
+          "correlation": 0.5738223207280551,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 70000,
+          "correlation": 0.4989930007985189,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 80000,
+          "correlation": 0.532795113929942,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 90000,
+          "correlation": 0.5666186248084693,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 100000,
+          "correlation": 0.5325622160643395,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "Earlier sparse controls",
+      "mode": "SDE",
+      "seeds": [
+        {
+          "seed": 100,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": -0.6933752452815365,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": -0.440225453162812,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": -0.3227486121839514,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": -2.2021196523624363e-16,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.13319885691653235,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.11801080439489049,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.36,
+              "current": 0.68
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.68,
+              "current": 0.6
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.6,
+              "current": 0.68
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.68,
+              "current": 0.68
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.68,
+              "current": 0.68
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.68,
+              "current": 0.76
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.76,
+              "current": 0.72
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.72,
+              "current": 0.68
+            }
+          ]
+        },
+        {
+          "seed": 101,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.9819805060619656,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.9002756367784497,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.6657994392788461,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.5873562237880726,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.6680455296769544,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.6761866822389708,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.32,
+              "current": 0.48
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.48,
+              "current": 0.64
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.64,
+              "current": 0.72
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.72,
+              "current": 0.68
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.68,
+              "current": 0.56
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.56,
+              "current": 0.72
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.72,
+              "current": 0.8
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.8,
+              "current": 0.72
+            }
+          ]
+        },
+        {
+          "seed": 102,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.9982211666911956,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.8333333333333327,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.7862136275414378,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.7552393434746485,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.7111610225539637,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.6931951244198703,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.24,
+              "current": 0.8
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.8,
+              "current": 0.84
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.84,
+              "current": 0.84
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.88,
+              "current": 0.84
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.84,
+              "current": 0.88
+            }
+          ]
+        },
+        {
+          "seed": 103,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": 0.9999999999999999,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.2773500981126145,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.33333333333333326,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.24077170617153848,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.2604238048003219,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.32166391768596014,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.5067646137472215,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.4,
+              "current": 0.76
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.76,
+              "current": 0.88
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.88,
+              "current": 0.76
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.76,
+              "current": 0.88
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.88,
+              "current": 0.8
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.8,
+              "current": 0.84
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.84,
+              "current": 1.0
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 1.0,
+              "current": 1.0
+            }
+          ]
+        },
+        {
+          "seed": 104,
+          "points": [
+            {
+              "physical_step": 10000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 20000,
+              "correlation": null,
+              "n_pairs": 0,
+              "reason": "Missing exact-lag checkpoint pair"
+            },
+            {
+              "physical_step": 30000,
+              "correlation": null,
+              "n_pairs": 1,
+              "reason": "Fewer than two checkpoint pairs"
+            },
+            {
+              "physical_step": 40000,
+              "correlation": -1.0,
+              "n_pairs": 2,
+              "reason": null
+            },
+            {
+              "physical_step": 50000,
+              "correlation": 0.2152742466274913,
+              "n_pairs": 3,
+              "reason": null
+            },
+            {
+              "physical_step": 60000,
+              "correlation": 0.3638034375544992,
+              "n_pairs": 4,
+              "reason": null
+            },
+            {
+              "physical_step": 70000,
+              "correlation": 0.459265761702751,
+              "n_pairs": 5,
+              "reason": null
+            },
+            {
+              "physical_step": 80000,
+              "correlation": 0.40236455261563575,
+              "n_pairs": 6,
+              "reason": null
+            },
+            {
+              "physical_step": 90000,
+              "correlation": 0.41581251102659333,
+              "n_pairs": 7,
+              "reason": null
+            },
+            {
+              "physical_step": 100000,
+              "correlation": 0.3239002361466859,
+              "n_pairs": 8,
+              "reason": null
+            }
+          ],
+          "pairs": [
+            {
+              "previous_step": 20000,
+              "physical_step": 30000,
+              "previous": 0.24,
+              "current": 0.8
+            },
+            {
+              "previous_step": 30000,
+              "physical_step": 40000,
+              "previous": 0.8,
+              "current": 0.76
+            },
+            {
+              "previous_step": 40000,
+              "physical_step": 50000,
+              "previous": 0.76,
+              "current": 0.92
+            },
+            {
+              "previous_step": 50000,
+              "physical_step": 60000,
+              "previous": 0.92,
+              "current": 0.88
+            },
+            {
+              "previous_step": 60000,
+              "physical_step": 70000,
+              "previous": 0.88,
+              "current": 0.92
+            },
+            {
+              "previous_step": 70000,
+              "physical_step": 80000,
+              "previous": 0.92,
+              "current": 0.84
+            },
+            {
+              "previous_step": 80000,
+              "physical_step": 90000,
+              "previous": 0.84,
+              "current": 0.88
+            },
+            {
+              "previous_step": 90000,
+              "physical_step": 100000,
+              "previous": 0.88,
+              "current": 0.8
+            }
+          ]
+        }
+      ],
+      "points": [
+        {
+          "physical_step": 10000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 20000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 30000,
+          "correlation": null,
+          "n_seeds": 0,
+          "seeds": []
+        },
+        {
+          "physical_step": 40000,
+          "correlation": 0.1999999999999999,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 50000,
+          "correlation": 0.3558901544423461,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 60000,
+          "correlation": 0.39810405756736056,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 70000,
+          "correlation": 0.3658603845021243,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 80000,
+          "correlation": 0.40107678493573573,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 90000,
+          "correlation": 0.44997636757200077,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "physical_step": 100000,
+          "correlation": 0.46361149218952785,
+          "n_seeds": 5,
+          "seeds": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ]
+        }
+      ]
+    }
+  ]
+}
